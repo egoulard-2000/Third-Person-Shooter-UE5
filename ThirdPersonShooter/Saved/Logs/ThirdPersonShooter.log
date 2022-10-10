@@ -1141,3 +1141,192 @@ Recommended: 516.25
 [2022.10.10-23.05.24:828][205]LogStaticMesh: Built static mesh [5.73s] /Game/Polar/Meshes/Vista/SM_Foreground.SM_Foreground
 [2022.10.10-23.05.26:498][205]LogMeshUtilities: Finished distance field build in 1.0s - 126x126x126 sparse distance field, 1.2Mb total, 0.1Mb always loaded, 34% occupied, 4930 triangles, SM_Mountain_01
 [2022.10.10-23.06.50:320][205]LogShaderCompilers: Display: Worker (6/8) finished batch of 10 jobs in 71.791s, TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=17.399s], TBasePassPSTLightMapPolicyHQ [WorkerTime=16.722s], TBasePassPSFSelfShadowedTranslucencyPolicySkylight [WorkerTime=16.680s], TBasePassPSFNoLightMapPolicy [WorkerTime=14.985s], TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy [WorkerTime=1.557s], TShadowDepthVSVertexShadowDepth_OutputDepth [WorkerTime=1.535s], TBasePassVSFNoLightMapPolicy [WorkerTime=1.178s], TLightMapDensityVSFNoLightMapPolicy [WorkerTime=0.941s], TTranslucencyShadowDepthPS<TranslucencyShadowDepth_PerspectiveCorrect> [WorkerTime=0.389s], FLumenCardPS<false> [WorkerTime=0.344s]
+[2022.10.10-23.08.33:357][205]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' complete in 0.004003s (191.945289s overbudget)
+[2022.10.10-23.08.33:528][205]LogShaderCompilers: Display: ================================================
+[2022.10.10-23.08.33:528][205]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.10-23.08.33:528][205]LogShaderCompilers: Display: Total job queries 1272, among them cache hits 0 (0.00%)
+[2022.10.10-23.08.33:528][205]LogShaderCompilers: Display: Tracking 1113 distinct input hashes that result in 445 distinct outputs (39.98%)
+[2022.10.10-23.08.33:528][205]LogShaderCompilers: Display: RAM used: 1.35 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.17%
+[2022.10.10-23.08.33:528][205]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.10-23.08.33:528][205]LogShaderCompilers: Display: Shaders Compiled: 1272
+[2022.10.10-23.08.33:528][205]LogShaderCompilers: Display: Jobs assigned 1113, completed 1113 (100.00%)
+[2022.10.10-23.08.33:528][205]LogShaderCompilers: Display: Average time worker was idle: 4.51 s
+[2022.10.10-23.08.33:528][205]LogShaderCompilers: Display: Time job spent in pending queue: average 81.79 s, longest 196.53 s
+[2022.10.10-23.08.33:528][205]LogShaderCompilers: Display: Job execution time: average 15.96 s, max 71.79 s
+[2022.10.10-23.08.33:529][205]LogShaderCompilers: Display: Job life time (pending + execution): average 97.76 s, max 197.24
+[2022.10.10-23.08.33:529][205]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 240.47 s
+[2022.10.10-23.08.33:529][205]LogShaderCompilers: Display: Jobs were issued in 141 batches (only local compilation was used), average 7.89 jobs/batch
+[2022.10.10-23.08.33:529][205]LogShaderCompilers: Display: Average processing rate: 4.63 jobs/sec
+[2022.10.10-23.08.33:529][205]LogShaderCompilers: Display: Effective parallelization: 7.02 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.10-23.08.33:529][205]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.10-23.08.33:529][205]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled    3 times, average 6.82 sec, max 16.68 sec, min 1.62 sec)
+[2022.10.10-23.08.33:529][205]LogShaderCompilers: Display:     TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight (compiled    3 times, average 6.57 sec, max 16.74 sec, min 1.45 sec)
+[2022.10.10-23.08.33:529][205]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    3 times, average 6.44 sec, max 16.55 sec, min 1.30 sec)
+[2022.10.10-23.08.33:529][205]LogShaderCompilers: Display:    TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicy (compiled    3 times, average 6.12 sec, max 13.84 sec, min 2.11 sec)
+[2022.10.10-23.08.33:529][205]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    3 times, average 5.81 sec, max 14.01 sec, min 1.11 sec)
+[2022.10.10-23.08.33:529][205]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.10-23.08.33:529][205]LogShaderCompilers: Display:                                             FDebugViewModePS - 4.47% of total time (compiled   34 times, average 2.22 sec, max 3.39 sec, min 1.24 sec)
+[2022.10.10-23.08.33:529][205]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 4.04% of total time (compiled   30 times, average 2.27 sec, max 18.41 sec, min 1.08 sec)
+[2022.10.10-23.08.33:529][205]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 4.00% of total time (compiled   30 times, average 2.25 sec, max 17.07 sec, min 1.09 sec)
+[2022.10.10-23.08.33:529][205]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 3.90% of total time (compiled   34 times, average 1.94 sec, max 17.54 sec, min 1.01 sec)
+[2022.10.10-23.08.33:529][205]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 3.76% of total time (compiled   30 times, average 2.12 sec, max 16.49 sec, min 1.18 sec)
+[2022.10.10-23.08.33:529][205]LogShaderCompilers: Display: ================================================
+[2022.10.10-23.08.35:597][205]LogMeshUtilities: Finished distance field build in 1.1s - 77x77x21 sparse distance field, 0.2Mb total, 0.0Mb always loaded, 87% occupied, 97 triangles, SM_Ceiling_Closed_Stat
+[2022.10.10-23.08.35:597][205]LogMeshUtilities: Finished distance field build in 1.1s - 77x77x21 sparse distance field, 0.2Mb total, 0.0Mb always loaded, 91% occupied, 90 triangles, SM_Ceiling
+[2022.10.10-23.08.35:622][205]LogWorld: UWorld::CleanupWorld for OverviewMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.10-23.08.35:622][205]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.10-23.08.35:631][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.10.10-23.08.35:640][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.10.10-23.08.35:652][205]LogAudio: Display: Audio Device (ID: 1) registered with world 'OverviewMap'.
+[2022.10.10-23.08.35:652][205]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.10-23.08.35:652][205]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.10-23.08.35:652][205]LogAIModule: Creating AISystem for world OverviewMap
+[2022.10.10-23.08.35:669][205]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.10.10-23.08.35:677][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.10.10-23.08.35:681][205]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.10.10-23.08.35:681][205]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.147ms to complete.
+[2022.10.10-23.08.35:681][205]LogFileHelpers: Loading map 'OverviewMap' took 196.654
+[2022.10.10-23.08.35:684][205]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.001948s (194.658082s overbudget)
+[2022.10.10-23.09.46:137][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Maps/PolarFacility_Example_Map_Sunset_BuiltData.PolarFacility_Example_Map_Sunset_BuiltData:DeprecatedTexture32C3CA9B4DE9B6885BE36183063FB869 (BGRA8, 128X128 X1X1) (Required Memory Estimate: 2.499962 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Maps/PolarFacility_Example_Map_Sunset_BuiltData.PolarFacility_Example_Map_Sunset_BuiltData:DeprecatedTexture4240D5204ADFAAC8EB4492A38FA157A3 (BGRA8, 128X128 X1X1) (Required Memory Estimate: 2.499962 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Maps/PolarFacility_Example_Map_Sunset_BuiltData.PolarFacility_Example_Map_Sunset_BuiltData:DeprecatedTexture0A8B0F3D40E3C1C91D9B5288B0F2A314 (BGRA8, 128X128 X1X1) (Required Memory Estimate: 2.499962 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Maps/PolarFacility_Example_Map_Sunset_BuiltData.PolarFacility_Example_Map_Sunset_BuiltData:DeprecatedTexture4638727949FAF26368DBD3B7D995F409 (BGRA8, 128X128 X1X1) (Required Memory Estimate: 2.499962 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Maps/PolarFacility_Example_Map_Sunset_BuiltData.PolarFacility_Example_Map_Sunset_BuiltData:DeprecatedTexture9CC0B0DE4B89CA15613D51B661B10FC1 (BGRA8, 128X128 X1X1) (Required Memory Estimate: 2.499962 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Maps/PolarFacility_Example_Map_Sunset_BuiltData.PolarFacility_Example_Map_Sunset_BuiltData:DeprecatedTexture75A8347B43949BE9974B2DB3B8558909 (BGRA8, 128X128 X1X1) (Required Memory Estimate: 2.499962 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Maps/PolarFacility_Example_Map_Sunset_BuiltData.PolarFacility_Example_Map_Sunset_BuiltData:DeprecatedTexture6C886453496400BDA0C793AB897BFF9B (BGRA8, 128X128 X1X1) (Required Memory Estimate: 2.499962 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Maps/PolarFacility_Example_Map_Sunset_BuiltData.PolarFacility_Example_Map_Sunset_BuiltData:DeprecatedTextureD8896BE844A7C436CAC4098E903B190F (BGRA8, 128X128 X1X1) (Required Memory Estimate: 2.499962 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Textures/Decal_Textures/T_Decal_Warnings_Mask.T_Decal_Warnings_Mask (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Masks_03.T_Masks_03 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Textures/Decal_Textures/T_Decal_SPEC.T_Decal_SPEC (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Textures/Decal_Textures/T_Decal_Wave_NRM.T_Decal_Wave_NRM (TFO_BC5, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Textures/Decal_Textures/T_Decal_Warnings_CLR.T_Decal_Warnings_CLR (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Textures/Decal_Textures/T_Decal_Logos_CLR.T_Decal_Logos_CLR (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Textures/Decal_Textures/T_Decal_Logos_Mask.T_Decal_Logos_Mask (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Masks_04.T_Masks_04 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Masks_02.T_Masks_02 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Textures/Particle_Textures/T_Cockroach_NRM.T_Cockroach_NRM (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Textures/Particle_Textures/T_Cockroach_CLR.T_Cockroach_CLR (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogTexture: Display: Building textures: /Game/Polar/Textures/Particle_Textures/T_LensFlare_Masks.T_LensFlare_Masks (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:553][350]LogMaterial: Display: Missing cached shadermap for _M_Master_Dirt_Decal in PCD3D_SM5, Default, SM5 (DDC key hash: 0D9A7C39930C9C99834559CF539136079C665447), compiling. 
+[2022.10.10-23.09.46:604][350]LogMaterial: Display: Missing cached shadermap for _M_Master_Generic_Water_Decal in PCD3D_SM5, Default, SM5 (DDC key hash: 5DAF3F86EEEEFC5FF99D31DB0D4168F0AFCD6B9F), compiling. 
+[2022.10.10-23.09.46:663][350]LogMaterial: Display: Missing cached shadermap for _M_Master_Sign_Decal in PCD3D_SM5, Default, SM5 (DDC key hash: B2E2627587B9FBCA48CF80BB3A681185C6BC67AA), compiling. 
+[2022.10.10-23.09.46:709][350]LogMaterial: Display: Missing cached shadermap for M_Snow_Floor_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 36720086F8DFA2C3371C620835D5B9C5F7D677E1), compiling. 
+[2022.10.10-23.09.46:764][350]LogMaterial: Display: Missing cached shadermap for _M_Blinking_Light in PCD3D_SM5, Default, SM5 (DDC key hash: 3909C5AFEE5715B16A39CD840F89965E3046FF94), compiling. 
+[2022.10.10-23.09.46:877][350]LogTexture: Display: Building textures: /Game/Polar/Textures/CubeMaps/T_Indoor_MainHall_Sunset_Blurred_CubeMap.T_Indoor_MainHall_Sunset_Blurred_CubeMap (RGBA16F, 2048X2048 X1X1) (Required Memory Estimate: 960.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:878][350]LogTexture: Display: Building textures: /Game/Polar/Textures/CubeMaps/T_Indoor_MainHall_CubeMap.T_Indoor_MainHall_CubeMap (RGBA16F, 2048X2048 X1X1) (Required Memory Estimate: 960.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.09.46:878][350]LogMaterial: Display: Missing cached shadermap for _M_Master_Light_Shafts in PCD3D_SM5, Default, SM5 (DDC key hash: D310B9D984902D2C594BD60DAE0B5F06D98E911E), compiling. 
+[2022.10.10-23.09.46:989][350]LogMaterial: Display: Missing cached shadermap for _M_Master_Translucent_Mountains in PCD3D_SM5, Default, SM5 (DDC key hash: C894B4CAF98239A9B8252C73EF5C84E94384CDA8), compiling. 
+[2022.10.10-23.09.47:176][350]LogMaterial: Display: Missing cached shadermap for M_Floor_Opeque_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 652AAA73872A3219EBE8BD6E19268A5EACECBC9D), compiling. 
+[2022.10.10-23.09.47:347][350]LogMaterial: Display: Missing cached shadermap for M_Floor_Opeque_VertexPaint_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 01CDD4A3B4546958225D5424F1B0216F26DD5429), compiling. 
+[2022.10.10-23.09.47:527][350]LogMaterial: Display: Missing cached shadermap for M_Floor_VertexPaint_LightOFF_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 0350D674865488FBDFF19712F3BF953AB3C67FAA), compiling. 
+[2022.10.10-23.09.47:827][350]LogMaterial: Display: Missing cached shadermap for M_Floor_VertexPaint_LightON_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: DB513C29083A53C37C03101F0154B56D3CDAEF30), compiling. 
+[2022.10.10-23.09.48:192][350]LogMaterial: Display: Missing cached shadermap for M_Generator_Vertex_Paint_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: A4EA6EE2B2B20D288752811E4296985ABF9223A4), compiling. 
+[2022.10.10-23.09.48:530][350]LogMaterial: Display: Missing cached shadermap for M_Generator_Yellow_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 15F0A279733EFC89D59F0CBD4C473840681E8F0C), compiling. 
+[2022.10.10-23.09.48:798][350]LogMaterial: Display: Missing cached shadermap for M_Wall_Untinted_Vertex_Paint_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: D426344CA21ABB7072B22EB2D7D246DD2740DC6F), compiling. 
+[2022.10.10-23.09.49:018][350]LogMaterial: Display: Missing cached shadermap for M_Cloth_Gray_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 959B56BFCD25551961D4A0FAB729567C366A7620), compiling. 
+[2022.10.10-23.09.49:223][350]LogMaterial: Display: Missing cached shadermap for M_Light_Flicker_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 9E5ACE0BF2C8554C709B4BF692A4A149C9ACD5BA), compiling. 
+[2022.10.10-23.09.49:438][350]LogMaterial: Display: Missing cached shadermap for M_Master_Generic_Water_Decal_Spots_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 9EF3FF1478AE409D6EAFAB5EB5C98750AB48FFE3), compiling. 
+[2022.10.10-23.09.49:552][350]LogMaterial: Display: Missing cached shadermap for M_Sign_Biohazard_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: A9C29A5D96D3DD0C1661FD9C66B22664457DE4C7), compiling. 
+[2022.10.10-23.09.49:639][350]LogMaterial: Display: Missing cached shadermap for M_Sign_Danger_02_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: C4F6BEA25784BA56EC7B65499925FE8E64F6C976), compiling. 
+[2022.10.10-23.09.49:721][350]LogMaterial: Display: Missing cached shadermap for M_Sign_Danger_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 2A7DFC7C31896245B6A60472B240983A7C7816FE), compiling. 
+[2022.10.10-23.09.49:807][350]LogMaterial: Display: Missing cached shadermap for M_Sign_NLogo_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: CA72B0C52C9264EB70C01E10C7B76B37B115FF8B), compiling. 
+[2022.10.10-23.09.49:900][350]LogMaterial: Display: Missing cached shadermap for M_Sign_Polar_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 47D686A108C0CB6D38698F3E7EF24EF4B471DC4C), compiling. 
+[2022.10.10-23.09.49:999][350]LogMaterial: Display: Missing cached shadermap for M_Sign_T2600_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 22C0DCEC5286AD078C98910F88FE4A026C070B50), compiling. 
+[2022.10.10-23.09.50:087][350]LogMaterial: Display: Missing cached shadermap for M_Sign_VR720_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 47A7DFF5EA20DFFD4BB05537A32F49F2B74FAF74), compiling. 
+[2022.10.10-23.09.50:273][350]LogMaterial: Display: Missing cached shadermap for _M_Master_Water_Decal in PCD3D_SM5, Default, SM5 (DDC key hash: D484DCEE6F43D488FB58F907BE9B801438DF1897), compiling. 
+[2022.10.10-23.09.50:424][350]LogMaterial: Display: Missing cached shadermap for M_WaterPuddle_Room_02_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: EDFEC4BA7CE056C42D907261502A61EBD6C1A1ED), compiling. 
+[2022.10.10-23.09.50:556][350]LogMaterial: Display: Missing cached shadermap for M_Mountain_02_Displaced_HeavySnow_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 70657C7C4F5325F9E837A84A9ED40C2E1B013D40), compiling. 
+[2022.10.10-23.09.50:690][350]LogMaterial: Display: Missing cached shadermap for M_Mountain_02_Ice_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: C14928D9B51FDE21447C6E3B139C5AE4570DF7E1), compiling. 
+[2022.10.10-23.09.50:814][350]LogMaterial: Display: Missing cached shadermap for _M_Master_Displaced_Mountains in PCD3D_SM5, Default, SM5 (DDC key hash: AD26BC9A017A1AA9A3C4EA0BE1069A8A873D600A), compiling. 
+[2022.10.10-23.09.50:929][350]LogMaterial: Display: Missing cached shadermap for M_New_Sky_Displaced_Mountains_01_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 27D417D57BF9AF3C30F0FD9E2C4A98D4C783A8C6), compiling. 
+[2022.10.10-23.09.51:036][350]LogMaterial: Display: Missing cached shadermap for M_New_Sky_Mountain_02_Ice_Inst_ in PCD3D_SM5, Default, SM5 (DDC key hash: B62877D454D0B878BFDB2116B1AE9D5CB9B31BB1), compiling. 
+[2022.10.10-23.09.51:151][350]LogMaterial: Display: Missing cached shadermap for _M_Master_Liquid in PCD3D_SM5, Default, SM5 (DDC key hash: 988F38F054BBC8C02D6D55C307380DD72F8F05EF), compiling. 
+[2022.10.10-23.09.51:538][350]LogMaterial: Display: Missing cached shadermap for M_Liquid_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: BC8743194C54841EEAA5A4A99D23116A85A94895), compiling. 
+[2022.10.10-23.09.51:968][350]LogMaterial: Display: Missing cached shadermap for M_Liquid_02_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: DD00569853AA8B71B649D6371B4A1BB4C2725D4C), compiling. 
+[2022.10.10-23.09.52:306][350]LogMaterial: Display: Missing cached shadermap for M_Liquid_Tank_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: C76E1A9EE63422606ED6E0043A5AF7C871C42494), compiling. 
+[2022.10.10-23.09.52:630][350]LogMaterial: Display: Missing cached shadermap for M_New_Sky_Liquid_01_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 0C0D3FD2DF1308B11AE943651B5819AC103EFB01), compiling. 
+[2022.10.10-23.09.52:957][350]LogStaticMesh: Display: Building static mesh SM_Floor_Transition_02...
+[2022.10.10-23.09.52:957][350]LogStaticMesh: Display: Building static mesh SM_Ceiling_Transition_01_Glass...
+[2022.10.10-23.09.52:957][350]LogStaticMesh: Display: Building static mesh SM_Wall_Tubes_Rubble...
+[2022.10.10-23.09.52:957][350]LogStaticMesh: Display: Building static mesh SM_Ground_Glass...
+[2022.10.10-23.09.52:957][350]LogStaticMesh: Display: Building static mesh SM_Light_Shafts...
+[2022.10.10-23.09.52:957][350]LogStaticMesh: Built static mesh [0.01s] /Game/Polar/Meshes/Architecture/SM_Ceiling_Transition_01_Glass.SM_Ceiling_Transition_01_Glass
+[2022.10.10-23.09.52:957][350]LogStaticMesh: Built static mesh [0.01s] /Game/Polar/Meshes/Props/SM_Light_Shafts.SM_Light_Shafts
+[2022.10.10-23.09.52:957][350]LogMaterial: Display: Missing cached shadermap for M_Myst_Particles in PCD3D_SM5, Default, SM5 (DDC key hash: A3506EB35C6CBB4C49254D01A5191714CC7292D0), compiling. 
+[2022.10.10-23.09.53:298][350]LogStaticMesh: Built static mesh [0.02s] /Game/Polar/Meshes/Architecture/SM_Floor_Transition_02.SM_Floor_Transition_02
+[2022.10.10-23.09.53:298][350]LogStaticMesh: Built static mesh [0.06s] /Game/Polar/Meshes/Architecture/SM_Wall_Tubes_Rubble.SM_Wall_Tubes_Rubble
+[2022.10.10-23.09.53:298][350]LogStaticMesh: Built static mesh [0.20s] /Game/Polar/Meshes/Props/SM_Ground_Glass.SM_Ground_Glass
+[2022.10.10-23.09.53:298][350]LogMaterial: Display: Missing cached shadermap for M_SnowChuncks_Particles in PCD3D_SM5, Default, SM5 (DDC key hash: 21B1511886FEA470A9B63AF2D4B32AF0B3190993), compiling. 
+[2022.10.10-23.09.53:551][350]LogMaterial: Display: Missing cached shadermap for M_Cockroach in PCD3D_SM5, Default, SM5 (DDC key hash: 299D5F545D7105063B0B6E81A77FC8E770538FBC), compiling. 
+[2022.10.10-23.09.53:981][350]LogMaterial: Display: Missing cached shadermap for M_Flying_Dust_Particles in PCD3D_SM5, Default, SM5 (DDC key hash: FEEE3BF1B0785DD6F4B0AFBFE1536DCA14240D5A), compiling. 
+[2022.10.10-23.09.54:195][350]LogMaterial: Display: Missing cached shadermap for M_Snow_Particles in PCD3D_SM5, Default, SM5 (DDC key hash: 0ACDB7A57CB50E57302F39C9C9C460D175E254BD), compiling. 
+[2022.10.10-23.09.54:491][350]LogMaterial: Display: Missing cached shadermap for _M_Master_Lens_Flare_Master in PCD3D_SM5, Default, SM5 (DDC key hash: 475FFCCBDD53CA5B56722D27B9BD5835E995E2D6), compiling. 
+[2022.10.10-23.09.54:715][350]LogMaterial: Display: Missing cached shadermap for M_Lens_Flare_01_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 3F0DFB73EE3D795B16CD1784633B4691CADBFE5A), compiling. 
+[2022.10.10-23.09.54:979][350]LogMaterial: Display: Missing cached shadermap for M_Sparks_Particles in PCD3D_SM5, Default, SM5 (DDC key hash: 719099A1A63A8C4BB7EAD9D10D97FF7D0F8DB6EF), compiling. 
+[2022.10.10-23.09.55:232][350]LogMaterial: Display: Missing cached shadermap for M_Bubbles_Particles in PCD3D_SM5, Default, SM5 (DDC key hash: 41F6AF27E6DBBE548108E0758C59C045F88FE317), compiling. 
+[2022.10.10-23.09.55:618][350]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Polar/Maps/PolarFacility_Example_Map_Sunset.PolarFacility_Example_Map_Sunset
+[2022.10.10-23.09.55:618][350]LightingResults: New page: Lighting Build
+[2022.10.10-23.09.55:618][350]LoadErrors: New page: Loading map: PolarFacility_Example_Map_Sunset.umap
+[2022.10.10-23.09.55:623][350]LogWorld: UWorld::CleanupWorld for OverviewMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.10-23.09.55:624][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.10-23.09.55:625][350]MapCheck: New page: Map Check
+[2022.10.10-23.09.55:625][350]LightingResults: New page: Lighting Build
+[2022.10.10-23.09.55:662][350]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.10-23.09.55:669][350]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2022.10.10-23.09.57:760][350]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2022.10.10-23.09.57:760][350]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' exceeded budget of 2.000000s
+[2022.10.10-23.20.40:724][350]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' complete in 0.002032s (643.050909s overbudget)
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: ================================================
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: Total job queries 4029, among them cache hits 77 (1.91%)
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: Tracking 3793 distinct input hashes that result in 1915 distinct outputs (50.49%)
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: RAM used: 6.39 MB (0.01 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.78%
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: Shaders Compiled: 4029
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: Jobs assigned 3793, completed 3793 (100.00%)
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: Average time worker was idle: 2.86 s
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: Time job spent in pending queue: average 236.31 s, longest 652.39 s
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: Job execution time: average 18.31 s, max 71.79 s
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: Job life time (pending + execution): average 254.62 s, max 653.20
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 894.58 s
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: Jobs were issued in 424 batches (only local compilation was used), average 8.95 jobs/batch
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: Average processing rate: 4.24 jobs/sec
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: Effective parallelization: 7.55 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display:     TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight (compiled   60 times, average 3.91 sec, max 16.74 sec, min 1.02 sec)
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled   60 times, average 3.89 sec, max 18.73 sec, min 1.10 sec)
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled   60 times, average 3.79 sec, max 18.50 sec, min 0.93 sec)
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display:    TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicy (compiled   60 times, average 3.75 sec, max 19.23 sec, min 1.01 sec)
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display:             TBasePassPSFSelfShadowedVolumetricLightmapPolicy (compiled   60 times, average 3.71 sec, max 17.27 sec, min 0.96 sec)
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 4.74% of total time (compiled  117 times, average 2.74 sec, max 17.07 sec, min 0.83 sec)
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 4.69% of total time (compiled  117 times, average 2.71 sec, max 18.41 sec, min 0.98 sec)
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 4.55% of total time (compiled  117 times, average 2.63 sec, max 18.25 sec, min 1.00 sec)
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 4.54% of total time (compiled  117 times, average 2.62 sec, max 18.35 sec, min 0.93 sec)
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 4.48% of total time (compiled  121 times, average 2.50 sec, max 18.43 sec, min 0.89 sec)
+[2022.10.10-23.20.41:150][350]LogShaderCompilers: Display: ================================================
+[2022.10.10-23.20.41:290][350]LogWorld: UWorld::CleanupWorld for PolarFacility_Example_Map_Sunset, bSessionEnded=true, bCleanupResources=true
+[2022.10.10-23.20.41:292][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.10-23.20.41:313][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.10.10-23.20.41:324][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.10.10-23.20.41:418][350]LogAudio: Display: Audio Device (ID: 1) registered with world 'PolarFacility_Example_Map_Sunset'.
+[2022.10.10-23.20.41:419][350]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.10-23.20.41:419][350]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.10-23.20.41:419][350]LogAIModule: Creating AISystem for world PolarFacility_Example_Map_Sunset
+[2022.10.10-23.20.41:472][350]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.10.10-23.20.41:490][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.10.10-23.20.41:495][350]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.10.10-23.20.41:496][350]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.265ms to complete.
+[2022.10.10-23.20.41:496][350]LogFileHelpers: Loading map 'PolarFacility_Example_Map_Sunset' took 645.878
+[2022.10.10-23.20.41:499][350]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.005503s (643.881544s overbudget)
+[2022.10.10-23.20.42:234][351]LogD3D12RHI: Warning: Waited for PSO creation for 100.000000ms
+[2022.10.10-23.20.42:332][351]LogD3D12RHI: Warning: Waited for PSO creation for 200.000000ms
+[2022.10.10-23.20.42:857][351]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2022.10.10-23.21.28:896][944]LogD3D12RHI: Warning: Waited for PSO creation for 100.000000ms
+[2022.10.10-23.21.28:896][944]LogD3D12RHI: Warning: Waited for PSO creation for 100.000000ms
+[2022.10.10-23.29.22:826][ 37]LogUObjectGlobals: Warning: Failed to find object 'Class None.Physics'
+[2022.10.10-23.29.29:015][245]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.10.10-23.29.56:125][252]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.10.10-23.30.03:670][535]LogSlate: Window 'Project Settings' being destroyed
+[2022.10.10-23.30.03:702][535]LogSlate: Window 'Project Settings' being destroyed
