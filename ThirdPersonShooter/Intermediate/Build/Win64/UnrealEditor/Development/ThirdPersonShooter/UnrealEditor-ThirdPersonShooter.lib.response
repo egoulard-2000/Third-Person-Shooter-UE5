@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ThirdPersonShooter.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Intermediate\Build\Win64\UnrealEditor\Development\ThirdPersonShooter\ThirdPersonShooter.cpp.obj"
+"C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Intermediate\Build\Win64\UnrealEditor\Development\ThirdPersonShooter\ThirdPersonShooterGameModeBase.cpp.obj"
+"C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Intermediate\Build\Win64\UnrealEditor\Development\ThirdPersonShooter\ThirdPersonShooter.init.gen.cpp.obj"
+"C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Intermediate\Build\Win64\UnrealEditor\Development\ThirdPersonShooter\ThirdPersonShooterGameModeBase.gen.cpp.obj"
+"C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Intermediate\Build\Win64\UnrealEditor\Development\ThirdPersonShooter\Default.rc2.res"
+/OUT:"C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Intermediate\Build\Win64\UnrealEditor\Development\ThirdPersonShooter\UnrealEditor-ThirdPersonShooter.lib"
