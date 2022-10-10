@@ -874,3 +874,270 @@ Recommended: 516.25
 [2022.10.10-22.50.24:997][849]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
 [2022.10.10-22.50.25:048][850]LogPlayLevel: Display: Destroying online subsystem :Context_3
 [2022.10.10-22.51.19:468][319]LogDerivedDataCache: C:/Users/emile/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.593 and deleted 0 file(s) with total size 0 MiB.
+[2022.10.10-23.02.38:979][668]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2022.10.10-23.02.38:979][668]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Content/Developers/emile/Collections/' because it could not be accessed. Aborting watch request...
+[2022.10.10-23.02.38:979][668]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2022.10.10-23.03.06:552][818]LogSlate: Took 0.005819 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.10.10-23.03.06:570][818]LogSlate: Took 0.005794 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.10.10-23.03.18:206][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.10.10-23.03.18:310][505]LogMaterial: Display: Missing cached shadermap for _M_Master_Mountains in PCD3D_SM5, Default, SM5 (DDC key hash: AB21E8DC45265C6104FD671C203D828B8D2EF8A6), compiling. 
+[2022.10.10-23.03.18:527][505]LogTexture: Display: Building textures: /Game/Polar/Textures/CubeMaps/T_Vista_CubeMap.T_Vista_CubeMap (RGBA16F, 512X512 X1X1) (Required Memory Estimate: 60.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.03.18:527][505]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Mountain_Tile_CLR.T_Mountain_Tile_CLR (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.03.18:527][505]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Foreground_NRM.T_Foreground_NRM (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.03.18:527][505]LogMaterial: Display: Missing cached shadermap for M_Mountain_02_HeavySnow_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 234C7B08C853657D2294AA5B4D0598FD0FE9BDF5), compiling. 
+[2022.10.10-23.03.18:595][505]LogMaterial: Display: Missing cached shadermap for M_New_Sky_Mountain_02_Inst_ in PCD3D_SM5, Default, SM5 (DDC key hash: 0E15BD5174571E6196523AF495DDF0F84C1A336D), compiling. 
+[2022.10.10-23.03.18:665][505]LogMaterial: Display: Missing cached shadermap for M_Planet_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: A0DD9ACDD0538D6C2F50EC708E7502AE93258879), compiling. 
+[2022.10.10-23.03.18:741][505]LogMaterial: Display: Missing cached shadermap for _M_Master_Clouds in PCD3D_SM5, Default, SM5 (DDC key hash: 99985ED2968AE377A02C66345CA66C846B6F1BB7), compiling. 
+[2022.10.10-23.03.18:924][505]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Foreground_SPEC.T_Foreground_SPEC (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.03.18:924][505]LogTexture: Display: Building textures: /Game/Polar/Textures/CubeMaps/T_Vista_CubeMap_02.T_Vista_CubeMap_02 (RGBA16F, 2048X2048 X1X1) (Required Memory Estimate: 960.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.03.18:924][505]LogMaterial: Display: Missing cached shadermap for _M_Master_Foregrond_Clouds in PCD3D_SM5, Default, SM5 (DDC key hash: B9DAB14C96F2C7D76D22F97CE313CE9F6AAEEE79), compiling. 
+[2022.10.10-23.03.19:036][505]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Foreground_CLR.T_Foreground_CLR (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.03.19:036][505]LogMaterial: Display: Missing cached shadermap for _M_Master_Sky in PCD3D_SM5, Default, SM5 (DDC key hash: D3E6504BD0835DFCC351A10AA81ADC265E63859F), compiling. 
+[2022.10.10-23.03.19:075][505]LogMaterial: Display: Missing cached shadermap for _M_Master_Galaxy in PCD3D_SM5, Default, SM5 (DDC key hash: D79792EDDA889ED156821FF4D1465E0F50B37A1E), compiling. 
+[2022.10.10-23.03.19:124][505]LogMaterial: Display: Missing cached shadermap for M_Sky_Galaxy_Map_Distort_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 597B2E12160E15FE23220A989D4BA6285CFE32D3), compiling. 
+[2022.10.10-23.03.19:163][505]LogMaterial: Display: Missing cached shadermap for _M_Master_Stars in PCD3D_SM5, Default, SM5 (DDC key hash: AB9DFB3406DF0181F0893232E109E008CDC6E0BF), compiling. 
+[2022.10.10-23.03.19:265][505]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Mountain_02_HeavySnow_CLR.T_Mountain_02_HeavySnow_CLR (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.03.19:265][505]LogStaticMesh: StaticMesh /Game/Polar/Meshes/Vista/SM_Mountain_02.SM_Mountain_02 should be resaved to improve async compilation performance.
+[2022.10.10-23.03.19:369][505]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Polar/Meshes/Vista/SM_Mountain_02) ...
+[2022.10.10-23.03.20:359][505]LogStaticMesh: Display: Building static mesh SM_Planet_01...
+[2022.10.10-23.03.20:359][505]LogStaticMesh: Display: Building static mesh SM_Sky_Sphere_Stat...
+[2022.10.10-23.03.20:359][505]LogStaticMesh: Built static mesh [0.12s] /Game/Polar/Meshes/Vista/SM_Planet_01.SM_Planet_01
+[2022.10.10-23.03.20:359][505]LogStaticMesh: Display: Building static mesh SM_Planet_01...
+[2022.10.10-23.03.20:570][505]LogStaticMesh: Built static mesh [0.11s] /Game/Polar/Meshes/Vista/SM_Sky_Sphere_Stat.SM_Sky_Sphere_Stat
+[2022.10.10-23.03.20:570][505]LogStaticMesh: Built static mesh [0.08s] /Game/Polar/Meshes/Vista/SM_Planet_01.SM_Planet_01
+[2022.10.10-23.03.20:571][505]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Mountain_Tile_NRM.T_Mountain_Tile_NRM (TFO_BC5, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.03.20:571][505]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Sky_Masks_03.T_Sky_Masks_03 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.03.20:783][505]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Sky_Galaxy.T_Sky_Galaxy (TFO_AutoDXT, 2048X1024 X1X1) (Required Memory Estimate: 40.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.03.20:783][505]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Sky_Galaxy_02.T_Sky_Galaxy_02 (TFO_AutoDXT, 2048X1024 X1X1) (Required Memory Estimate: 40.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.03.20:984][505]LogStaticMesh: Display: Building static mesh SM_Mountain_02...
+[2022.10.10-23.03.21:186][505]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Sky_Masks_02.T_Sky_Masks_02 (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.03.21:186][505]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Mountain_02_SPEC.T_Mountain_02_SPEC (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.03.21:400][505]LogStaticMesh: Built static mesh [0.51s] /Game/Polar/Meshes/Vista/SM_Mountain_02.SM_Mountain_02
+[2022.10.10-23.03.21:400][505]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Mountain_02_CLR.T_Mountain_02_CLR (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.03.21:400][505]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Mountain_02_NRM.T_Mountain_02_NRM (TFO_BC5, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.03.21:610][505]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Sky_Masks.T_Sky_Masks (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.03.21:610][505]LogStaticMesh: Warning: Mesh SM_Mountain_02 is recomputing physics on load. It must be resaved before it will cook deterministically. Please resave /Game/Polar/Meshes/Vista/SM_Mountain_02.SM_Mountain_02.
+[2022.10.10-23.03.21:674][505]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Polar/Maps/SkySunsetMap.SkySunsetMap
+[2022.10.10-23.03.21:677][505]LightingResults: New page: Lighting Build
+[2022.10.10-23.03.21:678][505]LoadErrors: New page: Loading map: SkySunsetMap.umap
+[2022.10.10-23.03.21:770][505]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2022.10.10-23.03.21:774][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.10-23.03.21:782][505]MapCheck: New page: Map Check
+[2022.10.10-23.03.21:783][505]LightingResults: New page: Lighting Build
+[2022.10.10-23.03.21:812][505]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.10-23.03.21:893][505]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2022.10.10-23.03.22:052][505]LogTexture: Display: Waiting for textures to be ready 7/18 (/Game/Polar/Textures/Vista_Textures/T_Mountain_02_NRM) ...
+[2022.10.10-23.03.23:327][505]LogTexture: Display: Waiting for textures to be ready 9/18 (/Game/Polar/Textures/Vista_Textures/T_Mountain_02_CLR) ...
+[2022.10.10-23.03.25:923][505]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2022.10.10-23.03.25:923][505]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.049746s
+[2022.10.10-23.03.26:961][505]LogMeshUtilities: Finished distance field build in 3.4s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 43% occupied, 9922 triangles, SM_Mountain_02
+[2022.10.10-23.03.30:378][505]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2022.10.10-23.03.30:378][505]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' report submitted, and took 0.049967s
+[2022.10.10-23.04.01:447][505]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' complete in 0.004017s (31.115439s overbudget)
+[2022.10.10-23.04.01:511][505]LogShaderCompilers: Display: ================================================
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display: Total job queries 286, among them cache hits 0 (0.00%)
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display: Tracking 204 distinct input hashes that result in 139 distinct outputs (68.14%)
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display: RAM used: 0.39 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.05%
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display: Shaders Compiled: 286
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display: Jobs assigned 204, completed 204 (100.00%)
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display: Time job spent in pending queue: average 17.50 s, longest 41.31 s
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display: Job execution time: average 12.19 s, max 17.65 s
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display: Job life time (pending + execution): average 29.69 s, max 42.53
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 42.93 s
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display: Jobs were issued in 37 batches (only local compilation was used), average 5.51 jobs/batch
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display: Average processing rate: 4.75 jobs/sec
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display: Effective parallelization: 6.88 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display:    TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicy (compiled    2 times, average 2.26 sec, max 2.41 sec, min 2.11 sec)
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   10 times, average 2.26 sec, max 2.89 sec, min 1.69 sec)
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyLQ (compiled    4 times, average 1.95 sec, max 2.10 sec, min 1.82 sec)
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyHQ (compiled    4 times, average 1.93 sec, max 2.42 sec, min 1.36 sec)
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled    2 times, average 1.89 sec, max 2.15 sec, min 1.62 sec)
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display:                                             FDebugViewModePS - 7.64% of total time (compiled   10 times, average 2.26 sec, max 2.89 sec, min 1.69 sec)
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.71% of total time (compiled   10 times, average 1.69 sec, max 2.45 sec, min 0.56 sec)
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 5.00% of total time (compiled   10 times, average 1.48 sec, max 1.81 sec, min 1.17 sec)
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display:                                                 FLumenCardVS - 4.82% of total time (compiled   10 times, average 1.42 sec, max 2.48 sec, min 0.48 sec)
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.77% of total time (compiled   10 times, average 1.41 sec, max 1.76 sec, min 0.85 sec)
+[2022.10.10-23.04.01:512][505]LogShaderCompilers: Display: ================================================
+[2022.10.10-23.04.03:013][505]LogMeshUtilities: Finished distance field build in 1.2s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 46% occupied, 2688 triangles, SM_Sky_Sphere_Stat
+[2022.10.10-23.04.03:033][505]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.10-23.04.03:033][505]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.10-23.04.03:047][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.10.10-23.04.03:055][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.10.10-23.04.03:061][505]LogAudio: Display: Audio Device (ID: 1) registered with world 'SkySunsetMap'.
+[2022.10.10-23.04.03:061][505]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.10-23.04.03:061][505]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.10-23.04.03:062][505]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.10-23.04.03:071][505]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.10.10-23.04.03:078][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.10.10-23.04.03:083][505]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.10.10-23.04.03:084][505]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.121ms to complete.
+[2022.10.10-23.04.03:084][505]LogFileHelpers: Loading map 'SkySunsetMap' took 41.409
+[2022.10.10-23.04.03:086][505]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.005057s (34.571816s overbudget)
+[2022.10.10-23.04.37:590][474]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.10.10-23.04.39:591][592]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.10.10-23.04.40:165][626]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.10.10-23.04.42:805][777]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.10.10-23.04.42:805][777]Can't find target element.
+[2022.10.10-23.04.44:497][878]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.10.10-23.05.15:384][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2022.10.10-23.05.15:563][205]LogTexture: Display: Building textures: /Game/Polar/Maps/OverviewMap_BuiltData.OverviewMap_BuiltData:DeprecatedTextureC6DD16AB431518F266E2169C58EBC43C (BGRA8, 128X128 X1X1) (Required Memory Estimate: 2.499962 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.15:563][205]LogTexture: Display: Building textures: /Game/Polar/Textures/Particle_Textures/T_Light_Function_Masks.T_Light_Function_Masks (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.15:563][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Generator_Masks.T_Generator_Masks (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.15:563][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Masks_01.T_Masks_01 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.15:563][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Floor_Masks.T_Floor_Masks (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.15:563][205]LogMaterial: Display: Missing cached shadermap for _M_Master_Material_2Sided in PCD3D_SM5, Default, SM5 (DDC key hash: FC59F6FD8073DAF52DC77D553E8CCEA935806DF4), compiling. 
+[2022.10.10-23.05.15:832][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Generator_NRM.T_Generator_NRM (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.15:832][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Floor_NRM.T_Floor_NRM (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.15:832][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Generator_SPEC.T_Generator_SPEC (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.15:833][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Floor_CLR.T_Floor_CLR (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.15:833][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Generator_CLR.T_Generator_CLR (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.15:833][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Floor_SPEC.T_Floor_SPEC (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.15:833][205]LogMaterial: Display: Missing cached shadermap for M_Floor_Yellow_LightON_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: E50E7733E8C2D52B21AE644CDF694A85F693644C), compiling. 
+[2022.10.10-23.05.15:991][205]LogMaterial: Display: Missing cached shadermap for M_Floor_Opeque_Yellow_Light_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: B38B441ACE31F39A8D4B5DA5000B6AC335261C0F), compiling. 
+[2022.10.10-23.05.16:125][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_CircleFrame_CLR.T_CircleFrame_CLR (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.16:125][205]LogStaticMesh: Display: Building static mesh SM_Ceiling...
+[2022.10.10-23.05.16:125][205]LogStaticMesh: Display: Building static mesh SM_Ceiling_Closed_Stat...
+[2022.10.10-23.05.16:125][205]LogMaterial: Display: Missing cached shadermap for _M_Master_Material in PCD3D_SM5, Default, SM5 (DDC key hash: 8D00826650E21B3D1275BCF27DB26F6F6CE20FAA), compiling. 
+[2022.10.10-23.05.16:273][205]LogStaticMesh: Built static mesh [0.02s] /Game/Polar/Meshes/Architecture/SM_Ceiling.SM_Ceiling
+[2022.10.10-23.05.16:273][205]LogStaticMesh: Built static mesh [0.03s] /Game/Polar/Meshes/Architecture/SM_Ceiling_Closed_Stat.SM_Ceiling_Closed_Stat
+[2022.10.10-23.05.16:273][205]LogStaticMesh: Display: Building static mesh SM_Ceiling_Transition_01...
+[2022.10.10-23.05.16:273][205]LogStaticMesh: Display: Building static mesh SM_Ceiling_Transition_01_Open...
+[2022.10.10-23.05.16:273][205]LogStaticMesh: Built static mesh [0.01s] /Game/Polar/Meshes/Architecture/SM_Ceiling_Transition_01.SM_Ceiling_Transition_01
+[2022.10.10-23.05.16:273][205]LogStaticMesh: Display: Building static mesh SM_Ceiling_Transition_02...
+[2022.10.10-23.05.16:273][205]LogStaticMesh: Built static mesh [0.02s] /Game/Polar/Meshes/Architecture/SM_Ceiling_Transition_01_Open.SM_Ceiling_Transition_01_Open
+[2022.10.10-23.05.16:273][205]LogStaticMesh: Built static mesh [0.01s] /Game/Polar/Meshes/Architecture/SM_Ceiling_Transition_02.SM_Ceiling_Transition_02
+[2022.10.10-23.05.16:274][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_CircleFrame_Masks.T_CircleFrame_Masks (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.16:274][205]LogTexture: Display: Building textures: /Game/Polar/Textures/CubeMaps/T_Indoor_MainHall_Blurred_CubeMap.T_Indoor_MainHall_Blurred_CubeMap (RGBA16F, 2048X2048 X1X1) (Required Memory Estimate: 960.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.16:274][205]LogMaterial: Display: Missing cached shadermap for M_Light__Dark_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 250C1FB636FC471CFECF54ACCF3F195B1F628D08), compiling. 
+[2022.10.10-23.05.16:419][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_CircleFrame_NRM.T_CircleFrame_NRM (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.16:419][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Wall_Masks.T_Wall_Masks (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.16:419][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_CircleFrame_SPEC.T_CircleFrame_SPEC (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.16:419][205]LogMaterial: Display: Missing cached shadermap for M_Light_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 6481CB5545B6C683938ECC7F50234906DFA65AE6), compiling. 
+[2022.10.10-23.05.16:605][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Walls_NRM.T_Walls_NRM (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.16:606][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Wall_CLR.T_Wall_CLR (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.16:606][205]LogMaterial: Display: Missing cached shadermap for M_Wall_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 8F08606D961F486416C8CA22E63910F9079060BF), compiling. 
+[2022.10.10-23.05.16:757][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Wall_SPEC.T_Wall_SPEC (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.16:757][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Cloth_CLR.T_Cloth_CLR (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.16:757][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Cloth_NRM.T_Cloth_NRM (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.16:757][205]LogMaterial: Display: Missing cached shadermap for M_Floor_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 63CF5BF4885A17BC7270EF45C63BB8896A0610E2), compiling. 
+[2022.10.10-23.05.16:903][205]LogMaterial: Display: Missing cached shadermap for M_Wall_Opeque_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 011F4CA800CD7357791AC81B14A0717A5932AA39), compiling. 
+[2022.10.10-23.05.17:045][205]LogStaticMesh: Display: Building static mesh SM_Circle_Frame...
+[2022.10.10-23.05.17:045][205]LogStaticMesh: Display: Building static mesh SM_Floor_01...
+[2022.10.10-23.05.17:045][205]LogStaticMesh: Display: Building static mesh SM_Floor_02...
+[2022.10.10-23.05.17:045][205]LogMaterial: Display: Missing cached shadermap for _M_Master_Cloth in PCD3D_SM5, Default, SM5 (DDC key hash: 5DC7F3DD4DCA24E2656EEDD5C8711F495027EEAD), compiling. 
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Built static mesh [0.02s] /Game/Polar/Meshes/Architecture/SM_Floor_01.SM_Floor_01
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Display: Building static mesh SM_Pillar...
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Display: Building static mesh SM_Floor_Transition_01...
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Display: Building static mesh SM_Stairs...
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Built static mesh [0.02s] /Game/Polar/Meshes/Architecture/SM_Floor_Transition_01.SM_Floor_Transition_01
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Display: Building static mesh SM_Wall_Flat...
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Built static mesh [0.04s] /Game/Polar/Meshes/Architecture/SM_Floor_02.SM_Floor_02
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Display: Building static mesh SM_Wall_Transition...
+[2022.10.10-23.05.17:184][205]LogTexture: Display: Building textures: /Game/Polar/Textures/CubeMaps/T_Indoor_Blue_Room_CubeMap_Tex.T_Indoor_Blue_Room_CubeMap_Tex (RGBA16F, 2048X2048 X1X1) (Required Memory Estimate: 960.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Built static mesh [0.07s] /Game/Polar/Meshes/Architecture/SM_Circle_Frame.SM_Circle_Frame
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Built static mesh [0.03s] /Game/Polar/Meshes/Architecture/SM_Wall_Flat.SM_Wall_Flat
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Display: Building static mesh SM_Wall_Tubes_Broken...
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Display: Building static mesh SM_Wall_Tubes_Broken_Small...
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Built static mesh [0.05s] /Game/Polar/Meshes/Architecture/SM_Stairs.SM_Stairs
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Display: Building static mesh SM_Wall_Tubes_Closed...
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Built static mesh [0.04s] /Game/Polar/Meshes/Architecture/SM_Wall_Transition.SM_Wall_Transition
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Display: Building static mesh SM_Wall_Tubes_Open...
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Built static mesh [0.12s] /Game/Polar/Meshes/Architecture/SM_Pillar.SM_Pillar
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Display: Building static mesh SM_Cloth_Flat...
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Built static mesh [0.07s] /Game/Polar/Meshes/Architecture/SM_Wall_Tubes_Broken_Small.SM_Wall_Tubes_Broken_Small
+[2022.10.10-23.05.17:184][205]LogStaticMesh: Display: Building static mesh SM_Cloth_Round...
+[2022.10.10-23.05.17:184][205]LogMaterial: Display: Missing cached shadermap for M_Generator_Off_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: E1F9196E531B65175446AD0D1FB2B9A3DD43853F), compiling. 
+[2022.10.10-23.05.17:390][205]LogStaticMesh: Built static mesh [0.08s] /Game/Polar/Meshes/Architecture/SM_Wall_Tubes_Closed.SM_Wall_Tubes_Closed
+[2022.10.10-23.05.17:390][205]LogStaticMesh: Built static mesh [0.01s] /Game/Polar/Meshes/Props/SM_Cloth_Flat.SM_Cloth_Flat
+[2022.10.10-23.05.17:390][205]LogStaticMesh: Built static mesh [0.01s] /Game/Polar/Meshes/Props/SM_Cloth_Round.SM_Cloth_Round
+[2022.10.10-23.05.17:390][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Rubber_CLR.T_Rubber_CLR (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.17:390][205]LogTexture: Display: Building textures: /Game/Polar/Textures/T_Rubber_NRM.T_Rubber_NRM (TFO_BC5, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.17:391][205]LogStaticMesh: Built static mesh [0.13s] /Game/Polar/Meshes/Architecture/SM_Wall_Tubes_Broken.SM_Wall_Tubes_Broken
+[2022.10.10-23.05.17:391][205]LogStaticMesh: Built static mesh [0.07s] /Game/Polar/Meshes/Architecture/SM_Wall_Tubes_Open.SM_Wall_Tubes_Open
+[2022.10.10-23.05.17:391][205]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Mountain_01_CLR.T_Mountain_01_CLR (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.17:391][205]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Mountain_01_SPEC.T_Mountain_01_SPEC (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.17:391][205]LogMaterial: Display: Missing cached shadermap for M_Generator_Inst in PCD3D_SM5, Default, SM5 (DDC key hash: 5E724722BD4B03947119D8FFB27B2685A86CCFBE), compiling. 
+[2022.10.10-23.05.17:549][205]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Mountain_01_NRM.T_Mountain_01_NRM (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.17:549][205]LogStaticMesh: StaticMesh /Game/Polar/Meshes/Props/SM_Ground_Rocks_01.SM_Ground_Rocks_01 should be resaved to improve async compilation performance.
+[2022.10.10-23.05.17:550][205]LogStaticMesh: StaticMesh /Game/Polar/Meshes/Props/SM_Ground_Rocks_02.SM_Ground_Rocks_02 should be resaved to improve async compilation performance.
+[2022.10.10-23.05.17:570][205]LogMaterial: Display: Missing cached shadermap for _M_Master_Glass in PCD3D_SM5, Default, SM5 (DDC key hash: E694344B8A08B730C8743452E2F11A90596639AA), compiling. 
+[2022.10.10-23.05.17:657][205]LogMaterial: Display: Missing cached shadermap for _M_Master_Rubber in PCD3D_SM5, Default, SM5 (DDC key hash: 88AAE916D25C79CA144E866444B8F9940E468CC5), compiling. 
+[2022.10.10-23.05.17:724][205]LogStaticMesh: StaticMesh /Game/Polar/Meshes/Vista/SM_Ground_Vista.SM_Ground_Vista should be resaved to improve async compilation performance.
+[2022.10.10-23.05.17:726][205]LogStaticMesh: StaticMesh /Game/Polar/Meshes/Vista/SM_Mountain_01.SM_Mountain_01 should be resaved to improve async compilation performance.
+[2022.10.10-23.05.17:768][205]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Polar/Meshes/Props/SM_Ground_Rocks_01) ...
+[2022.10.10-23.05.17:857][205]LogStaticMesh: Display: Building static mesh SM_Crate_01...
+[2022.10.10-23.05.17:857][205]LogStaticMesh: Display: Building static mesh SM_Crate_02...
+[2022.10.10-23.05.17:857][205]LogStaticMesh: Display: Building static mesh SM_Ground_Rocks_01...
+[2022.10.10-23.05.17:857][205]LogStaticMesh: Built static mesh [0.01s] /Game/Polar/Meshes/Props/SM_Crate_02.SM_Crate_02
+[2022.10.10-23.05.17:857][205]LogStaticMesh: Display: Building static mesh SM_Crate_Stacked_Cloth...
+[2022.10.10-23.05.17:857][205]LogStaticMesh: Display: Building static mesh SM_Generator_Attachment_01...
+[2022.10.10-23.05.17:857][205]LogStaticMesh: Built static mesh [0.01s] /Game/Polar/Meshes/Props/SM_Ground_Rocks_01.SM_Ground_Rocks_01
+[2022.10.10-23.05.17:857][205]LogStaticMesh: Display: Building static mesh SM_Generator_Attachment_02...
+[2022.10.10-23.05.17:857][205]LogStaticMesh: Built static mesh [0.03s] /Game/Polar/Meshes/Props/SM_Crate_01.SM_Crate_01
+[2022.10.10-23.05.17:857][205]LogStaticMesh: Display: Building static mesh SM_Ground_Rocks_02...
+[2022.10.10-23.05.17:857][205]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Polar/Meshes/Props/SM_Ground_Rocks_02) ...
+[2022.10.10-23.05.17:921][205]LogStaticMesh: Built static mesh [0.03s] /Game/Polar/Meshes/Props/SM_Ground_Rocks_02.SM_Ground_Rocks_02
+[2022.10.10-23.05.17:921][205]LogStaticMesh: Built static mesh [0.04s] /Game/Polar/Meshes/Props/SM_Generator_Attachment_02.SM_Generator_Attachment_02
+[2022.10.10-23.05.17:921][205]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Ground_Vista_CLR.T_Ground_Vista_CLR (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.17:921][205]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Polar/Meshes/Vista/SM_Ground_Vista) ...
+[2022.10.10-23.05.17:956][205]LogStaticMesh: Display: Building static mesh SM_Generator_Body...
+[2022.10.10-23.05.17:956][205]LogStaticMesh: Built static mesh [0.10s] /Game/Polar/Meshes/Props/SM_Crate_Stacked_Cloth.SM_Crate_Stacked_Cloth
+[2022.10.10-23.05.17:956][205]LogStaticMesh: Display: Building static mesh SM_Grid...
+[2022.10.10-23.05.17:956][205]LogStaticMesh: Built static mesh [0.12s] /Game/Polar/Meshes/Props/SM_Generator_Attachment_01.SM_Generator_Attachment_01
+[2022.10.10-23.05.17:956][205]LogStaticMesh: Built static mesh [0.01s] /Game/Polar/Meshes/Props/SM_Grid.SM_Grid
+[2022.10.10-23.05.18:170][205]LogStaticMesh: Display: Building static mesh SM_Light...
+[2022.10.10-23.05.18:170][205]LogStaticMesh: Display: Building static mesh SM_Pipe_Curve...
+[2022.10.10-23.05.18:170][205]LogStaticMesh: Built static mesh [0.01s] /Game/Polar/Meshes/Props/SM_Pipe_Curve.SM_Pipe_Curve
+[2022.10.10-23.05.18:170][205]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Ground_Vista_SPEC.T_Ground_Vista_SPEC (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.18:170][205]LogStaticMesh: Built static mesh [0.02s] /Game/Polar/Meshes/Props/SM_Light.SM_Light
+[2022.10.10-23.05.18:170][205]LogStaticMesh: Display: Building static mesh SM_Generator_Floor_Cloth...
+[2022.10.10-23.05.18:170][205]LogStaticMesh: Display: Building static mesh SM_Pipe_Straight...
+[2022.10.10-23.05.18:170][205]LogStaticMesh: Built static mesh [0.01s] /Game/Polar/Meshes/Props/SM_Pipe_Straight.SM_Pipe_Straight
+[2022.10.10-23.05.18:170][205]LogStaticMesh: Display: Building static mesh SM_Pipes_Multi...
+[2022.10.10-23.05.18:170][205]LogStaticMesh: Built static mesh [0.03s] /Game/Polar/Meshes/Props/SM_Pipes_Multi.SM_Pipes_Multi
+[2022.10.10-23.05.18:170][205]LogStaticMesh: Display: Building static mesh SM_Tank...
+[2022.10.10-23.05.18:382][205]LogTexture: Display: Building textures: /Game/Polar/Textures/Vista_Textures/T_Ground_Vista_NRM.T_Ground_Vista_NRM (TFO_BC5, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2022.10.10-23.05.18:382][205]LogStaticMesh: Built static mesh [0.17s] /Game/Polar/Meshes/Props/SM_Generator_Floor_Cloth.SM_Generator_Floor_Cloth
+[2022.10.10-23.05.18:382][205]LogStaticMesh: Display: Building static mesh SM_Ground_Vista...
+[2022.10.10-23.05.18:382][205]LogStaticMesh: Display: Building static mesh SM_Tank_Broken...
+[2022.10.10-23.05.18:382][205]LogStaticMesh: Built static mesh [0.40s] /Game/Polar/Meshes/Props/SM_Generator_Body.SM_Generator_Body
+[2022.10.10-23.05.18:579][205]LogStaticMesh: Display: Building static mesh SM_Wires_01...
+[2022.10.10-23.05.18:579][205]LogStaticMesh: Built static mesh [0.07s] /Game/Polar/Meshes/Props/SM_Wires_01.SM_Wires_01
+[2022.10.10-23.05.18:579][205]LogStaticMesh: Built static mesh [0.21s] /Game/Polar/Meshes/Vista/SM_Ground_Vista.SM_Ground_Vista
+[2022.10.10-23.05.18:579][205]LogStaticMesh: Display: Building static mesh SM_Wires_02...
+[2022.10.10-23.05.18:579][205]LogStaticMesh: Warning: Mesh SM_Ground_Vista is recomputing physics on load. It must be resaved before it will cook deterministically. Please resave /Game/Polar/Meshes/Vista/SM_Ground_Vista.SM_Ground_Vista.
+[2022.10.10-23.05.18:579][205]LogStaticMesh: Built static mesh [0.06s] /Game/Polar/Meshes/Props/SM_Wires_02.SM_Wires_02
+[2022.10.10-23.05.18:579][205]LogStaticMesh: Display: Building static mesh SM_Wires_Broken...
+[2022.10.10-23.05.18:579][205]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Polar/Meshes/Vista/SM_Mountain_01) ...
+[2022.10.10-23.05.18:596][205]LogStaticMesh: Built static mesh [0.01s] /Game/Polar/Meshes/Props/SM_Wires_Broken.SM_Wires_Broken
+[2022.10.10-23.05.18:596][205]LogStaticMesh: Display: Building static mesh SM_Wires_Floor...
+[2022.10.10-23.05.18:805][205]LogStaticMesh: Built static mesh [0.03s] /Game/Polar/Meshes/Props/SM_Wires_Floor.SM_Wires_Floor
+[2022.10.10-23.05.18:805][205]LogStaticMesh: Display: Building static mesh SM_Mountain_01...
+[2022.10.10-23.05.19:015][205]LogStaticMesh: Built static mesh [0.20s] /Game/Polar/Meshes/Vista/SM_Mountain_01.SM_Mountain_01
+[2022.10.10-23.05.19:015][205]LogStaticMesh: Warning: Mesh SM_Mountain_01 is recomputing physics on load. It must be resaved before it will cook deterministically. Please resave /Game/Polar/Meshes/Vista/SM_Mountain_01.SM_Mountain_01.
+[2022.10.10-23.05.19:027][205]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Polar/Maps/OverviewMap.OverviewMap
+[2022.10.10-23.05.19:027][205]LightingResults: New page: Lighting Build
+[2022.10.10-23.05.19:027][205]LoadErrors: New page: Loading map: OverviewMap.umap
+[2022.10.10-23.05.19:031][205]LogStaticMesh: Display: Building static mesh SM_Foreground...
+[2022.10.10-23.05.19:031][205]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.10-23.05.19:031][205]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.10-23.05.19:031][205]MapCheck: New page: Map Check
+[2022.10.10-23.05.19:031][205]LightingResults: New page: Lighting Build
+[2022.10.10-23.05.19:043][205]LogStaticMesh: Display: Building static mesh SM_Wires_03...
+[2022.10.10-23.05.19:043][205]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.10-23.05.19:047][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.10.10-23.05.19:066][205]LogTexture: Display: Waiting for textures to be ready 0/23 (/Game/Polar/Textures/Vista_Textures/T_Ground_Vista_CLR) ...
+[2022.10.10-23.05.19:224][205]LogStaticMesh: Built static mesh [0.05s] /Game/Polar/Meshes/Props/SM_Wires_03.SM_Wires_03
+[2022.10.10-23.05.19:390][205]LogStaticMesh: Built static mesh [1.02s] /Game/Polar/Meshes/Props/SM_Tank_Broken.SM_Tank_Broken
+[2022.10.10-23.05.19:390][205]LogTexture: Display: Waiting for textures to be ready 18/23 (/Game/Polar/Textures/Vista_Textures/T_Ground_Vista_NRM) ...
+[2022.10.10-23.05.20:268][205]LogStaticMesh: Built static mesh [2.05s] /Game/Polar/Meshes/Props/SM_Tank.SM_Tank
+[2022.10.10-23.05.21:096][205]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2022.10.10-23.05.21:514][205]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' exceeded budget of 2.000000s
+[2022.10.10-23.05.24:828][205]LogStaticMesh: Built static mesh [5.73s] /Game/Polar/Meshes/Vista/SM_Foreground.SM_Foreground
+[2022.10.10-23.05.26:498][205]LogMeshUtilities: Finished distance field build in 1.0s - 126x126x126 sparse distance field, 1.2Mb total, 0.1Mb always loaded, 34% occupied, 4930 triangles, SM_Mountain_01
+[2022.10.10-23.06.50:320][205]LogShaderCompilers: Display: Worker (6/8) finished batch of 10 jobs in 71.791s, TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy [WorkerTime=17.399s], TBasePassPSTLightMapPolicyHQ [WorkerTime=16.722s], TBasePassPSFSelfShadowedTranslucencyPolicySkylight [WorkerTime=16.680s], TBasePassPSFNoLightMapPolicy [WorkerTime=14.985s], TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy [WorkerTime=1.557s], TShadowDepthVSVertexShadowDepth_OutputDepth [WorkerTime=1.535s], TBasePassVSFNoLightMapPolicy [WorkerTime=1.178s], TLightMapDensityVSFNoLightMapPolicy [WorkerTime=0.941s], TTranslucencyShadowDepthPS<TranslucencyShadowDepth_PerspectiveCorrect> [WorkerTime=0.389s], FLumenCardPS<false> [WorkerTime=0.344s]
