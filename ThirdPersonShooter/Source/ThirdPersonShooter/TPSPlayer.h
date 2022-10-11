@@ -6,6 +6,9 @@
 #include "GameFramework/Character.h"
 #include "TPSPlayer.generated.h"
 
+// Have the Gun Weapon class available for all instances
+class AGunWeapon;
+
 UCLASS()
 class THIRDPERSONSHOOTER_API ATPSPlayer : public ACharacter
 {
@@ -41,4 +44,11 @@ private:
 
 	UPROPERTY(EditAnywhere)
 		float ySensitivity;
+
+	// Don't Edit at Runtime
+	UPROPERTY(EditDefaultsOnly)
+		TSubclassOf<AGunWeapon> GunClass;
+
+	UPROPERTY()
+		AGunWeapon* GunWeapon;
 };

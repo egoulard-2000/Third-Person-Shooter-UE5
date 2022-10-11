@@ -1,6 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
+#include "GunWeapon.h"
 #include "TPSPlayer.h"
 
 // Sets default values
@@ -19,6 +19,15 @@ void ATPSPlayer::BeginPlay()
 {
 	Super::BeginPlay();
 	
+
+	GunWeapon = GetWorld()->SpawnActor<AGunWeapon>(GunClass);
+
+	// Hide the current weapon attached to player by default
+	GetMesh()->HideBoneByName("weapon_r", EPhysBodyOp::PBO_None);
+
+	// Attach new gun to current skeletal mesh
+	GunWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, "weapon_socket");
+	GunWeapon->SetOwner(this);
 }
 
 // Called every frame
