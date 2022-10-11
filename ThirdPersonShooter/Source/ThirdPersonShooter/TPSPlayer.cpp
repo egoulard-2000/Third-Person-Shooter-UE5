@@ -10,6 +10,8 @@ ATPSPlayer::ATPSPlayer()
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
 
 	jumping = false;
+	xSensitivity = 80;
+	ySensitivity = 80;
 }
 
 // Called when the game starts or when spawned
@@ -37,8 +39,8 @@ void ATPSPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 	PlayerInputComponent->BindAxis("HorizontalMove", this, &ATPSPlayer::HorizontalMove);
 	PlayerInputComponent->BindAxis("VerticalMove", this, &ATPSPlayer::VerticalMove);
 	
-	PlayerInputComponent->BindAxis("HorizontalLook", this, &APawn::AddControllerYawInput);
-	PlayerInputComponent->BindAxis("VerticalLook", this, &APawn::AddControllerPitchInput);
+	PlayerInputComponent->BindAxis("HorizontalLook", this, &ATPSPlayer::HorizontalLook);
+	PlayerInputComponent->BindAxis("VerticalLook", this, &ATPSPlayer::VerticalLook);
 
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ATPSPlayer::CheckJump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ATPSPlayer::CheckJump);
@@ -55,6 +57,20 @@ void ATPSPlayer::HorizontalMove(float value)
 void ATPSPlayer::VerticalMove(float value)
 {
 	AddMovementInput(GetActorForwardVector() * value);
+}
+
+#pragma endregion
+
+#pragma region Camera Input
+
+void ATPSPlayer::HorizontalLook(float value)
+{
+	AddControllerYawInput(value * xSensitivity * GetWorld()->GetDeltaSeconds());
+}
+
+void ATPSPlayer::VerticalLook(float value)
+{
+	AddControllerPitchInput(value * ySensitivity * GetWorld()->GetDeltaSeconds());
 }
 
 #pragma endregion

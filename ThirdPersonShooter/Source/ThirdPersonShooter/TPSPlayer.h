@@ -29,8 +29,16 @@ public:
 private:
 	void HorizontalMove(float value);
 	void VerticalMove(float value);
+	void HorizontalLook(float value);
+	void VerticalLook(float value);
 	void CheckJump();
 
 	UPROPERTY()
 		bool jumping;
+
+	UPROPERTY(EditAnywhere)
+		float xSensitivity;
+
+	UPROPERTY(EditAnywhere)
+		float ySensitivity;
 };
