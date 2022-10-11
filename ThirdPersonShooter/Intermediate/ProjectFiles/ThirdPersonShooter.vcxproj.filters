@@ -33,12 +33,6 @@
     <Filter Include="Source\ThirdPersonShooter">
       <UniqueIdentifier>{8DCF27F5-7A3D-368B-9C12-22003AAFFFA7}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\ThirdPersonShooter\ThirdPersonCharacter.cpp">
-      <Filter>Source\ThirdPersonShooter</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\ThirdPersonShooter\ThirdPersonCharacter.h">
-      <Filter>Source\ThirdPersonShooter</Filter>
-    </ClInclude>
     <None Include="..\..\Source\ThirdPersonShooter\ThirdPersonShooter.Build.cs">
       <Filter>Source\ThirdPersonShooter</Filter>
     </None>
@@ -52,6 +46,12 @@
       <Filter>Source\ThirdPersonShooter</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ThirdPersonShooter\ThirdPersonShooterGameModeBase.h">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\TPSPlayer.cpp">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\TPSPlayer.h">
       <Filter>Source\ThirdPersonShooter</Filter>
     </ClInclude>
   </ItemGroup>
