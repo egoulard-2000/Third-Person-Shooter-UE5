@@ -24,6 +24,9 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Config\HoloLens">
       <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
     </Filter>
@@ -33,6 +36,18 @@
     <Filter Include="Source\ThirdPersonShooter">
       <UniqueIdentifier>{8DCF27F5-7A3D-368B-9C12-22003AAFFFA7}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\GunWeapon.cpp">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\GunWeapon.h">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\ThirdPersonCharacter.cpp">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\ThirdPersonCharacter.h">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClInclude>
     <None Include="..\..\Source\ThirdPersonShooter\ThirdPersonShooter.Build.cs">
       <Filter>Source\ThirdPersonShooter</Filter>
     </None>

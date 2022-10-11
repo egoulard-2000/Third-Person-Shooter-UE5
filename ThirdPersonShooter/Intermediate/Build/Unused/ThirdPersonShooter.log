@@ -1,13 +1,9 @@
-﻿  Cleaning ThirdPersonShooterEditor and UnrealHeaderTool binaries...
-UnrealBuildTool : error : Unable to delete C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.dll (Unable to delete C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.dll - Access is denied.
-                          Processes with open handles to file:
-                            31644: C:\Program Files\Epic Games\UE_5.0\Engine\Binaries\Win64\UnrealEditor.exe (started 10/11/2022 2:38:47 AM))
-  Using bundled DotNet SDK
+﻿  Using bundled DotNet SDK
   Log file: C:\Users\emile\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5).
   Creating makefile for ThirdPersonShooterEditor (no existing makefile)
   Parsing headers for ThirdPersonShooterEditor
     Running UnrealHeaderTool "C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\ThirdPersonShooter.uproject" "C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\ThirdPersonShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\emile\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for ThirdPersonShooterEditor in 1.7526901 seconds
+  Reflection code generated for ThirdPersonShooterEditor in 4.757809 seconds
 UnrealBuildTool : error : Unable to build while Live Coding is active. Exit the editor and game, or press Ctrl+Alt+F11 if iterating on code in the editor or game
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(50,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_5.0\Engine\Build\BatchFiles\Rebuild.bat" ThirdPersonShooterEditor Win64 Development -Project="C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\ThirdPersonShooter.uproject" -WaitMutex -FromMsBuild" exited with code -1.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_5.0\Engine\Build\BatchFiles\Build.bat" ThirdPersonShooterEditor Win64 Development -Project="C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\ThirdPersonShooter.uproject" -WaitMutex -FromMsBuild" exited with code 6.
