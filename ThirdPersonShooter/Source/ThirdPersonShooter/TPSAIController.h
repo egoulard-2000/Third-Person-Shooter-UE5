@@ -25,6 +25,12 @@ private:
 	UPROPERTY(VisibleAnywhere)
 		APawn* player;
 
+	UPROPERTY(VisibleAnywhere)
+		APawn* enemy;
+
 	UPROPERTY(EditAnywhere)
-		float enemyDistance = 300.0f;
+		class UBehaviorTree* AIBehavior;
+		//float enemyDistance = 300.0f;
+
+
 };

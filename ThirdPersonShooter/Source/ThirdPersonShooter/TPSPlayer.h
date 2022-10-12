@@ -34,6 +34,8 @@ public:
 
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser);
 
+	void Shoot();
+
 private:
 	#pragma region Character/Camera Movement
 
@@ -45,7 +47,6 @@ private:
 	#pragma endregion
 
 	void CheckJump();
-	void Shoot();
 
 	UPROPERTY()
 		float totalHealth = 100.0f;

@@ -11,6 +11,7 @@
     <None Include="..\..\Source\ThirdPersonShooterEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <None Include="..\..\PolarFacility.png" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
@@ -36,6 +37,18 @@
     <Filter Include="Source\ThirdPersonShooter">
       <UniqueIdentifier>{8DCF27F5-7A3D-368B-9C12-22003AAFFFA7}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\BTTask_ClearBlackBoardValue.cpp">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\BTTask_ClearBlackBoardValue.h">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\BTTask_Shoot.cpp">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\BTTask_Shoot.h">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ThirdPersonShooter\GunWeapon.cpp">
       <Filter>Source\ThirdPersonShooter</Filter>
     </ClCompile>

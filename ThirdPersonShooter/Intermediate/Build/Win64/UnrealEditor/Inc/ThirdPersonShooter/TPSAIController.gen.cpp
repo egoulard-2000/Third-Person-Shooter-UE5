@@ -14,6 +14,7 @@ void EmptyLinkFunctionForGeneratedCodeTPSAIController() {}
 	AIMODULE_API UClass* Z_Construct_UClass_AAIController();
 	UPackage* Z_Construct_UPackage__Script_ThirdPersonShooter();
 	ENGINE_API UClass* Z_Construct_UClass_APawn_NoRegister();
+	AIMODULE_API UClass* Z_Construct_UClass_UBehaviorTree_NoRegister();
 // End Cross Module References
 	void ATPSAIController::StaticRegisterNativesATPSAIController()
 	{
@@ -34,9 +35,13 @@ void EmptyLinkFunctionForGeneratedCodeTPSAIController() {}
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_player;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_enemyDistance_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_enemy_MetaData[];
 #endif
-		static const UECodeGen_Private::FFloatPropertyParams NewProp_enemyDistance;
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_enemy;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_AIBehavior_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_AIBehavior;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -61,15 +66,23 @@ void EmptyLinkFunctionForGeneratedCodeTPSAIController() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATPSAIController_Statics::NewProp_player = { "player", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSAIController, player), Z_Construct_UClass_APawn_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATPSAIController_Statics::NewProp_player_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATPSAIController_Statics::NewProp_player_MetaData)) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATPSAIController_Statics::NewProp_enemyDistance_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATPSAIController_Statics::NewProp_enemy_MetaData[] = {
 		{ "Category", "TPSAIController" },
 		{ "ModuleRelativePath", "TPSAIController.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATPSAIController_Statics::NewProp_enemyDistance = { "enemyDistance", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSAIController, enemyDistance), METADATA_PARAMS(Z_Construct_UClass_ATPSAIController_Statics::NewProp_enemyDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATPSAIController_Statics::NewProp_enemyDistance_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATPSAIController_Statics::NewProp_enemy = { "enemy", nullptr, (EPropertyFlags)0x0040000000020001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSAIController, enemy), Z_Construct_UClass_APawn_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATPSAIController_Statics::NewProp_enemy_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATPSAIController_Statics::NewProp_enemy_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATPSAIController_Statics::NewProp_AIBehavior_MetaData[] = {
+		{ "Category", "TPSAIController" },
+		{ "ModuleRelativePath", "TPSAIController.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATPSAIController_Statics::NewProp_AIBehavior = { "AIBehavior", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSAIController, AIBehavior), Z_Construct_UClass_UBehaviorTree_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATPSAIController_Statics::NewProp_AIBehavior_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATPSAIController_Statics::NewProp_AIBehavior_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATPSAIController_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSAIController_Statics::NewProp_player,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSAIController_Statics::NewProp_enemyDistance,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSAIController_Statics::NewProp_enemy,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSAIController_Statics::NewProp_AIBehavior,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATPSAIController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATPSAIController>::IsAbstract,
@@ -107,9 +120,9 @@ void EmptyLinkFunctionForGeneratedCodeTPSAIController() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSAIController_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ATPSAIController, ATPSAIController::StaticClass, TEXT("ATPSAIController"), &Z_Registration_Info_UClass_ATPSAIController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATPSAIController), 236983549U) },
+		{ Z_Construct_UClass_ATPSAIController, ATPSAIController::StaticClass, TEXT("ATPSAIController"), &Z_Registration_Info_UClass_ATPSAIController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATPSAIController), 2532226063U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSAIController_h_3137517744(TEXT("/Script/ThirdPersonShooter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSAIController_h_2790771057(TEXT("/Script/ThirdPersonShooter"),
 		Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSAIController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSAIController_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
