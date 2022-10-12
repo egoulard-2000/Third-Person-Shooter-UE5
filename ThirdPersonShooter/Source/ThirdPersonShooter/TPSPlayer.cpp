@@ -53,6 +53,9 @@ void ATPSPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ATPSPlayer::CheckJump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ATPSPlayer::CheckJump);
+
+	PlayerInputComponent->BindAction("Shoot", IE_Pressed, this, &ATPSPlayer::Shoot);
+	//PlayerInputComponent->BindAction("Shoot", IE_Released, this, &ATPSPlayer::CheckJump);
 }
 
 #pragma region Movement Input
@@ -98,3 +101,13 @@ void ATPSPlayer::CheckJump()
 }
 
 #pragma endregion
+
+#pragma region Weapon Fire Function
+
+void ATPSPlayer::Shoot()
+{
+	GunWeapon->Shoot();
+}
+
+#pragma endregion
+

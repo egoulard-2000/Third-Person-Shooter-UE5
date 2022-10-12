@@ -15,6 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeGunWeapon() {}
 	UPackage* Z_Construct_UPackage__Script_ThirdPersonShooter();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
 // End Cross Module References
 	void AGunWeapon::StaticRegisterNativesAGunWeapon()
 	{
@@ -38,6 +39,10 @@ void EmptyLinkFunctionForGeneratedCodeGunWeapon() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Mesh_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_Mesh;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_ParticleEffect_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_ParticleEffect;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -55,8 +60,10 @@ void EmptyLinkFunctionForGeneratedCodeGunWeapon() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGunWeapon_Statics::NewProp_Root_MetaData[] = {
 		{ "Category", "GunWeapon" },
+		{ "Comment", "// Setup Blueprint Components pertaining to our guns\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "GunWeapon.h" },
+		{ "ToolTip", "Setup Blueprint Components pertaining to our guns" },
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGunWeapon_Statics::NewProp_Root = { "Root", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGunWeapon, Root), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGunWeapon_Statics::NewProp_Root_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGunWeapon_Statics::NewProp_Root_MetaData)) };
@@ -68,9 +75,17 @@ void EmptyLinkFunctionForGeneratedCodeGunWeapon() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGunWeapon_Statics::NewProp_Mesh = { "Mesh", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGunWeapon, Mesh), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGunWeapon_Statics::NewProp_Mesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGunWeapon_Statics::NewProp_Mesh_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGunWeapon_Statics::NewProp_ParticleEffect_MetaData[] = {
+		{ "Category", "GunWeapon" },
+		{ "ModuleRelativePath", "GunWeapon.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGunWeapon_Statics::NewProp_ParticleEffect = { "ParticleEffect", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGunWeapon, ParticleEffect), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGunWeapon_Statics::NewProp_ParticleEffect_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGunWeapon_Statics::NewProp_ParticleEffect_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGunWeapon_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunWeapon_Statics::NewProp_Root,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunWeapon_Statics::NewProp_Mesh,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunWeapon_Statics::NewProp_ParticleEffect,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGunWeapon_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGunWeapon>::IsAbstract,
@@ -108,9 +123,9 @@ void EmptyLinkFunctionForGeneratedCodeGunWeapon() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_GunWeapon_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AGunWeapon, AGunWeapon::StaticClass, TEXT("AGunWeapon"), &Z_Registration_Info_UClass_AGunWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGunWeapon), 1422828917U) },
+		{ Z_Construct_UClass_AGunWeapon, AGunWeapon::StaticClass, TEXT("AGunWeapon"), &Z_Registration_Info_UClass_AGunWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGunWeapon), 1052282275U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_GunWeapon_h_1008904616(TEXT("/Script/ThirdPersonShooter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_GunWeapon_h_2390149902(TEXT("/Script/ThirdPersonShooter"),
 		Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_GunWeapon_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_GunWeapon_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

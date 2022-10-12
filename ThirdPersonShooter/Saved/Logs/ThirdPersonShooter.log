@@ -1624,3 +1624,1230 @@ Recommended: 516.25
 [2022.10.11-23.35.16:380][772]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
 [2022.10.11-23.35.16:696][773]Display: Reload/Re-instancing Complete: No object changes detected
 [2022.10.11-23.35.16:696][773]LogLiveCoding: Display: Live coding succeeded
+[2022.10.11-23.39.59:914][905]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.10.11-23.40.00:053][905]LogUObjectGlobals: Warning: Failed to find object 'Class None.Physics'
+[2022.10.11-23.44.00:325][129]LogViewport: Scene viewport resized to 239x598, mode Windowed.
+[2022.10.11-23.44.01:289][185]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2022.10.11-23.44.01:289][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.11-23.44.01:311][185]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.10.11-23.44.01:311][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.11-23.44.01:436][185]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.10.11-23.44.01:436][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.11-23.44.02:774][264]LogViewport: Scene viewport resized to 415x1258, mode Windowed.
+[2022.10.11-23.44.03:499][306]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.10.11-23.44.03:500][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.11-23.44.04:983][386]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.10.11-23.44.04:983][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.11-23.44.05:048][386]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2022.10.11-23.44.05:048][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.11-23.44.05:640][420]LogViewport: Scene viewport resized to 472x1274, mode Windowed.
+[2022.10.11-23.44.10:653][597]LogViewport: Scene viewport resized to 722x1072, mode Windowed.
+[2022.10.11-23.44.10:993][597]LogViewport: Scene viewport resized to 472x1274, mode Windowed.
+[2022.10.11-23.44.48:189][778]LogViewport: Scene viewport resized to 1828x1037, mode Windowed.
+[2022.10.11-23.44.49:927][879]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.10.11-23.44.57:579][327]Display: Reload/Re-instancing Complete: No object changes detected
+[2022.10.11-23.44.57:579][327]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2022.10.11-23.45.07:605][900]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.10.11-23.45.09:126][953]Display: Reload/Re-instancing Complete: No object changes detected
+[2022.10.11-23.45.09:126][953]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2022.10.11-23.46.36:810][214]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.10.11-23.46.39:656][376]LogLiveCoding: Display:    Creating library C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_5.lib and object C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_5.exp
+[2022.10.11-23.46.39:802][379]LogClass: /Script/ThirdPersonShooter Reload.
+[2022.10.11-23.46.39:802][379]LogClass: GunWeapon Reload.
+[2022.10.11-23.46.39:802][379]LogClass: Could not find existing class GunWeapon in package /Script/ThirdPersonShooter for reload, assuming new or modified class
+[2022.10.11-23.46.39:825][379]Re-instancing GunWeapon after reload.
+[2022.10.11-23.46.40:377][379]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2022.10.11-23.46.40:683][380]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 1 class unchanged
+[2022.10.11-23.46.40:683][380]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2022.10.11-23.46.46:397][618]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.11-23.46.46:403][618]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.11-23.46.46:403][618]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 11:46:46 AM)
+[2022.10.11-23.46.46:431][618]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.11-23.46.46:435][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003808s)
+[2022.10.11-23.46.46:435][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.003922s)
+[2022.10.11-23.46.46:435][618]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.11-23.46.46:435][618]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.11-23.46.46:436][618]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.11-23.46.46:444][618]LogPlayLevel: PIE: World Init took: (0.008948s)
+[2022.10.11-23.46.46:696][618]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2022.10.11-23.46.46:735][618]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.10.11-23.46.46:735][618]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.11-23.46.46:735][618]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.11-23.46.46:735][618]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.11-23.46.46:735][618]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.11-23.46.46:735][618]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.11-23.46.46:735][618]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.11-23.46.46:735][618]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.11-23.46.46:735][618]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.11-23.46.46:735][618]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.11-23.46.46:735][618]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.11-23.46.46:735][618]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.11-23.46.46:738][618]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.11-23.46.46:755][618]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.11-23.46.46:755][618]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.11-23.46.46:755][618]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.11-23.46.46:755][618]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.11-23.46.46:756][618]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2022.10.11-23.46.46:756][618]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2022.10.11-23.46.46:757][618]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2022.10.11-23.46.46:757][618]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2022.10.11-23.46.46:757][618]LogInit: FAudioDevice initialized.
+[2022.10.11-23.46.46:757][618]LogAudio: Display: Audio Device (ID: 11) registered with world 'SkySunsetMap'.
+[2022.10.11-23.46.46:774][618]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.11-23.46.46:775][618]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.11-17.46.46
+[2022.10.11-23.46.46:775][618]LogWorld: Bringing up level for play took: 0.001352
+[2022.10.11-23.46.46:776][618]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2022.10.11-23.46.46:779][618]PIE: Server logged in
+[2022.10.11-23.46.46:779][618]PIE: Play in editor total start time 0.376 seconds.
+[2022.10.11-23.46.47:144][620]LogTemp: Warning: Fired
+[2022.10.11-23.46.47:843][658]LogTemp: Warning: Fired
+[2022.10.11-23.46.48:043][670]LogTemp: Warning: Fired
+[2022.10.11-23.46.48:243][682]LogTemp: Warning: Fired
+[2022.10.11-23.46.48:443][694]LogTemp: Warning: Fired
+[2022.10.11-23.46.49:327][747]LogTemp: Warning: Fired
+[2022.10.11-23.46.49:526][759]LogTemp: Warning: Fired
+[2022.10.11-23.46.49:676][768]LogTemp: Warning: Fired
+[2022.10.11-23.46.49:878][780]LogTemp: Warning: Fired
+[2022.10.11-23.46.50:044][790]LogTemp: Warning: Fired
+[2022.10.11-23.46.50:644][826]LogTemp: Warning: Fired
+[2022.10.11-23.46.50:861][839]LogTemp: Warning: Fired
+[2022.10.11-23.46.52:476][936]LogTemp: Warning: Fired
+[2022.10.11-23.46.55:392][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.11-23.46.55:392][109]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.11-23.46.55:392][109]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.11-23.46.55:393][109]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.11-23.46.55:403][109]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.11-23.46.55:410][109]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.11-23.46.55:438][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.11-23.46.55:438][109]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.10.11-23.46.55:440][109]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.10.11-23.46.55:480][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2022.10.11-23.46.55:525][110]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2022.10.11-23.46.57:356][218]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.11-23.46.57:362][218]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.11-23.46.57:362][218]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 11:46:57 AM)
+[2022.10.11-23.46.57:362][218]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.11-23.46.57:366][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004292s)
+[2022.10.11-23.46.57:366][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.004367s)
+[2022.10.11-23.46.57:366][218]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.11-23.46.57:366][218]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.11-23.46.57:367][218]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.11-23.46.57:374][218]LogPlayLevel: PIE: World Init took: (0.008155s)
+[2022.10.11-23.46.57:403][218]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2022.10.11-23.46.57:406][218]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.10.11-23.46.57:406][218]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.11-23.46.57:406][218]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.11-23.46.57:406][218]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.11-23.46.57:406][218]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.11-23.46.57:406][218]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.11-23.46.57:406][218]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.11-23.46.57:406][218]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.11-23.46.57:406][218]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.11-23.46.57:407][218]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.11-23.46.57:407][218]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.11-23.46.57:407][218]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.11-23.46.57:410][218]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.11-23.46.57:425][218]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.11-23.46.57:426][218]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.11-23.46.57:426][218]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.11-23.46.57:426][218]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.11-23.46.57:426][218]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2022.10.11-23.46.57:426][218]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2022.10.11-23.46.57:428][218]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2022.10.11-23.46.57:428][218]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2022.10.11-23.46.57:428][218]LogInit: FAudioDevice initialized.
+[2022.10.11-23.46.57:428][218]LogAudio: Display: Audio Device (ID: 12) registered with world 'SkySunsetMap'.
+[2022.10.11-23.46.57:440][218]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.11-23.46.57:441][218]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.11-17.46.57
+[2022.10.11-23.46.57:441][218]LogWorld: Bringing up level for play took: 0.001058
+[2022.10.11-23.46.57:443][218]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2022.10.11-23.46.57:445][218]PIE: Server logged in
+[2022.10.11-23.46.57:446][218]PIE: Play in editor total start time 0.084 seconds.
+[2022.10.11-23.46.57:855][236]LogTemp: Warning: Fired
+[2022.10.11-23.46.58:539][277]LogTemp: Warning: Fired
+[2022.10.11-23.47.00:822][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.11-23.47.00:822][412]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.11-23.47.00:823][412]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.11-23.47.00:823][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.11-23.47.00:839][412]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.11-23.47.00:845][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.11-23.47.00:877][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.11-23.47.00:877][412]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2022.10.11-23.47.00:879][412]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2022.10.11-23.47.00:885][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2022.10.11-23.47.00:912][413]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2022.10.11-23.47.30:373][555]LogViewport: Scene viewport resized to 1376x871, mode Windowed.
+[2022.10.11-23.47.30:911][555]LogViewport: Scene viewport resized to 900x1030, mode Windowed.
+[2022.10.11-23.47.54:808][680]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.11-23.47.54:815][680]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.11-23.47.54:815][680]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 11:47:54 AM)
+[2022.10.11-23.47.54:816][680]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.11-23.47.54:821][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004832s)
+[2022.10.11-23.47.54:821][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.004932s)
+[2022.10.11-23.47.54:821][680]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.11-23.47.54:821][680]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.11-23.47.54:821][680]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.11-23.47.54:830][680]LogPlayLevel: PIE: World Init took: (0.009148s)
+[2022.10.11-23.47.54:865][680]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2022.10.11-23.47.54:868][680]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.10.11-23.47.54:868][680]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.11-23.47.54:868][680]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.11-23.47.54:868][680]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.11-23.47.54:868][680]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.11-23.47.54:868][680]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.11-23.47.54:868][680]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.11-23.47.54:868][680]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.11-23.47.54:868][680]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.11-23.47.54:868][680]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.11-23.47.54:868][680]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.11-23.47.54:868][680]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.11-23.47.54:870][680]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.11-23.47.54:886][680]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.11-23.47.54:887][680]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.11-23.47.54:887][680]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.11-23.47.54:887][680]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.11-23.47.54:887][680]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2022.10.11-23.47.54:887][680]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2022.10.11-23.47.54:889][680]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2022.10.11-23.47.54:889][680]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2022.10.11-23.47.54:889][680]LogInit: FAudioDevice initialized.
+[2022.10.11-23.47.54:889][680]LogAudio: Display: Audio Device (ID: 13) registered with world 'SkySunsetMap'.
+[2022.10.11-23.47.54:906][680]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.11-23.47.54:908][680]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.11-17.47.54
+[2022.10.11-23.47.54:908][680]LogWorld: Bringing up level for play took: 0.002006
+[2022.10.11-23.47.54:911][680]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2022.10.11-23.47.54:913][680]PIE: Server logged in
+[2022.10.11-23.47.54:914][680]PIE: Play in editor total start time 0.099 seconds.
+[2022.10.11-23.47.55:318][685]LogTemp: Warning: Fired
+[2022.10.11-23.47.59:945][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.11-23.47.59:945][961]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.11-23.47.59:945][961]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.11-23.47.59:945][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.11-23.47.59:958][961]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.11-23.47.59:966][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.11-23.48.00:000][961]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.11-23.48.00:000][961]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2022.10.11-23.48.00:003][961]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2022.10.11-23.48.00:006][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.11-23.48.00:010][961]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2022.10.11-23.48.00:042][962]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2022.10.11-23.48.01:448][ 44]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.11-23.48.01:455][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.11-23.48.01:455][ 44]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 11:48:01 AM)
+[2022.10.11-23.48.01:455][ 44]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.11-23.48.01:460][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004156s)
+[2022.10.11-23.48.01:460][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.004260s)
+[2022.10.11-23.48.01:460][ 44]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.11-23.48.01:460][ 44]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.11-23.48.01:460][ 44]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.11-23.48.01:469][ 44]LogPlayLevel: PIE: World Init took: (0.008966s)
+[2022.10.11-23.48.01:507][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.10.11-23.48.01:508][ 44]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.10.11-23.48.01:508][ 44]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.11-23.48.01:508][ 44]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.11-23.48.01:508][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.11-23.48.01:508][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.11-23.48.01:508][ 44]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.11-23.48.01:508][ 44]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.11-23.48.01:509][ 44]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.11-23.48.01:509][ 44]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.11-23.48.01:509][ 44]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.11-23.48.01:509][ 44]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.11-23.48.01:509][ 44]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.11-23.48.01:511][ 44]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.11-23.48.01:526][ 44]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.11-23.48.01:527][ 44]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.11-23.48.01:527][ 44]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.11-23.48.01:527][ 44]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.11-23.48.01:527][ 44]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2022.10.11-23.48.01:527][ 44]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2022.10.11-23.48.01:529][ 44]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2022.10.11-23.48.01:529][ 44]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2022.10.11-23.48.01:529][ 44]LogInit: FAudioDevice initialized.
+[2022.10.11-23.48.01:529][ 44]LogAudio: Display: Audio Device (ID: 14) registered with world 'SkySunsetMap'.
+[2022.10.11-23.48.01:544][ 44]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.11-23.48.01:545][ 44]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.11-17.48.01
+[2022.10.11-23.48.01:546][ 44]LogWorld: Bringing up level for play took: 0.001274
+[2022.10.11-23.48.01:547][ 44]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2022.10.11-23.48.01:550][ 44]PIE: Server logged in
+[2022.10.11-23.48.01:550][ 44]PIE: Play in editor total start time 0.096 seconds.
+[2022.10.11-23.48.01:880][ 60]LogTemp: Warning: Fired
+[2022.10.11-23.48.02:962][125]LogTemp: Warning: Fired
+[2022.10.11-23.48.03:178][138]LogTemp: Warning: Fired
+[2022.10.11-23.48.03:411][152]LogTemp: Warning: Fired
+[2022.10.11-23.48.03:646][166]LogTemp: Warning: Fired
+[2022.10.11-23.48.04:445][214]LogTemp: Warning: Fired
+[2022.10.11-23.48.14:395][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.11-23.48.14:395][807]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.11-23.48.14:396][807]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.11-23.48.14:396][807]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.11-23.48.14:407][807]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.11-23.48.14:413][807]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.11-23.48.14:446][807]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.11-23.48.14:446][807]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2022.10.11-23.48.14:448][807]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2022.10.11-23.48.14:452][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.11-23.48.14:454][807]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.10.11-23.48.14:486][808]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2022.10.11-23.49.00:076][330]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Effects/Textures/Weapon/T_muzzle_flashes.T_muzzle_flashes (TFO_AutoDXT, 128X256 X1X1) (Required Memory Estimate: 0.625 MB), EncodeSpeed: Fast
+[2022.10.11-23.49.00:076][330]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Effects/Textures/LensFlare/T_Lensflare_01.T_Lensflare_01 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.11-23.49.00:076][330]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Effects/Textures/Mask/T_SquareMaskTightEdge.T_SquareMaskTightEdge (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.11-23.49.00:076][330]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Effects/ParticleSystems/Weapons/AssaultRifle/Muzzle/P_AssaultRifle_MF.P_AssaultRifle_MF:ThumbnailTexture (TFO_DXT1, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.11-23.49.00:076][330]LogMaterial: Display: Missing cached shadermap for M_Lensflare_01 in PCD3D_SM5, Default, SM5 (DDC key hash: B744BCD40BD729874ACEE6865877E65DB934382C), compiling. 
+[2022.10.11-23.49.00:183][330]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Effects/Textures/Smoke/T_Clouds_01.T_Clouds_01 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.11-23.49.00:183][330]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Effects/Textures/Smoke/T_SmokeBall_01_8_8.T_SmokeBall_01_8_8 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.11-23.49.00:183][330]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Effects/Textures/Noise/T_TileNoise.T_TileNoise (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.10.11-23.49.00:183][330]LogMaterial: Display: Missing cached shadermap for M_SoftGradient_Muzzle in PCD3D_SM5, Default, SM5 (DDC key hash: F725BDBCC58BDB252A1F25844DB8C6238583C103), compiling. 
+[2022.10.11-23.49.00:245][330]LogMaterial: Display: Missing cached shadermap for M_ImpactSmoke in PCD3D_SM5, Default, SM5 (DDC key hash: F2C400B0591474893397D79454CF1D6541178E83), compiling. 
+[2022.10.11-23.49.00:403][330]LogMaterial: Display: Missing cached shadermap for M_SmokeBall in PCD3D_SM5, Default, SM5 (DDC key hash: 0D0E59237D6D839C118C4971031441F30F739200), compiling. 
+[2022.10.11-23.49.00:465][330]LogMaterial: Display: Missing cached shadermap for M_muzzle_flash_subUV in PCD3D_SM5, Default, SM5 (DDC key hash: 7511733C61DBFF7193CA41C058CE9CA5631CF528), compiling. 
+[2022.10.11-23.49.00:529][330]LogMaterial: Display: Missing cached shadermap for M_MuzzleGlow in PCD3D_SM5, Default, SM5 (DDC key hash: 9C186BB5764F3C57DE512783ADE3BDC8BBFD710C), compiling. 
+[2022.10.11-23.49.00:638][330]LogStaticMesh: Display: Building static mesh SM_MuzzleCone...
+[2022.10.11-23.49.00:638][330]LogStaticMesh: Built static mesh [0.02s] /Game/AssetPacks/ShooterGame/Effects/Meshes/Weapon/SM_MuzzleCone.SM_MuzzleCone
+[2022.10.11-23.49.00:638][330]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/AssetPacks/ShooterGame/Effects/Meshes/Weapon/SM_MuzzleCone) ...
+[2022.10.11-23.49.00:653][330]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/AssetPacks/ShooterGame/Effects/ParticleSystems/Weapons/AssaultRifle/Muzzle/P_AssaultRifle_MF.P_AssaultRifle_MF
+[2022.10.11-23.49.00:998][330]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.11-23.49.01:040][330]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.11-23.49.01:998][330]LogViewport: Scene viewport resized to 507x374, mode Windowed.
+[2022.10.11-23.49.02:029][330]LogViewport: Scene viewport resized to 1183x457, mode Windowed.
+[2022.10.11-23.49.02:135][330]LogViewport: Scene viewport resized to 1183x179, mode Windowed.
+[2022.10.11-23.49.02:421][331]LogViewport: Scene viewport resized to 1183x439, mode Windowed.
+[2022.10.11-23.49.02:654][332]LogViewport: Scene viewport resized to 1165x439, mode Windowed.
+[2022.10.11-23.49.05:305][351]LogShaderCompilers: Display: ================================================
+[2022.10.11-23.49.05:305][351]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.11-23.49.05:305][351]LogShaderCompilers: Display: Total job queries 340, among them cache hits 0 (0.00%)
+[2022.10.11-23.49.05:306][351]LogShaderCompilers: Display: Tracking 44 distinct input hashes that result in 25 distinct outputs (56.82%)
+[2022.10.11-23.49.05:306][351]LogShaderCompilers: Display: RAM used: 0.07 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.10.11-23.49.05:306][351]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.11-23.49.05:306][351]LogShaderCompilers: Display: Shaders Compiled: 340
+[2022.10.11-23.49.05:306][351]LogShaderCompilers: Display: Jobs assigned 108, completed 44 (40.74%)
+[2022.10.11-23.49.05:306][351]LogShaderCompilers: Display: Average time worker was idle: 2219.67 s
+[2022.10.11-23.49.05:306][351]LogShaderCompilers: Display: Time job spent in pending queue: average 0.10 s, longest 4.67 s
+[2022.10.11-23.49.05:307][351]LogShaderCompilers: Display: Job execution time: average 9.12 s, max 9.94 s
+[2022.10.11-23.49.05:307][351]LogShaderCompilers: Display: Job life time (pending + execution): average 9.17 s, max 9.99
+[2022.10.11-23.49.05:307][351]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 15.10 s
+[2022.10.11-23.49.05:307][351]LogShaderCompilers: Display: Jobs were issued in 16 batches (only local compilation was used), average 6.75 jobs/batch
+[2022.10.11-23.49.05:307][351]LogShaderCompilers: Display: Average processing rate: 2.91 jobs/sec
+[2022.10.11-23.49.05:307][351]LogShaderCompilers: Display: Effective parallelization: 4.40 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.11-23.49.05:307][351]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.11-23.49.05:307][351]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    3 times, average 1.86 sec, max 2.03 sec, min 1.57 sec)
+[2022.10.11-23.49.05:307][351]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 1.72 sec, max 1.84 sec, min 1.60 sec)
+[2022.10.11-23.49.05:307][351]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyLQ (compiled    1 times, average 1.69 sec, max 1.69 sec, min 1.69 sec)
+[2022.10.11-23.49.05:307][351]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 1.69 sec, max 1.71 sec, min 1.67 sec)
+[2022.10.11-23.49.05:307][351]LogShaderCompilers: Display:               TBasePassVSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 1.68 sec, max 1.79 sec, min 1.57 sec)
+[2022.10.11-23.49.05:307][351]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.11-23.49.05:307][351]LogShaderCompilers: Display:                                             FDebugViewModePS - 8.39% of total time (compiled    3 times, average 1.86 sec, max 2.03 sec, min 1.57 sec)
+[2022.10.11-23.49.05:307][351]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 6.61% of total time (compiled    3 times, average 1.46 sec, max 1.62 sec, min 1.25 sec)
+[2022.10.11-23.49.05:307][351]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.42% of total time (compiled    3 times, average 1.42 sec, max 1.63 sec, min 1.27 sec)
+[2022.10.11-23.49.05:307][351]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.17% of total time (compiled    2 times, average 1.72 sec, max 1.84 sec, min 1.60 sec)
+[2022.10.11-23.49.05:307][351]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 5.08% of total time (compiled    2 times, average 1.69 sec, max 1.71 sec, min 1.67 sec)
+[2022.10.11-23.49.05:307][351]LogShaderCompilers: Display: ================================================
+[2022.10.11-23.49.14:147][427]LogSlate: Window 'P_AssaultRifle_MF' being destroyed
+[2022.10.11-23.49.14:305][427]LogSlate: Window 'P_AssaultRifle_MF' being destroyed
+[2022.10.11-23.49.14:306][427]LogCascade: Quitting Cascade. FXSystem=0x000004CD527C3330
+[2022.10.11-23.49.14:330][427]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2022.10.11-23.49.14:331][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.11-23.49.26:271][879]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_-10-1-1-1-1-1 wave ShooterGame_Music...
+[2022.10.11-23.49.26:292][879]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/AssetPacks/ShooterGame/Sounds/Music/ShooterGame_Music.ShooterGame_Music will be modified from 80 to 80.
+[2022.10.11-23.49.27:401][879]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 17827908 while cooking SoundWave /Game/AssetPacks/ShooterGame/Sounds/Music/ShooterGame_Music.ShooterGame_Music.
+[2022.10.11-23.49.27:410][879]LogAudio: Display: Chunk size for SoundWave /Game/AssetPacks/ShooterGame/Sounds/Music/ShooterGame_Music.ShooterGame_Music: 262144
+[2022.10.11-23.49.28:971][931]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_-10-1-1-1-1-1 wave ShooterGame_Music_Intro...
+[2022.10.11-23.49.28:980][931]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/AssetPacks/ShooterGame/Sounds/Music/ShooterGame_Music_Intro.ShooterGame_Music_Intro will be modified from 80 to 80.
+[2022.10.11-23.49.29:232][931]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 4462008 while cooking SoundWave /Game/AssetPacks/ShooterGame/Sounds/Music/ShooterGame_Music_Intro.ShooterGame_Music_Intro.
+[2022.10.11-23.49.29:234][931]LogAudio: Display: Chunk size for SoundWave /Game/AssetPacks/ShooterGame/Sounds/Music/ShooterGame_Music_Intro.ShooterGame_Music_Intro: 262144
+[2022.10.11-23.49.34:615][137]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_-10-1-1-1-1-1 wave AssaultRifle_Shot01...
+[2022.10.11-23.49.34:615][137]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot01.AssaultRifle_Shot01 will be modified from 80 to 80.
+[2022.10.11-23.49.34:623][137]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 138090 while cooking SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot01.AssaultRifle_Shot01.
+[2022.10.11-23.49.34:623][137]LogAudio: Display: Chunk size for SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot01.AssaultRifle_Shot01: 262144
+[2022.10.11-23.49.35:350][160]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_-10-1-1-1-1-1 wave AssaultRifle_Shot02...
+[2022.10.11-23.49.35:351][160]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot02.AssaultRifle_Shot02 will be modified from 80 to 80.
+[2022.10.11-23.49.35:363][160]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 172986 while cooking SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot02.AssaultRifle_Shot02.
+[2022.10.11-23.49.35:364][160]LogAudio: Display: Chunk size for SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot02.AssaultRifle_Shot02: 262144
+[2022.10.11-23.49.36:911][218]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_-10-1-1-1-1-1 wave AssaultRifle_Shot03...
+[2022.10.11-23.49.36:912][218]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot03.AssaultRifle_Shot03 will be modified from 80 to 80.
+[2022.10.11-23.49.36:920][218]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 166776 while cooking SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot03.AssaultRifle_Shot03.
+[2022.10.11-23.49.36:920][218]LogAudio: Display: Chunk size for SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot03.AssaultRifle_Shot03: 262144
+[2022.10.11-23.49.38:244][259]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_-10-1-1-1-1-1 wave AssaultRifle_Shot04...
+[2022.10.11-23.49.38:245][259]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot04.AssaultRifle_Shot04 will be modified from 80 to 80.
+[2022.10.11-23.49.38:257][259]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 166562 while cooking SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot04.AssaultRifle_Shot04.
+[2022.10.11-23.49.38:257][259]LogAudio: Display: Chunk size for SoundWave /Game/AssetPacks/ShooterGame/Sounds/Weapon_AssaultRifle/Mono/AssaultRifle_Shot04.AssaultRifle_Shot04: 262144
+[2022.10.11-23.50.06:904][952]LogTexture: Display: Building textures: /Game/MilitaryWeapSilver/FX/Textures/T_AssaultRifle_MuzzleFlashes_01.T_AssaultRifle_MuzzleFlashes_01 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.11-23.50.06:904][952]LogMaterial: Display: Missing cached shadermap for M_AssaultRifle_MuzzleFlash_4x1 in PCD3D_SM5, Default, SM5 (DDC key hash: 8A65B365CB390CE46FC04B685DEF86BD806B153D), compiling. 
+[2022.10.11-23.50.06:980][952]LogTexture: Display: Building textures: /Game/MilitaryWeapSilver/FX/P_AssaultRifle_MuzzleFlash.P_AssaultRifle_MuzzleFlash:ThumbnailTexture (TFO_DXT1, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.11-23.50.06:980][952]LogTexture: Display: Building textures: /Game/MilitaryWeapSilver/FX/Textures/T_Spherical_NormalMap_01.T_Spherical_NormalMap_01 (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.11-23.50.06:980][952]LogTexture: Display: Building textures: /Game/MilitaryWeapSilver/FX/Textures/T_FL_Detail_01.T_FL_Detail_01 (BGRA8, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.11-23.50.06:980][952]LogTexture: Display: Building textures: /Game/MilitaryWeapSilver/FX/Textures/T_Pistol_Smoke_2x2_A.T_Pistol_Smoke_2x2_A (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.11-23.50.06:980][952]LogMaterial: Display: Missing cached shadermap for M_GlowSphere_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 4851FAA069AFE99A0E3801E015F217F6965ECE1F), compiling. 
+[2022.10.11-23.50.07:043][952]LogMaterial: Display: Missing cached shadermap for M_Pistol_Smoke_2x2_A in PCD3D_SM5, Default, SM5 (DDC key hash: CB9C95D4D8E5FEBF898F4EFC907682123B280D65), compiling. 
+[2022.10.11-23.50.07:153][952]LogMaterial: Display: Missing cached shadermap for M_Smoke_8x8_B_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 3EE22F6DAFD51D18EEDE2BA4B85D49A452E5E720), compiling. 
+[2022.10.11-23.50.07:273][952]LogStaticMesh: StaticMesh /Game/MilitaryWeapSilver/FX/Meshes/St_Sphere_01.St_Sphere_01 should be resaved to improve async compilation performance.
+[2022.10.11-23.50.07:292][952]LogStaticMesh: Display: Building static mesh St_Sphere_01...
+[2022.10.11-23.50.07:292][952]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MilitaryWeapSilver/FX/Meshes/St_Sphere_01) ...
+[2022.10.11-23.50.07:314][952]LogStaticMesh: Built static mesh [0.01s] /Game/MilitaryWeapSilver/FX/Meshes/St_Sphere_01.St_Sphere_01
+[2022.10.11-23.50.07:314][952]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/MilitaryWeapSilver/FX/P_AssaultRifle_MuzzleFlash.P_AssaultRifle_MuzzleFlash
+[2022.10.11-23.50.07:317][952]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.11-23.50.07:332][952]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.11-23.50.07:458][952]LogViewport: Scene viewport resized to 508x376, mode Windowed.
+[2022.10.11-23.50.07:489][952]LogViewport: Scene viewport resized to 1185x459, mode Windowed.
+[2022.10.11-23.50.07:541][952]LogTexture: Display: Building textures: /Game/MilitaryWeapSilver/FX/Textures/T_Smoke_8x8_B_01.T_Smoke_8x8_B_01 (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2022.10.11-23.50.07:541][952]LogViewport: Scene viewport resized to 1185x180, mode Windowed.
+[2022.10.11-23.50.07:737][953]LogViewport: Scene viewport resized to 1167x459, mode Windowed.
+[2022.10.11-23.50.22:773][275]LogSlate: Window 'P_AssaultRifle_MuzzleFlash' being destroyed
+[2022.10.11-23.50.22:808][275]LogSlate: Window 'P_AssaultRifle_MuzzleFlash' being destroyed
+[2022.10.11-23.50.22:808][275]LogCascade: Quitting Cascade. FXSystem=0x000004CD351F42C0
+[2022.10.11-23.50.22:831][275]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2022.10.11-23.50.22:832][275]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.11-23.55.04:931][607]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2022.10.11-23.55.04:931][607]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2022.10.11-23.55.09:178][851]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2022.10.11-23.55.09:186][851]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.11-23.55.09:195][851]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.10.11-23.55.09:445][851]LogViewport: Scene viewport resized to 1013x784, mode Windowed.
+[2022.10.11-23.55.39:322][457]LogViewport: Scene viewport resized to 1009x819, mode Windowed.
+[2022.10.11-23.55.39:408][459]LogViewport: Scene viewport resized to 465x266, mode Windowed.
+[2022.10.11-23.55.39:445][460]LogViewport: Scene viewport resized to 460x262, mode Windowed.
+[2022.10.11-23.55.39:805][481]LogViewport: Scene viewport resized to 746x1258, mode Windowed.
+[2022.10.11-23.55.40:361][514]LogSlate: Window 'Assault_Rifle_A' being destroyed
+[2022.10.11-23.59.42:719][660]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.10.11-23.59.49:660][ 75]LogLiveCoding: Display:    Creating library C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_6.lib and object C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_6.exp
+[2022.10.11-23.59.49:774][ 77]LogClass: /Script/ThirdPersonShooter Reload.
+[2022.10.11-23.59.49:774][ 77]LogClass: GunWeapon Reload.
+[2022.10.11-23.59.49:774][ 77]LogClass: Could not find existing class GunWeapon in package /Script/ThirdPersonShooter for reload, assuming new or modified class
+[2022.10.11-23.59.49:788][ 77]Re-instancing GunWeapon after reload.
+[2022.10.11-23.59.49:969][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2022.10.11-23.59.50:281][ 78]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2022.10.11-23.59.50:281][ 78]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2022.10.11-23.59.52:217][167]LogViewport: Scene viewport resized to 1828x1037, mode Windowed.
+[2022.10.11-23.59.53:145][219]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.11-23.59.53:152][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.11-23.59.53:152][219]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 11:59:53 AM)
+[2022.10.11-23.59.53:178][219]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.11-23.59.53:182][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004041s)
+[2022.10.11-23.59.53:182][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.004186s)
+[2022.10.11-23.59.53:182][219]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.11-23.59.53:182][219]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.11-23.59.53:183][219]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.11-23.59.53:191][219]LogPlayLevel: PIE: World Init took: (0.008684s)
+[2022.10.11-23.59.53:321][219]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2022.10.11-23.59.53:337][219]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.10.11-23.59.53:337][219]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.11-23.59.53:337][219]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.11-23.59.53:337][219]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.11-23.59.53:337][219]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.11-23.59.53:337][219]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.11-23.59.53:337][219]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.11-23.59.53:337][219]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.11-23.59.53:337][219]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.11-23.59.53:337][219]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.11-23.59.53:337][219]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.11-23.59.53:337][219]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.11-23.59.53:340][219]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.11-23.59.53:355][219]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.11-23.59.53:356][219]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.11-23.59.53:356][219]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.11-23.59.53:356][219]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.11-23.59.53:356][219]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2022.10.11-23.59.53:356][219]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2022.10.11-23.59.53:358][219]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2022.10.11-23.59.53:358][219]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2022.10.11-23.59.53:358][219]LogInit: FAudioDevice initialized.
+[2022.10.11-23.59.53:358][219]LogAudio: Display: Audio Device (ID: 15) registered with world 'SkySunsetMap'.
+[2022.10.11-23.59.53:373][219]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.11-23.59.53:374][219]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.11-17.59.53
+[2022.10.11-23.59.53:375][219]LogWorld: Bringing up level for play took: 0.001228
+[2022.10.11-23.59.53:376][219]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2022.10.11-23.59.53:378][219]PIE: Server logged in
+[2022.10.11-23.59.53:379][219]PIE: Play in editor total start time 0.228 seconds.
+[2022.10.11-23.59.58:288][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.11-23.59.58:288][491]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.11-23.59.58:288][491]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.11-23.59.58:288][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.11-23.59.58:301][491]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.11-23.59.58:306][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.11-23.59.58:334][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.11-23.59.58:343][491]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2022.10.11-23.59.58:345][491]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2022.10.11-23.59.58:387][491]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2022.10.11-23.59.58:430][492]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2022.10.12-00.00.00:131][593]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-00.00.00:137][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-00.00.00:137][593]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 12:00:00 PM)
+[2022.10.12-00.00.00:137][593]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.00.00:141][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003490s)
+[2022.10.12-00.00.00:141][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.003556s)
+[2022.10.12-00.00.00:141][593]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-00.00.00:141][593]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-00.00.00:141][593]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-00.00.00:149][593]LogPlayLevel: PIE: World Init took: (0.008430s)
+[2022.10.12-00.00.00:178][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2022.10.12-00.00.00:182][593]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.10.12-00.00.00:182][593]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-00.00.00:182][593]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-00.00.00:182][593]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-00.00.00:182][593]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-00.00.00:182][593]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-00.00.00:182][593]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-00.00.00:182][593]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-00.00.00:182][593]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-00.00.00:183][593]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-00.00.00:183][593]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-00.00.00:183][593]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-00.00.00:185][593]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-00.00.00:201][593]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-00.00.00:201][593]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-00.00.00:201][593]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-00.00.00:201][593]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-00.00.00:203][593]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2022.10.12-00.00.00:203][593]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2022.10.12-00.00.00:204][593]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2022.10.12-00.00.00:204][593]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2022.10.12-00.00.00:204][593]LogInit: FAudioDevice initialized.
+[2022.10.12-00.00.00:204][593]LogAudio: Display: Audio Device (ID: 16) registered with world 'SkySunsetMap'.
+[2022.10.12-00.00.00:220][593]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-00.00.00:221][593]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.11-18.00.00
+[2022.10.12-00.00.00:222][593]LogWorld: Bringing up level for play took: 0.001243
+[2022.10.12-00.00.00:223][593]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2022.10.12-00.00.00:226][593]PIE: Server logged in
+[2022.10.12-00.00.00:227][593]PIE: Play in editor total start time 0.09 seconds.
+[2022.10.12-00.00.02:038][693]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.00.02:038][693]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.00.02:038][693]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-00.00.02:039][693]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.00.02:050][693]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-00.00.02:056][693]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.00.02:084][693]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.00.02:084][693]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.10.12-00.00.02:086][693]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.10.12-00.00.02:094][693]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2022.10.12-00.00.02:124][694]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2022.10.12-00.00.15:992][777]LogViewport: Scene viewport resized to 1376x871, mode Windowed.
+[2022.10.12-00.00.16:325][777]LogViewport: Scene viewport resized to 900x1030, mode Windowed.
+[2022.10.12-00.00.22:529][131]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Weapon/BP_Weapon_AssaultRifle.BP_Weapon_AssaultRifle
+[2022.10.12-00.00.22:530][131]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-00.00.42:122][256]BlueprintLog: New page: Compile BP_Weapon_AssaultRifle
+[2022.10.12-00.00.42:185][256]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2022.10.12-00.00.42:597][276]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapon/BP_Weapon_AssaultRifle
+[2022.10.12-00.00.42:598][276]LogSavePackage: Moving '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Saved/BP_Weapon_AssaultRifle2440D4F345A1EEA30269D9AE4B8A101C.tmp' to '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Content/Blueprints/Weapon/BP_Weapon_AssaultRifle.uasset'
+[2022.10.12-00.00.42:615][276]AssetCheck: New page: Asset Save: BP_Weapon_AssaultRifle
+[2022.10.12-00.00.42:615][276]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapon/BP_Weapon_AssaultRifle.BP_Weapon_AssaultRifle
+[2022.10.12-00.00.43:561][320]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-00.00.43:569][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-00.00.43:569][320]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 12:00:43 PM)
+[2022.10.12-00.00.43:590][320]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.00.43:595][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004964s)
+[2022.10.12-00.00.43:595][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.005142s)
+[2022.10.12-00.00.43:595][320]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-00.00.43:595][320]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-00.00.43:596][320]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-00.00.43:606][320]LogPlayLevel: PIE: World Init took: (0.010560s)
+[2022.10.12-00.00.43:652][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.10.12-00.00.43:655][320]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.10.12-00.00.43:655][320]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-00.00.43:655][320]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-00.00.43:655][320]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-00.00.43:655][320]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-00.00.43:655][320]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-00.00.43:655][320]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-00.00.43:655][320]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-00.00.43:655][320]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-00.00.43:655][320]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-00.00.43:655][320]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-00.00.43:655][320]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-00.00.43:659][320]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-00.00.43:678][320]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-00.00.43:678][320]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-00.00.43:678][320]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-00.00.43:678][320]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-00.00.43:680][320]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2022.10.12-00.00.43:680][320]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2022.10.12-00.00.43:682][320]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2022.10.12-00.00.43:682][320]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2022.10.12-00.00.43:682][320]LogInit: FAudioDevice initialized.
+[2022.10.12-00.00.43:682][320]LogAudio: Display: Audio Device (ID: 17) registered with world 'SkySunsetMap'.
+[2022.10.12-00.00.43:700][320]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-00.00.43:702][320]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.11-18.00.43
+[2022.10.12-00.00.43:703][320]LogWorld: Bringing up level for play took: 0.001821
+[2022.10.12-00.00.43:705][320]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2022.10.12-00.00.43:708][320]PIE: Server logged in
+[2022.10.12-00.00.43:709][320]PIE: Play in editor total start time 0.14 seconds.
+[2022.10.12-00.00.55:011][981]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.00.55:011][981]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.00.55:011][981]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-00.00.55:012][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.00.55:022][981]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-00.00.55:030][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.00.55:076][981]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.00.55:077][981]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2022.10.12-00.00.55:078][981]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2022.10.12-00.00.55:085][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.10.12-00.00.55:113][982]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2022.10.12-00.01.52:317][169]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-00.01.52:322][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-00.01.52:322][169]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 12:01:52 PM)
+[2022.10.12-00.01.52:353][169]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.01.52:357][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004033s)
+[2022.10.12-00.01.52:357][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.004244s)
+[2022.10.12-00.01.52:357][169]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-00.01.52:357][169]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-00.01.52:358][169]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-00.01.52:367][169]LogPlayLevel: PIE: World Init took: (0.010356s)
+[2022.10.12-00.01.52:406][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2022.10.12-00.01.52:410][169]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.10.12-00.01.52:410][169]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-00.01.52:410][169]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-00.01.52:410][169]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-00.01.52:410][169]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-00.01.52:410][169]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-00.01.52:410][169]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-00.01.52:410][169]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-00.01.52:410][169]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-00.01.52:410][169]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-00.01.52:410][169]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-00.01.52:410][169]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-00.01.52:412][169]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-00.01.52:428][169]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-00.01.52:428][169]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-00.01.52:428][169]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-00.01.52:428][169]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-00.01.52:429][169]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2022.10.12-00.01.52:429][169]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2022.10.12-00.01.52:430][169]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2022.10.12-00.01.52:430][169]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2022.10.12-00.01.52:430][169]LogInit: FAudioDevice initialized.
+[2022.10.12-00.01.52:432][169]LogAudio: Display: Audio Device (ID: 18) registered with world 'SkySunsetMap'.
+[2022.10.12-00.01.52:443][169]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-00.01.52:445][169]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.11-18.01.52
+[2022.10.12-00.01.52:445][169]LogWorld: Bringing up level for play took: 0.001365
+[2022.10.12-00.01.52:446][169]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2022.10.12-00.01.52:449][169]PIE: Server logged in
+[2022.10.12-00.01.52:450][169]PIE: Play in editor total start time 0.128 seconds.
+[2022.10.12-00.02.01:774][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.02.01:774][718]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.02.01:774][718]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-00.02.01:774][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.02.01:784][718]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-00.02.01:791][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.02.01:829][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.02.01:830][718]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2022.10.12-00.02.01:832][718]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2022.10.12-00.02.01:838][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2022.10.12-00.02.01:864][719]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2022.10.12-00.02.16:876][599]BlueprintLog: New page: Compile BP_Weapon_AssaultRifle
+[2022.10.12-00.02.16:936][599]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2022.10.12-00.02.17:325][618]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapon/BP_Weapon_AssaultRifle
+[2022.10.12-00.02.17:325][618]LogSavePackage: Moving '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Saved/BP_Weapon_AssaultRifle48DD84254641D3DD122ECF8939FA7F5F.tmp' to '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Content/Blueprints/Weapon/BP_Weapon_AssaultRifle.uasset'
+[2022.10.12-00.02.17:341][618]AssetCheck: New page: Asset Save: BP_Weapon_AssaultRifle
+[2022.10.12-00.02.17:341][618]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapon/BP_Weapon_AssaultRifle.BP_Weapon_AssaultRifle
+[2022.10.12-00.02.18:223][663]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-00.02.18:232][663]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-00.02.18:232][663]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 12:02:18 PM)
+[2022.10.12-00.02.18:232][663]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.02.18:236][663]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004333s)
+[2022.10.12-00.02.18:236][663]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.004416s)
+[2022.10.12-00.02.18:236][663]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-00.02.18:236][663]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-00.02.18:236][663]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-00.02.18:246][663]LogPlayLevel: PIE: World Init took: (0.009258s)
+[2022.10.12-00.02.18:288][663]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.10.12-00.02.18:291][663]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.10.12-00.02.18:291][663]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-00.02.18:291][663]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-00.02.18:291][663]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-00.02.18:291][663]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-00.02.18:291][663]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-00.02.18:291][663]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-00.02.18:291][663]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-00.02.18:291][663]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-00.02.18:292][663]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-00.02.18:292][663]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-00.02.18:292][663]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-00.02.18:295][663]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-00.02.18:312][663]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-00.02.18:312][663]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-00.02.18:313][663]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-00.02.18:313][663]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-00.02.18:313][663]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2022.10.12-00.02.18:313][663]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2022.10.12-00.02.18:315][663]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2022.10.12-00.02.18:315][663]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2022.10.12-00.02.18:315][663]LogInit: FAudioDevice initialized.
+[2022.10.12-00.02.18:315][663]LogAudio: Display: Audio Device (ID: 19) registered with world 'SkySunsetMap'.
+[2022.10.12-00.02.18:332][663]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-00.02.18:333][663]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.11-18.02.18
+[2022.10.12-00.02.18:334][663]LogWorld: Bringing up level for play took: 0.001691
+[2022.10.12-00.02.18:336][663]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2022.10.12-00.02.18:338][663]PIE: Server logged in
+[2022.10.12-00.02.18:339][663]PIE: Play in editor total start time 0.108 seconds.
+[2022.10.12-00.02.20:095][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.02.20:095][757]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.02.20:095][757]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-00.02.20:096][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.02.20:109][757]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-00.02.20:117][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.02.20:157][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.02.20:158][757]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2022.10.12-00.02.20:160][757]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2022.10.12-00.02.20:166][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.10.12-00.02.20:199][758]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2022.10.12-00.02.20:784][792]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-00.02.20:790][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-00.02.20:790][792]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 12:02:20 PM)
+[2022.10.12-00.02.20:790][792]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.02.20:794][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003470s)
+[2022.10.12-00.02.20:794][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.003542s)
+[2022.10.12-00.02.20:794][792]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-00.02.20:794][792]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-00.02.20:794][792]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-00.02.20:802][792]LogPlayLevel: PIE: World Init took: (0.008504s)
+[2022.10.12-00.02.20:841][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2022.10.12-00.02.20:843][792]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.10.12-00.02.20:843][792]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-00.02.20:843][792]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-00.02.20:843][792]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-00.02.20:843][792]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-00.02.20:843][792]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-00.02.20:843][792]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-00.02.20:843][792]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-00.02.20:843][792]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-00.02.20:843][792]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-00.02.20:843][792]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-00.02.20:843][792]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-00.02.20:845][792]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-00.02.20:861][792]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-00.02.20:861][792]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-00.02.20:861][792]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-00.02.20:861][792]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-00.02.20:862][792]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2022.10.12-00.02.20:862][792]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2022.10.12-00.02.20:863][792]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2022.10.12-00.02.20:863][792]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2022.10.12-00.02.20:863][792]LogInit: FAudioDevice initialized.
+[2022.10.12-00.02.20:863][792]LogAudio: Display: Audio Device (ID: 20) registered with world 'SkySunsetMap'.
+[2022.10.12-00.02.20:874][792]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-00.02.20:876][792]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.11-18.02.20
+[2022.10.12-00.02.20:876][792]LogWorld: Bringing up level for play took: 0.001274
+[2022.10.12-00.02.20:876][792]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2022.10.12-00.02.20:878][792]PIE: Server logged in
+[2022.10.12-00.02.20:880][792]PIE: Play in editor total start time 0.09 seconds.
+[2022.10.12-00.02.27:215][162]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.02.27:215][162]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.02.27:216][162]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-00.02.27:216][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.02.27:228][162]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-00.02.27:234][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.02.27:271][162]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.02.27:271][162]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2022.10.12-00.02.27:272][162]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2022.10.12-00.02.27:278][162]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2022.10.12-00.02.27:302][163]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2022.10.12-00.02.37:828][667]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Effects/Textures/Ramp/T_FX_ColorDistort.T_FX_ColorDistort (TFO_AutoDXT, 64X256 X1X1) (Required Memory Estimate: 0.3125 MB), EncodeSpeed: Fast
+[2022.10.12-00.02.37:828][667]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Effects/Textures/Ramp/T_FX_CameraDistort.T_FX_CameraDistort (TFO_AutoDXT, 256X256 X1X1) (Required Memory Estimate: 1.250 MB), EncodeSpeed: Fast
+[2022.10.12-00.02.37:828][667]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Effects/Textures/Energy/T_EFX_Beam_Electricity_02.T_EFX_Beam_Electricity_02 (TFO_DXT1, 128X64 X1X1) (Required Memory Estimate: 0.15625 MB), EncodeSpeed: Fast
+[2022.10.12-00.02.37:828][667]LogMaterial: Display: Missing cached shadermap for M_WP_Linkgun_Connection in PCD3D_SM5, Default, SM5 (DDC key hash: 9FA14A2FF3D4F997732E6C6E32834389AD5C556B), compiling. 
+[2022.10.12-00.02.37:871][667]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Effects/ParticleSystems/Weapons/AssaultRifle/Muzzle/P_AssaultRifle_Trail.P_AssaultRifle_Trail:ThumbnailTexture (TFO_DXT1, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.12-00.02.37:871][667]LogTexture: Display: Building textures: /Game/AssetPacks/ShooterGame/Effects/Textures/Water/T_Caustics_2.T_Caustics_2 (TFO_DXT1, 512X512 X1X1) (Required Memory Estimate: 5.000 MB), EncodeSpeed: Fast
+[2022.10.12-00.02.37:871][667]LogMaterial: Display: Missing cached shadermap for M_WP_ShockRifle_Panning_Beam in PCD3D_SM5, Default, SM5 (DDC key hash: 440C65EAB5CA90467D4E11D9709130AED6848C03), compiling. 
+[2022.10.12-00.02.39:167][727]BlueprintLog: New page: Compile BP_Weapon_AssaultRifle
+[2022.10.12-00.02.39:327][727]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2022.10.12-00.02.39:804][742]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapon/BP_Weapon_AssaultRifle
+[2022.10.12-00.02.39:806][742]LogSavePackage: Moving '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Saved/BP_Weapon_AssaultRifle50FB92E24837DB56CB0C5784A067CD57.tmp' to '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Content/Blueprints/Weapon/BP_Weapon_AssaultRifle.uasset'
+[2022.10.12-00.02.39:877][742]AssetCheck: New page: Asset Save: BP_Weapon_AssaultRifle
+[2022.10.12-00.02.39:878][742]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapon/BP_Weapon_AssaultRifle.BP_Weapon_AssaultRifle
+[2022.10.12-00.02.40:663][758]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-00.02.40:696][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-00.02.40:697][758]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 12:02:40 PM)
+[2022.10.12-00.02.40:697][758]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.02.40:711][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014383s)
+[2022.10.12-00.02.40:711][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.014700s)
+[2022.10.12-00.02.40:711][758]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-00.02.40:712][758]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-00.02.40:713][758]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-00.02.40:745][758]LogPlayLevel: PIE: World Init took: (0.032951s)
+[2022.10.12-00.02.40:870][758]LogUObjectHash: Compacting FUObjectHashTables data took   8.92ms
+[2022.10.12-00.02.40:877][758]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2022.10.12-00.02.40:877][758]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-00.02.40:877][758]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-00.02.40:877][758]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-00.02.40:878][758]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-00.02.40:878][758]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-00.02.40:878][758]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-00.02.40:878][758]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-00.02.40:878][758]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-00.02.40:880][758]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-00.02.40:880][758]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-00.02.40:880][758]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-00.02.40:889][758]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-00.02.40:934][758]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-00.02.40:935][758]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-00.02.40:935][758]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-00.02.40:935][758]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-00.02.40:938][758]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2022.10.12-00.02.40:938][758]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2022.10.12-00.02.40:943][758]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2022.10.12-00.02.40:943][758]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2022.10.12-00.02.40:943][758]LogInit: FAudioDevice initialized.
+[2022.10.12-00.02.40:944][758]LogAudio: Display: Audio Device (ID: 21) registered with world 'SkySunsetMap'.
+[2022.10.12-00.02.40:978][758]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-00.02.40:981][758]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.11-18.02.40
+[2022.10.12-00.02.40:982][758]LogWorld: Bringing up level for play took: 0.003903
+[2022.10.12-00.02.40:989][758]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2022.10.12-00.02.40:997][758]PIE: Server logged in
+[2022.10.12-00.02.41:000][758]PIE: Play in editor total start time 0.304 seconds.
+[2022.10.12-00.02.42:737][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.02.42:737][804]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.02.42:737][804]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-00.02.42:738][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.02.42:769][804]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-00.02.42:783][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.02.42:857][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.02.42:858][804]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2022.10.12-00.02.42:862][804]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2022.10.12-00.02.42:873][804]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2022.10.12-00.02.42:945][805]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2022.10.12-00.02.43:451][816]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-00.02.43:466][816]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-00.02.43:466][816]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 12:02:43 PM)
+[2022.10.12-00.02.43:466][816]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.02.43:472][816]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006733s)
+[2022.10.12-00.02.43:473][816]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.006942s)
+[2022.10.12-00.02.43:473][816]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-00.02.43:473][816]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-00.02.43:473][816]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-00.02.43:512][816]LogPlayLevel: PIE: World Init took: (0.038323s)
+[2022.10.12-00.02.43:593][816]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
+[2022.10.12-00.02.43:597][816]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2022.10.12-00.02.43:597][816]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-00.02.43:597][816]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-00.02.43:597][816]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-00.02.43:597][816]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-00.02.43:597][816]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-00.02.43:597][816]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-00.02.43:597][816]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-00.02.43:597][816]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-00.02.43:598][816]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-00.02.43:598][816]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-00.02.43:598][816]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-00.02.43:602][816]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-00.02.43:633][816]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-00.02.43:634][816]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-00.02.43:634][816]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-00.02.43:634][816]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-00.02.43:636][816]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2022.10.12-00.02.43:636][816]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2022.10.12-00.02.43:641][816]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2022.10.12-00.02.43:641][816]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2022.10.12-00.02.43:641][816]LogInit: FAudioDevice initialized.
+[2022.10.12-00.02.43:641][816]LogAudio: Display: Audio Device (ID: 22) registered with world 'SkySunsetMap'.
+[2022.10.12-00.02.43:668][816]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-00.02.43:671][816]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.11-18.02.43
+[2022.10.12-00.02.43:671][816]LogWorld: Bringing up level for play took: 0.002924
+[2022.10.12-00.02.43:677][816]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2022.10.12-00.02.43:684][816]PIE: Server logged in
+[2022.10.12-00.02.43:688][816]PIE: Play in editor total start time 0.222 seconds.
+[2022.10.12-00.02.43:697][816]LogShaderCompilers: Display: ================================================
+[2022.10.12-00.02.43:697][816]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.12-00.02.43:697][816]LogShaderCompilers: Display: Total job queries 675, among them cache hits 54 (8.00%)
+[2022.10.12-00.02.43:697][816]LogShaderCompilers: Display: Tracking 579 distinct input hashes that result in 398 distinct outputs (68.74%)
+[2022.10.12-00.02.43:697][816]LogShaderCompilers: Display: RAM used: 0.93 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.11%
+[2022.10.12-00.02.43:697][816]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.12-00.02.43:697][816]LogShaderCompilers: Display: Shaders Compiled: 621
+[2022.10.12-00.02.43:697][816]LogShaderCompilers: Display: Jobs assigned 621, completed 579 (93.24%)
+[2022.10.12-00.02.43:697][816]LogShaderCompilers: Display: Average time worker was idle: 192.96 s
+[2022.10.12-00.02.43:697][816]LogShaderCompilers: Display: Time job spent in pending queue: average 12.02 s, longest 38.83 s
+[2022.10.12-00.02.43:697][816]LogShaderCompilers: Display: Job execution time: average 9.19 s, max 19.54 s
+[2022.10.12-00.02.43:697][816]LogShaderCompilers: Display: Job life time (pending + execution): average 22.08 s, max 39.95
+[2022.10.12-00.02.43:697][816]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 94.83 s
+[2022.10.12-00.02.43:697][816]LogShaderCompilers: Display: Jobs were issued in 127 batches (only local compilation was used), average 4.89 jobs/batch
+[2022.10.12-00.02.43:697][816]LogShaderCompilers: Display: Average processing rate: 6.11 jobs/sec
+[2022.10.12-00.02.43:697][816]LogShaderCompilers: Display: Effective parallelization: 7.13 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.12-00.02.43:697][816]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.12-00.02.43:698][816]LogShaderCompilers: Display:    TBasePassVSFSelfShadowedCachedPointIndirectLightingPolicy (compiled   10 times, average 1.75 sec, max 3.00 sec, min 1.04 sec)
+[2022.10.12-00.02.43:698][816]LogShaderCompilers: Display:                                 TBasePassVSTLightMapPolicyLQ (compiled    1 times, average 1.69 sec, max 1.69 sec, min 1.69 sec)
+[2022.10.12-00.02.43:698][816]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 1.69 sec, max 1.71 sec, min 1.67 sec)
+[2022.10.12-00.02.43:698][816]LogShaderCompilers: Display:    TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicy (compiled   10 times, average 1.68 sec, max 2.15 sec, min 1.17 sec)
+[2022.10.12-00.02.43:698][816]LogShaderCompilers: Display:               TBasePassVSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 1.68 sec, max 1.79 sec, min 1.57 sec)
+[2022.10.12-00.02.43:698][816]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.12-00.02.43:698][816]LogShaderCompilers: Display:                                             FDebugViewModePS - 8.22% of total time (compiled   36 times, average 1.54 sec, max 2.71 sec, min 0.86 sec)
+[2022.10.12-00.02.43:698][816]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.67% of total time (compiled   37 times, average 1.40 sec, max 2.47 sec, min 0.86 sec)
+[2022.10.12-00.02.43:698][816]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.56% of total time (compiled   37 times, average 1.20 sec, max 1.83 sec, min 0.82 sec)
+[2022.10.12-00.02.43:698][816]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 6.23% of total time (compiled   36 times, average 1.17 sec, max 1.71 sec, min 0.78 sec)
+[2022.10.12-00.02.43:698][816]LogShaderCompilers: Display:                                             FDebugViewModeVS - 5.57% of total time (compiled   36 times, average 1.05 sec, max 1.96 sec, min 0.56 sec)
+[2022.10.12-00.02.43:698][816]LogShaderCompilers: Display: ================================================
+[2022.10.12-00.02.53:236][308]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.02.53:236][308]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.02.53:236][308]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-00.02.53:237][308]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.02.53:250][308]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-00.02.53:258][308]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.02.53:305][308]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.02.53:306][308]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.10.12-00.02.53:308][308]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.10.12-00.02.53:316][308]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2022.10.12-00.02.53:350][309]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2022.10.12-00.03.14:021][347]BlueprintLog: New page: Compile BP_Weapon_AssaultRifle
+[2022.10.12-00.03.14:082][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.10.12-00.03.14:599][374]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapon/BP_Weapon_AssaultRifle
+[2022.10.12-00.03.14:600][374]LogSavePackage: Moving '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Saved/BP_Weapon_AssaultRifleA0D4CBF94C25DAEAB3E3CD834B31D5B9.tmp' to '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Content/Blueprints/Weapon/BP_Weapon_AssaultRifle.uasset'
+[2022.10.12-00.03.14:616][374]AssetCheck: New page: Asset Save: BP_Weapon_AssaultRifle
+[2022.10.12-00.03.14:616][374]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapon/BP_Weapon_AssaultRifle.BP_Weapon_AssaultRifle
+[2022.10.12-00.03.15:512][426]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-00.03.15:520][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-00.03.15:520][426]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 12:03:15 PM)
+[2022.10.12-00.03.15:520][426]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.03.15:525][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004572s)
+[2022.10.12-00.03.15:525][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.004729s)
+[2022.10.12-00.03.15:525][426]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-00.03.15:525][426]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-00.03.15:525][426]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-00.03.15:536][426]LogPlayLevel: PIE: World Init took: (0.010957s)
+[2022.10.12-00.03.15:588][426]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2022.10.12-00.03.15:591][426]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2022.10.12-00.03.15:591][426]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-00.03.15:591][426]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-00.03.15:591][426]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-00.03.15:591][426]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-00.03.15:591][426]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-00.03.15:591][426]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-00.03.15:591][426]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-00.03.15:591][426]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-00.03.15:592][426]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-00.03.15:592][426]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-00.03.15:592][426]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-00.03.15:594][426]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-00.03.15:610][426]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-00.03.15:611][426]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-00.03.15:611][426]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-00.03.15:611][426]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-00.03.15:612][426]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2022.10.12-00.03.15:612][426]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2022.10.12-00.03.15:614][426]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2022.10.12-00.03.15:614][426]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2022.10.12-00.03.15:614][426]LogInit: FAudioDevice initialized.
+[2022.10.12-00.03.15:614][426]LogAudio: Display: Audio Device (ID: 23) registered with world 'SkySunsetMap'.
+[2022.10.12-00.03.15:631][426]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-00.03.15:633][426]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.11-18.03.15
+[2022.10.12-00.03.15:633][426]LogWorld: Bringing up level for play took: 0.001342
+[2022.10.12-00.03.15:635][426]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2022.10.12-00.03.15:639][426]PIE: Server logged in
+[2022.10.12-00.03.15:639][426]PIE: Play in editor total start time 0.119 seconds.
+[2022.10.12-00.03.19:858][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.03.19:858][673]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.03.19:858][673]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-00.03.19:858][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.03.19:868][673]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-00.03.19:875][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.03.19:913][673]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.12-00.03.19:913][673]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2022.10.12-00.03.19:915][673]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2022.10.12-00.03.19:917][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.03.19:920][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.10.12-00.03.19:945][674]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2022.10.12-00.03.20:591][712]LogViewport: Scene viewport resized to 1828x1037, mode Windowed.
+[2022.10.12-00.03.22:114][799]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-00.03.22:120][799]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-00.03.22:120][799]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 12:03:22 PM)
+[2022.10.12-00.03.22:148][799]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.03.22:152][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003946s)
+[2022.10.12-00.03.22:152][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.004071s)
+[2022.10.12-00.03.22:152][799]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-00.03.22:152][799]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-00.03.22:152][799]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-00.03.22:161][799]LogPlayLevel: PIE: World Init took: (0.009085s)
+[2022.10.12-00.03.22:200][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2022.10.12-00.03.22:202][799]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2022.10.12-00.03.22:202][799]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-00.03.22:202][799]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-00.03.22:202][799]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-00.03.22:202][799]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-00.03.22:202][799]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-00.03.22:202][799]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-00.03.22:202][799]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-00.03.22:202][799]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-00.03.22:202][799]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-00.03.22:202][799]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-00.03.22:202][799]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-00.03.22:205][799]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-00.03.22:220][799]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-00.03.22:221][799]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-00.03.22:221][799]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-00.03.22:221][799]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-00.03.22:221][799]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2022.10.12-00.03.22:221][799]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2022.10.12-00.03.22:223][799]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2022.10.12-00.03.22:223][799]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2022.10.12-00.03.22:223][799]LogInit: FAudioDevice initialized.
+[2022.10.12-00.03.22:223][799]LogAudio: Display: Audio Device (ID: 24) registered with world 'SkySunsetMap'.
+[2022.10.12-00.03.22:236][799]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-00.03.22:237][799]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.11-18.03.22
+[2022.10.12-00.03.22:237][799]LogWorld: Bringing up level for play took: 0.001232
+[2022.10.12-00.03.22:239][799]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2022.10.12-00.03.22:241][799]PIE: Server logged in
+[2022.10.12-00.03.22:242][799]PIE: Play in editor total start time 0.122 seconds.
+[2022.10.12-00.03.25:358][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.03.25:358][978]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.03.25:358][978]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-00.03.25:358][978]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.03.25:371][978]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-00.03.25:378][978]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.03.25:417][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.03.25:417][978]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2022.10.12-00.03.25:418][978]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2022.10.12-00.03.25:424][978]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2022.10.12-00.03.25:453][979]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2022.10.12-00.03.26:737][ 54]LogViewport: Scene viewport resized to 961x1283, mode Windowed.
+[2022.10.12-00.03.31:889][207]LogViewport: Scene viewport resized to 1376x871, mode Windowed.
+[2022.10.12-00.03.32:143][207]LogViewport: Scene viewport resized to 900x1030, mode Windowed.
+[2022.10.12-00.05.09:076][306]LogViewport: Scene viewport resized to 1828x1037, mode Windowed.
+[2022.10.12-00.05.17:268][778]LogViewport: Scene viewport resized to 965x1283, mode Windowed.
+[2022.10.12-00.05.17:308][780]LogViewport: Scene viewport resized to 1024x1283, mode Windowed.
+[2022.10.12-00.05.17:352][782]LogViewport: Scene viewport resized to 1221x1283, mode Windowed.
+[2022.10.12-00.05.17:397][784]LogViewport: Scene viewport resized to 1388x1283, mode Windowed.
+[2022.10.12-00.05.17:438][786]LogViewport: Scene viewport resized to 1547x1283, mode Windowed.
+[2022.10.12-00.05.17:483][788]LogViewport: Scene viewport resized to 1624x1283, mode Windowed.
+[2022.10.12-00.05.17:526][790]LogViewport: Scene viewport resized to 1661x1283, mode Windowed.
+[2022.10.12-00.05.17:668][798]LogViewport: Scene viewport resized to 1667x1283, mode Windowed.
+[2022.10.12-00.05.17:708][800]LogViewport: Scene viewport resized to 1656x1283, mode Windowed.
+[2022.10.12-00.05.17:751][802]LogViewport: Scene viewport resized to 1649x1283, mode Windowed.
+[2022.10.12-00.05.17:845][807]LogViewport: Scene viewport resized to 1642x1283, mode Windowed.
+[2022.10.12-00.05.17:891][809]LogViewport: Scene viewport resized to 1601x1283, mode Windowed.
+[2022.10.12-00.05.17:937][811]LogViewport: Scene viewport resized to 1559x1283, mode Windowed.
+[2022.10.12-00.05.17:980][813]LogViewport: Scene viewport resized to 1541x1283, mode Windowed.
+[2022.10.12-00.05.18:025][815]LogViewport: Scene viewport resized to 1495x1283, mode Windowed.
+[2022.10.12-00.05.18:070][817]LogViewport: Scene viewport resized to 1434x1283, mode Windowed.
+[2022.10.12-00.05.18:110][819]LogViewport: Scene viewport resized to 1420x1283, mode Windowed.
+[2022.10.12-00.05.18:221][825]LogViewport: Scene viewport resized to 1410x1283, mode Windowed.
+[2022.10.12-00.05.18:264][827]LogViewport: Scene viewport resized to 1393x1283, mode Windowed.
+[2022.10.12-00.05.18:307][829]LogViewport: Scene viewport resized to 1390x1283, mode Windowed.
+[2022.10.12-00.05.47:879][581]LogViewport: Scene viewport resized to 1376x871, mode Windowed.
+[2022.10.12-00.05.48:128][581]LogViewport: Scene viewport resized to 900x1030, mode Windowed.
+[2022.10.12-00.07.45:107][931]LogDerivedDataCache: C:/Users/emile/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.328 and deleted 0 file(s) with total size 0 MiB.
+[2022.10.12-00.08.52:158][134]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.10.12-00.09.01:290][673]LogLiveCoding: Display:    Creating library C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_7.lib and object C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_7.exp
+[2022.10.12-00.09.01:987][675]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2022.10.12-00.09.02:461][676]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2022.10.12-00.09.02:461][676]LogLiveCoding: Display: Live coding succeeded
+[2022.10.12-00.09.05:009][801]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-00.09.05:020][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-00.09.05:020][801]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 12:09:05 PM)
+[2022.10.12-00.09.05:020][801]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.09.05:027][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005863s)
+[2022.10.12-00.09.05:027][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.006041s)
+[2022.10.12-00.09.05:027][801]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-00.09.05:027][801]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-00.09.05:028][801]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-00.09.05:040][801]LogPlayLevel: PIE: World Init took: (0.013364s)
+[2022.10.12-00.09.05:156][801]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2022.10.12-00.09.05:166][801]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2022.10.12-00.09.05:167][801]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-00.09.05:167][801]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-00.09.05:167][801]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-00.09.05:167][801]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-00.09.05:167][801]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-00.09.05:167][801]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-00.09.05:167][801]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-00.09.05:167][801]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-00.09.05:167][801]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-00.09.05:167][801]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-00.09.05:167][801]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-00.09.05:174][801]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-00.09.05:192][801]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-00.09.05:193][801]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-00.09.05:194][801]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-00.09.05:194][801]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-00.09.05:195][801]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2022.10.12-00.09.05:195][801]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2022.10.12-00.09.05:199][801]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2022.10.12-00.09.05:199][801]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2022.10.12-00.09.05:199][801]LogInit: FAudioDevice initialized.
+[2022.10.12-00.09.05:199][801]LogAudio: Display: Audio Device (ID: 25) registered with world 'SkySunsetMap'.
+[2022.10.12-00.09.05:227][801]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-00.09.05:228][801]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.11-18.09.05
+[2022.10.12-00.09.05:229][801]LogWorld: Bringing up level for play took: 0.001477
+[2022.10.12-00.09.05:231][801]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2022.10.12-00.09.05:235][801]PIE: Server logged in
+[2022.10.12-00.09.05:236][801]PIE: Play in editor total start time 0.216 seconds.
+[2022.10.12-00.09.15:354][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.09.15:355][396]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.09.15:355][396]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-00.09.15:355][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.09.15:376][396]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-00.09.15:383][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.09.15:425][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.09.15:425][396]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.10.12-00.09.15:427][396]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.10.12-00.09.15:435][396]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2022.10.12-00.09.15:466][397]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2022.10.12-00.09.19:418][469]LogViewport: Scene viewport resized to 1376x871, mode Windowed.
+[2022.10.12-00.09.20:072][469]LogViewport: Scene viewport resized to 900x1030, mode Windowed.
+[2022.10.12-00.09.53:580][703]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.10.12-00.09.56:248][853]LogLiveCoding: Display:    Creating library C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_8.lib and object C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_8.exp
+[2022.10.12-00.09.56:461][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2022.10.12-00.09.56:792][856]Display: Reload/Re-instancing Complete: No object changes detected
+[2022.10.12-00.09.56:793][856]LogLiveCoding: Display: Live coding succeeded
+[2022.10.12-00.10.02:835][115]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-00.10.02:843][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-00.10.02:843][115]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 12:10:02 PM)
+[2022.10.12-00.10.02:843][115]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.10.02:847][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004212s)
+[2022.10.12-00.10.02:847][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.004293s)
+[2022.10.12-00.10.02:847][115]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-00.10.02:847][115]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-00.10.02:848][115]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-00.10.02:856][115]LogPlayLevel: PIE: World Init took: (0.009357s)
+[2022.10.12-00.10.02:954][115]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2022.10.12-00.10.02:962][115]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2022.10.12-00.10.02:963][115]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-00.10.02:963][115]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-00.10.02:963][115]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-00.10.02:963][115]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-00.10.02:963][115]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-00.10.02:963][115]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-00.10.02:963][115]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-00.10.02:963][115]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-00.10.02:963][115]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-00.10.02:963][115]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-00.10.02:963][115]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-00.10.02:966][115]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-00.10.02:982][115]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-00.10.02:983][115]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-00.10.02:983][115]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-00.10.02:983][115]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-00.10.02:984][115]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2022.10.12-00.10.02:984][115]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2022.10.12-00.10.02:986][115]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2022.10.12-00.10.02:986][115]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2022.10.12-00.10.02:986][115]LogInit: FAudioDevice initialized.
+[2022.10.12-00.10.02:986][115]LogAudio: Display: Audio Device (ID: 26) registered with world 'SkySunsetMap'.
+[2022.10.12-00.10.03:000][115]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-00.10.03:002][115]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.11-18.10.03
+[2022.10.12-00.10.03:002][115]LogWorld: Bringing up level for play took: 0.001391
+[2022.10.12-00.10.03:004][115]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2022.10.12-00.10.03:007][115]PIE: Server logged in
+[2022.10.12-00.10.03:007][115]PIE: Play in editor total start time 0.165 seconds.
+[2022.10.12-00.10.11:967][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.10.11:967][643]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.10.11:967][643]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-00.10.11:968][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.10.11:979][643]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-00.10.11:987][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.10.12:027][643]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.12-00.10.12:028][643]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2022.10.12-00.10.12:030][643]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2022.10.12-00.10.12:033][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.10.12:071][643]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2022.10.12-00.10.12:111][644]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2022.10.12-00.10.56:082][789]LogViewport: Scene viewport resized to 683x1274, mode Windowed.
+[2022.10.12-00.11.03:728][116]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-00.11.03:728][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.20.24:712][887]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.10.12-00.20.28:694][126]LogLiveCoding: Display:    Creating library C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_9.lib and object C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_9.exp
+[2022.10.12-00.20.28:881][127]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2022.10.12-00.20.29:178][128]Display: Reload/Re-instancing Complete: No object changes detected
+[2022.10.12-00.20.29:178][128]LogLiveCoding: Display: Live coding succeeded
+[2022.10.12-00.20.32:531][302]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-00.20.32:537][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-00.20.32:537][302]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 12:20:32 PM)
+[2022.10.12-00.20.32:537][302]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.20.32:541][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003748s)
+[2022.10.12-00.20.32:541][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.003833s)
+[2022.10.12-00.20.32:541][302]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-00.20.32:541][302]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-00.20.32:542][302]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-00.20.32:550][302]LogPlayLevel: PIE: World Init took: (0.008571s)
+[2022.10.12-00.20.32:646][302]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2022.10.12-00.20.32:652][302]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2022.10.12-00.20.32:652][302]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-00.20.32:653][302]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-00.20.32:653][302]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-00.20.32:653][302]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-00.20.32:653][302]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-00.20.32:653][302]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-00.20.32:653][302]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-00.20.32:653][302]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-00.20.32:653][302]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-00.20.32:653][302]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-00.20.32:653][302]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-00.20.32:655][302]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-00.20.32:671][302]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-00.20.32:671][302]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-00.20.32:671][302]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-00.20.32:671][302]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-00.20.32:672][302]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2022.10.12-00.20.32:672][302]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2022.10.12-00.20.32:674][302]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2022.10.12-00.20.32:674][302]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2022.10.12-00.20.32:674][302]LogInit: FAudioDevice initialized.
+[2022.10.12-00.20.32:674][302]LogAudio: Display: Audio Device (ID: 27) registered with world 'SkySunsetMap'.
+[2022.10.12-00.20.32:688][302]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-00.20.32:689][302]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.11-18.20.32
+[2022.10.12-00.20.32:689][302]LogWorld: Bringing up level for play took: 0.001198
+[2022.10.12-00.20.32:691][302]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2022.10.12-00.20.32:694][302]PIE: Server logged in
+[2022.10.12-00.20.32:695][302]PIE: Play in editor total start time 0.157 seconds.
+[2022.10.12-00.20.51:086][395]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.20.51:086][395]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.20.51:086][395]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-00.20.51:087][395]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.20.51:099][395]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-00.20.51:107][395]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.20.51:150][395]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.20.51:154][395]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2022.10.12-00.20.51:156][395]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2022.10.12-00.20.51:208][395]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2022.10.12-00.20.51:241][396]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2022.10.12-00.22.52:066][991]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.10.12-00.22.54:647][146]LogLiveCoding: Display:    Creating library C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_10.lib and object C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_10.exp
+[2022.10.12-00.22.54:827][147]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.10.12-00.22.55:115][148]Display: Reload/Re-instancing Complete: No object changes detected
+[2022.10.12-00.22.55:115][148]LogLiveCoding: Display: Live coding succeeded
+[2022.10.12-00.22.57:384][257]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-00.22.57:390][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-00.22.57:390][257]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 12:22:57 PM)
+[2022.10.12-00.22.57:411][257]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.22.57:415][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003869s)
+[2022.10.12-00.22.57:415][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.003987s)
+[2022.10.12-00.22.57:415][257]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-00.22.57:416][257]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-00.22.57:416][257]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-00.22.57:425][257]LogPlayLevel: PIE: World Init took: (0.008918s)
+[2022.10.12-00.22.57:515][257]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.10.12-00.22.57:523][257]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2022.10.12-00.22.57:523][257]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-00.22.57:523][257]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-00.22.57:523][257]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-00.22.57:523][257]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-00.22.57:523][257]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-00.22.57:523][257]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-00.22.57:523][257]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-00.22.57:523][257]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-00.22.57:523][257]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-00.22.57:523][257]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-00.22.57:523][257]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-00.22.57:526][257]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-00.22.57:541][257]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-00.22.57:541][257]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-00.22.57:541][257]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-00.22.57:541][257]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-00.22.57:542][257]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2022.10.12-00.22.57:542][257]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2022.10.12-00.22.57:543][257]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2022.10.12-00.22.57:543][257]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2022.10.12-00.22.57:543][257]LogInit: FAudioDevice initialized.
+[2022.10.12-00.22.57:543][257]LogAudio: Display: Audio Device (ID: 28) registered with world 'SkySunsetMap'.
+[2022.10.12-00.22.57:553][257]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-00.22.57:554][257]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.11-18.22.57
+[2022.10.12-00.22.57:554][257]LogWorld: Bringing up level for play took: 0.001191
+[2022.10.12-00.22.57:556][257]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2022.10.12-00.22.57:559][257]PIE: Server logged in
+[2022.10.12-00.22.57:559][257]PIE: Play in editor total start time 0.169 seconds.
+[2022.10.12-00.23.03:582][612]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.23.03:582][612]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-00.23.03:582][612]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-00.23.03:582][612]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.23.03:596][612]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-00.23.03:605][612]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-00.23.03:645][612]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-00.23.03:655][612]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2022.10.12-00.23.03:658][612]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2022.10.12-00.23.03:700][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2022.10.12-00.23.03:744][613]LogPlayLevel: Display: Destroying online subsystem :Context_56

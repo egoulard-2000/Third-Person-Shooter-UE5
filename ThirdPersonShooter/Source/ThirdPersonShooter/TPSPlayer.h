@@ -36,6 +36,8 @@ private:
 	void VerticalLook(float value);
 	void CheckJump();
 
+	void Shoot();
+
 	UPROPERTY()
 		bool jumping;
 

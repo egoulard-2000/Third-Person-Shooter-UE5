@@ -15,6 +15,8 @@ public:
 	// Sets default values for this actor's properties
 	AGunWeapon();
 
+	void Shoot();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -25,10 +27,14 @@ public:
 
 private:
 
+	// Setup Blueprint Components pertaining to our guns
 	UPROPERTY(VisibleAnywhere)
 		USceneComponent* Root;
 
 	UPROPERTY(VisibleAnywhere)
 		USkeletalMeshComponent* Mesh;
+
+	UPROPERTY(EditAnywhere)
+		UParticleSystem* ParticleEffect;
 
 };
