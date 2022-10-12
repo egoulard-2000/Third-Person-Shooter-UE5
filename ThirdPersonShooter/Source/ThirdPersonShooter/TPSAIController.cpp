@@ -4,12 +4,27 @@
 #include "Kismet/GameplayStatics.h"
 #include "TPSAIController.h"
 
-
 void ATPSAIController::BeginPlay()
 {
 	Super::BeginPlay();
 
-	APawn* player = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
+	player = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
 
-	SetFocus(player);
+}
+
+void ATPSAIController::Tick(float DeltaSeconds)
+{
+	Super::Tick(DeltaSeconds);
+
+	// Determine the Enemy AI's sight of player around objects
+	if (LineOfSightTo(player))
+	{
+		SetFocus(player);
+		MoveToActor(player, enemyDistance);
+	}
+	else
+	{
+		ClearFocus(EAIFocusPriority::Gameplay);
+		StopMovement();
+	}
 }

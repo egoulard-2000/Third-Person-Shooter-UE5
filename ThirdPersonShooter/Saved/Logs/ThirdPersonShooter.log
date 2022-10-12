@@ -1385,3 +1385,905 @@ Make sure 'TPSPlayer' has been compiled for  Is Killed
 [2022.10.12-06.34.15:114][313]LogPlayLevel: Display: Destroying online subsystem :Context_21
 [2022.10.12-06.34.15:125][313]LogViewport: Scene viewport resized to 455x621, mode Windowed.
 [2022.10.12-06.34.15:180][313]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.10.12-06.36.19:045][953]LogViewport: Scene viewport resized to 963x1312, mode Windowed.
+[2022.10.12-06.36.19:105][953]LogViewport: Scene viewport resized to 979x1312, mode Windowed.
+[2022.10.12-06.36.19:123][953]LogViewport: Scene viewport resized to 456x621, mode Windowed.
+[2022.10.12-06.36.19:197][953]LogViewport: Scene viewport resized to 989x1312, mode Windowed.
+[2022.10.12-06.36.19:214][953]LogViewport: Scene viewport resized to 463x621, mode Windowed.
+[2022.10.12-06.36.19:282][953]LogViewport: Scene viewport resized to 1000x1312, mode Windowed.
+[2022.10.12-06.36.19:301][953]LogViewport: Scene viewport resized to 468x621, mode Windowed.
+[2022.10.12-06.36.19:373][953]LogViewport: Scene viewport resized to 1012x1312, mode Windowed.
+[2022.10.12-06.36.19:391][953]LogViewport: Scene viewport resized to 473x621, mode Windowed.
+[2022.10.12-06.36.19:458][953]LogViewport: Scene viewport resized to 1016x1312, mode Windowed.
+[2022.10.12-06.36.19:477][953]LogViewport: Scene viewport resized to 479x621, mode Windowed.
+[2022.10.12-06.36.19:543][953]LogViewport: Scene viewport resized to 1021x1312, mode Windowed.
+[2022.10.12-06.36.19:559][953]LogViewport: Scene viewport resized to 481x621, mode Windowed.
+[2022.10.12-06.36.19:626][953]LogViewport: Scene viewport resized to 1031x1312, mode Windowed.
+[2022.10.12-06.36.19:646][953]LogViewport: Scene viewport resized to 483x621, mode Windowed.
+[2022.10.12-06.36.19:711][953]LogViewport: Scene viewport resized to 1032x1312, mode Windowed.
+[2022.10.12-06.36.19:723][953]LogViewport: Scene viewport resized to 488x621, mode Windowed.
+[2022.10.12-06.36.54:885][441]LogViewport: Scene viewport resized to 1003x1312, mode Windowed.
+[2022.10.12-06.36.54:988][441]LogViewport: Scene viewport resized to 475x621, mode Windowed.
+[2022.10.12-06.37.20:375][517]LogViewport: Scene viewport resized to 943x1312, mode Windowed.
+[2022.10.12-06.37.20:547][517]LogViewport: Scene viewport resized to 446x621, mode Windowed.
+[2022.10.12-06.37.42:336][208]LogViewport: Scene viewport resized to 720x1312, mode Windowed.
+[2022.10.12-06.37.42:468][209]LogViewport: Scene viewport resized to 341x621, mode Windowed.
+[2022.10.12-06.37.44:212][301]LogViewport: Scene viewport resized to 714x1312, mode Windowed.
+[2022.10.12-06.37.44:247][302]LogViewport: Scene viewport resized to 338x621, mode Windowed.
+[2022.10.12-06.37.44:304][303]LogViewport: Scene viewport resized to 557x1312, mode Windowed.
+[2022.10.12-06.37.44:345][304]LogViewport: Scene viewport resized to 264x621, mode Windowed.
+[2022.10.12-06.37.44:398][305]LogViewport: Scene viewport resized to 492x1312, mode Windowed.
+[2022.10.12-06.37.44:442][306]LogViewport: Scene viewport resized to 233x621, mode Windowed.
+[2022.10.12-06.37.44:762][324]LogViewport: Scene viewport resized to 489x1312, mode Windowed.
+[2022.10.12-06.37.44:794][325]LogViewport: Scene viewport resized to 231x621, mode Windowed.
+[2022.10.12-06.37.44:831][326]LogViewport: Scene viewport resized to 492x1312, mode Windowed.
+[2022.10.12-06.37.44:867][327]LogViewport: Scene viewport resized to 233x621, mode Windowed.
+[2022.10.12-06.37.44:900][328]LogViewport: Scene viewport resized to 497x1312, mode Windowed.
+[2022.10.12-06.37.44:932][329]LogViewport: Scene viewport resized to 235x621, mode Windowed.
+[2022.10.12-06.37.44:964][330]LogViewport: Scene viewport resized to 501x1312, mode Windowed.
+[2022.10.12-06.37.44:998][331]LogViewport: Scene viewport resized to 237x621, mode Windowed.
+[2022.10.12-06.37.45:063][334]LogViewport: Scene viewport resized to 503x1312, mode Windowed.
+[2022.10.12-06.37.45:094][335]LogViewport: Scene viewport resized to 238x621, mode Windowed.
+[2022.10.12-06.37.45:127][336]LogViewport: Scene viewport resized to 505x1312, mode Windowed.
+[2022.10.12-06.37.45:164][337]LogViewport: Scene viewport resized to 239x621, mode Windowed.
+[2022.10.12-06.38.16:280][848]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2022.10.12-06.38.16:280][848]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2022.10.12-06.38.16:281][848]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/Polar/Maps/SkySunsetMap.SkySunsetMap:PersistentLevel.NavMeshBoundsVolume_0
+[2022.10.12-06.38.16:287][848]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/Polar/Maps/SkySunsetMap.SkySunsetMap:PersistentLevel.NavMeshBoundsVolume_0
+[2022.10.12-06.38.16:327][850]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.38.17:168][893]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2022.10.12-06.38.17:168][893]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2022.10.12-06.38.17:169][893]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/Polar/Maps/SkySunsetMap.SkySunsetMap:PersistentLevel.NavMeshBoundsVolume_1
+[2022.10.12-06.38.17:171][893]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/Polar/Maps/SkySunsetMap.SkySunsetMap:PersistentLevel.NavMeshBoundsVolume_1
+[2022.10.12-06.38.17:242][894]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.38.24:743][334]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.38.26:057][412]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.38.31:043][707]LogViewport: Scene viewport resized to 526x1312, mode Windowed.
+[2022.10.12-06.38.31:084][709]LogViewport: Scene viewport resized to 576x1312, mode Windowed.
+[2022.10.12-06.38.31:133][711]LogViewport: Scene viewport resized to 605x1312, mode Windowed.
+[2022.10.12-06.38.31:172][713]LogViewport: Scene viewport resized to 618x1312, mode Windowed.
+[2022.10.12-06.38.31:212][715]LogViewport: Scene viewport resized to 651x1312, mode Windowed.
+[2022.10.12-06.38.31:256][717]LogViewport: Scene viewport resized to 666x1312, mode Windowed.
+[2022.10.12-06.38.31:298][719]LogViewport: Scene viewport resized to 671x1312, mode Windowed.
+[2022.10.12-06.38.31:337][721]LogViewport: Scene viewport resized to 690x1312, mode Windowed.
+[2022.10.12-06.38.31:375][723]LogViewport: Scene viewport resized to 740x1312, mode Windowed.
+[2022.10.12-06.38.31:420][725]LogViewport: Scene viewport resized to 799x1312, mode Windowed.
+[2022.10.12-06.38.31:463][727]LogViewport: Scene viewport resized to 808x1312, mode Windowed.
+[2022.10.12-06.38.31:752][744]LogViewport: Scene viewport resized to 804x1312, mode Windowed.
+[2022.10.12-06.38.31:793][746]LogViewport: Scene viewport resized to 780x1312, mode Windowed.
+[2022.10.12-06.38.31:835][748]LogViewport: Scene viewport resized to 745x1312, mode Windowed.
+[2022.10.12-06.38.31:874][750]LogViewport: Scene viewport resized to 714x1312, mode Windowed.
+[2022.10.12-06.38.31:914][752]LogViewport: Scene viewport resized to 693x1312, mode Windowed.
+[2022.10.12-06.38.31:956][754]LogViewport: Scene viewport resized to 684x1312, mode Windowed.
+[2022.10.12-06.38.31:998][756]LogViewport: Scene viewport resized to 656x1312, mode Windowed.
+[2022.10.12-06.38.32:038][758]LogViewport: Scene viewport resized to 650x1312, mode Windowed.
+[2022.10.12-06.38.45:306][546]LogViewport: Scene viewport resized to 943x1312, mode Windowed.
+[2022.10.12-06.38.50:596][856]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.38.51:868][931]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.39.08:921][950]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.39.12:397][149]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.39.15:123][303]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2022.10.12-06.39.15:146][303]LogSavePackage: Moving output files for package: /Game/Polar/Maps/SkySunsetMap
+[2022.10.12-06.39.15:147][303]LogSavePackage: Moving '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Saved/SkySunsetMap6C5C388E409A85A618E100AD96E67E0D.tmp' to '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Content/Polar/Maps/SkySunsetMap.umap'
+[2022.10.12-06.39.15:156][303]LogFileHelpers: No new changes to save!
+[2022.10.12-06.39.15:179][303]AssetCheck: New page: Asset Save: SkySunsetMap
+[2022.10.12-06.39.15:179][303]LogContentValidation: Display: Validating World /Game/Polar/Maps/SkySunsetMap.SkySunsetMap
+[2022.10.12-06.39.29:141][140]LogViewport: Scene viewport resized to 931x1312, mode Windowed.
+[2022.10.12-06.39.29:188][142]LogViewport: Scene viewport resized to 846x1312, mode Windowed.
+[2022.10.12-06.39.29:232][144]LogViewport: Scene viewport resized to 736x1312, mode Windowed.
+[2022.10.12-06.39.29:279][146]LogViewport: Scene viewport resized to 693x1312, mode Windowed.
+[2022.10.12-06.39.29:321][148]LogViewport: Scene viewport resized to 690x1312, mode Windowed.
+[2022.10.12-06.39.29:395][152]LogViewport: Scene viewport resized to 686x1312, mode Windowed.
+[2022.10.12-06.39.29:435][154]LogViewport: Scene viewport resized to 679x1312, mode Windowed.
+[2022.10.12-06.39.29:545][160]LogViewport: Scene viewport resized to 674x1312, mode Windowed.
+[2022.10.12-06.39.29:586][162]LogViewport: Scene viewport resized to 667x1312, mode Windowed.
+[2022.10.12-06.39.37:745][427]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.39.38:544][470]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.39.38:577][472]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.39.38:627][475]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.39.41:578][652]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.39.43:945][794]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.39.48:858][ 86]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.40.00:298][470]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.40.04:766][729]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.40.10:831][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.10.12-06.40.10:848][ 88]LogSavePackage: Moving output files for package: /Game/Polar/Maps/SkySunsetMap
+[2022.10.12-06.40.10:848][ 88]LogSavePackage: Moving '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Saved/SkySunsetMapBCDD58D84E95AE1F3F8CEA8B00B7AC5E.tmp' to '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Content/Polar/Maps/SkySunsetMap.umap'
+[2022.10.12-06.40.10:858][ 88]LogFileHelpers: No new changes to save!
+[2022.10.12-06.40.10:884][ 88]AssetCheck: New page: Asset Save: SkySunsetMap
+[2022.10.12-06.40.10:884][ 88]LogContentValidation: Display: Validating World /Game/Polar/Maps/SkySunsetMap.SkySunsetMap
+[2022.10.12-06.40.24:986][926]LogViewport: Scene viewport resized to 668x1312, mode Windowed.
+[2022.10.12-06.40.25:035][926]LogViewport: Scene viewport resized to 724x1312, mode Windowed.
+[2022.10.12-06.40.25:089][926]LogViewport: Scene viewport resized to 770x1312, mode Windowed.
+[2022.10.12-06.40.25:137][926]LogViewport: Scene viewport resized to 771x1312, mode Windowed.
+[2022.10.12-06.40.25:482][926]LogViewport: Scene viewport resized to 770x1312, mode Windowed.
+[2022.10.12-06.40.25:537][926]LogViewport: Scene viewport resized to 765x1312, mode Windowed.
+[2022.10.12-06.40.25:585][926]LogViewport: Scene viewport resized to 760x1312, mode Windowed.
+[2022.10.12-06.40.25:643][926]LogViewport: Scene viewport resized to 758x1312, mode Windowed.
+[2022.10.12-06.40.29:572][153]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.10.12-06.40.29:573][153]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-06.40.29:573][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-06.40.36:763][566]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemies/BP_AIController.BP_AIController
+[2022.10.12-06.40.36:763][566]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-06.40.42:122][779]LogSlate: Window 'BP_AIController' being destroyed
+[2022.10.12-06.40.42:133][779]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-06.40.42:133][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-06.40.42:191][779]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemies/BP_AIController.BP_AIController
+[2022.10.12-06.40.42:192][779]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-06.40.44:237][872]LogSlate: Window 'BP_AIController' being destroyed
+[2022.10.12-06.42.06:600][480]LogViewport: Scene viewport resized to 706x1312, mode Windowed.
+[2022.10.12-06.42.09:278][630]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.44.22:237][209]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.10.12-06.44.26:772][480]LogLiveCoding: Display:    Creating library C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_3.lib and object C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_3.exp
+[2022.10.12-06.44.27:093][482]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.10.12-06.44.27:444][483]Display: Reload/Re-instancing Complete: 1 class unchanged
+[2022.10.12-06.44.27:444][483]LogLiveCoding: Display: Live coding succeeded
+[2022.10.12-06.44.28:931][545]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-06.44.28:937][545]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-06.44.28:937][545]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 6:44:28 PM)
+[2022.10.12-06.44.28:975][545]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-06.44.28:980][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004527s)
+[2022.10.12-06.44.28:980][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.004652s)
+[2022.10.12-06.44.28:980][545]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-06.44.28:980][545]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-06.44.28:980][545]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-06.44.28:989][545]LogPlayLevel: PIE: World Init took: (0.008375s)
+[2022.10.12-06.44.29:094][545]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2022.10.12-06.44.29:098][545]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.10.12-06.44.29:099][545]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-06.44.29:099][545]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-06.44.29:099][545]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-06.44.29:099][545]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-06.44.29:099][545]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-06.44.29:099][545]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-06.44.29:099][545]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-06.44.29:099][545]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-06.44.29:099][545]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-06.44.29:099][545]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-06.44.29:099][545]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-06.44.29:101][545]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-06.44.29:117][545]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-06.44.29:117][545]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-06.44.29:117][545]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-06.44.29:117][545]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-06.44.29:119][545]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2022.10.12-06.44.29:119][545]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2022.10.12-06.44.29:122][545]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2022.10.12-06.44.29:122][545]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2022.10.12-06.44.29:122][545]LogInit: FAudioDevice initialized.
+[2022.10.12-06.44.29:122][545]LogAudio: Display: Audio Device (ID: 10) registered with world 'SkySunsetMap'.
+[2022.10.12-06.44.29:138][545]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-06.44.29:141][545]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.12-00.44.29
+[2022.10.12-06.44.29:142][545]LogWorld: Bringing up level for play took: 0.003207
+[2022.10.12-06.44.29:145][545]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2022.10.12-06.44.29:150][545]PIE: Server logged in
+[2022.10.12-06.44.29:151][545]PIE: Play in editor total start time 0.214 seconds.
+[2022.10.12-06.44.41:386][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-06.44.41:386][271]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-06.44.41:387][271]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-06.44.41:387][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-06.44.41:402][271]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-06.44.41:409][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-06.44.41:437][271]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.12-06.44.41:437][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.10.12-06.44.41:439][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.10.12-06.44.41:442][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-06.44.41:445][271]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.10.12-06.44.41:484][272]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2022.10.12-06.44.45:255][491]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-06.44.45:262][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-06.44.45:262][491]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 6:44:45 PM)
+[2022.10.12-06.44.45:262][491]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-06.44.45:266][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004668s)
+[2022.10.12-06.44.45:266][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.004756s)
+[2022.10.12-06.44.45:266][491]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-06.44.45:266][491]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-06.44.45:266][491]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-06.44.45:274][491]LogPlayLevel: PIE: World Init took: (0.008586s)
+[2022.10.12-06.44.45:305][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2022.10.12-06.44.45:309][491]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.10.12-06.44.45:309][491]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-06.44.45:309][491]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-06.44.45:309][491]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-06.44.45:309][491]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-06.44.45:309][491]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-06.44.45:309][491]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-06.44.45:309][491]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-06.44.45:309][491]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-06.44.45:309][491]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-06.44.45:309][491]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-06.44.45:309][491]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-06.44.45:312][491]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-06.44.45:326][491]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-06.44.45:327][491]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-06.44.45:327][491]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-06.44.45:327][491]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-06.44.45:328][491]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2022.10.12-06.44.45:328][491]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2022.10.12-06.44.45:329][491]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2022.10.12-06.44.45:329][491]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2022.10.12-06.44.45:329][491]LogInit: FAudioDevice initialized.
+[2022.10.12-06.44.45:329][491]LogAudio: Display: Audio Device (ID: 11) registered with world 'SkySunsetMap'.
+[2022.10.12-06.44.45:341][491]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-06.44.45:343][491]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.12-00.44.45
+[2022.10.12-06.44.45:344][491]LogWorld: Bringing up level for play took: 0.002760
+[2022.10.12-06.44.45:346][491]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2022.10.12-06.44.45:348][491]PIE: Server logged in
+[2022.10.12-06.44.45:349][491]PIE: Play in editor total start time 0.088 seconds.
+[2022.10.12-06.44.49:403][727]LogTemp: Warning: Current Health: 80.000000
+[2022.10.12-06.44.50:069][767]LogTemp: Warning: Current Health: 60.000000
+[2022.10.12-06.44.50:452][790]LogTemp: Warning: Current Health: 40.000000
+[2022.10.12-06.44.50:787][810]LogTemp: Warning: Current Health: 20.000000
+[2022.10.12-06.44.51:106][829]LogTemp: Warning: Current Health: 0.000000
+[2022.10.12-06.44.51:385][846]LogTemp: Warning: Current Health: 0.000000
+[2022.10.12-06.44.52:007][881]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-06.44.52:007][881]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-06.44.52:008][881]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-06.44.52:008][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-06.44.52:018][881]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-06.44.52:024][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-06.44.52:056][881]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.12-06.44.52:057][881]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.10.12-06.44.52:058][881]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.10.12-06.44.52:061][881]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-06.44.52:064][881]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2022.10.12-06.44.52:108][882]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2022.10.12-06.45.06:293][301]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.10.12-06.45.10:087][413]LogLiveCoding: Display:    Creating library C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_4.lib and object C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_4.exp
+[2022.10.12-06.45.10:561][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.10.12-06.45.11:053][415]Display: Reload/Re-instancing Complete: No object changes detected
+[2022.10.12-06.45.11:053][415]LogLiveCoding: Display: Live coding succeeded
+[2022.10.12-06.45.12:994][521]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-06.45.13:002][521]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-06.45.13:002][521]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 6:45:13 PM)
+[2022.10.12-06.45.13:002][521]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-06.45.13:007][521]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005273s)
+[2022.10.12-06.45.13:007][521]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.005364s)
+[2022.10.12-06.45.13:007][521]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-06.45.13:007][521]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-06.45.13:007][521]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-06.45.13:016][521]LogPlayLevel: PIE: World Init took: (0.009276s)
+[2022.10.12-06.45.13:114][521]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2022.10.12-06.45.13:117][521]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.10.12-06.45.13:117][521]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-06.45.13:117][521]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-06.45.13:117][521]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-06.45.13:117][521]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-06.45.13:117][521]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-06.45.13:117][521]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-06.45.13:117][521]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-06.45.13:117][521]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-06.45.13:117][521]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-06.45.13:117][521]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-06.45.13:117][521]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-06.45.13:119][521]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-06.45.13:136][521]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-06.45.13:136][521]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-06.45.13:136][521]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-06.45.13:136][521]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-06.45.13:137][521]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2022.10.12-06.45.13:137][521]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2022.10.12-06.45.13:139][521]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2022.10.12-06.45.13:139][521]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2022.10.12-06.45.13:139][521]LogInit: FAudioDevice initialized.
+[2022.10.12-06.45.13:139][521]LogAudio: Display: Audio Device (ID: 12) registered with world 'SkySunsetMap'.
+[2022.10.12-06.45.13:148][521]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-06.45.13:150][521]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.12-00.45.13
+[2022.10.12-06.45.13:151][521]LogWorld: Bringing up level for play took: 0.002325
+[2022.10.12-06.45.13:153][521]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2022.10.12-06.45.13:157][521]PIE: Server logged in
+[2022.10.12-06.45.13:157][521]PIE: Play in editor total start time 0.156 seconds.
+[2022.10.12-06.45.17:988][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-06.45.17:988][804]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-06.45.17:988][804]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-06.45.17:989][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-06.45.18:009][804]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-06.45.18:016][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-06.45.18:054][804]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.12-06.45.18:054][804]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2022.10.12-06.45.18:056][804]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2022.10.12-06.45.18:062][804]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-06.45.18:122][804]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2022.10.12-06.45.18:189][805]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2022.10.12-06.50.35:168][807]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2022.10.12-06.50.35:189][807]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Polar/Maps/SkySunsetMap_Auto1
+[2022.10.12-06.50.35:190][807]LogSavePackage: Moving '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Saved/SkySunsetMap_Auto13C7BFD1C49C98C029B35EEBA0600CB2D.tmp' to '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Saved/Autosaves/Game/Polar/Maps/SkySunsetMap_Auto1.umap'
+[2022.10.12-06.50.35:196][807]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Polar/Maps/SkySunsetMap' took 0.065
+[2022.10.12-06.50.35:196][807]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.065
+[2022.10.12-06.51.51:152][ 35]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.10.12-06.52.02:489][444]LogLiveCoding: Display:    Creating library C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_5.lib and object C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_5.exp
+[2022.10.12-06.52.02:557][444]LogClass: /Script/ThirdPersonShooter Reload.
+[2022.10.12-06.52.02:557][444]LogClass: TPSAIController Reload.
+[2022.10.12-06.52.02:558][444]LogClass: Could not find existing class TPSAIController in package /Script/ThirdPersonShooter for reload, assuming new or modified class
+[2022.10.12-06.52.02:570][444]Re-instancing TPSAIController after reload.
+[2022.10.12-06.52.02:686][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2022.10.12-06.52.03:112][445]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2022.10.12-06.52.03:112][445]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2022.10.12-06.52.08:642][581]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-06.52.08:651][581]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-06.52.08:651][581]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 6:52:08 PM)
+[2022.10.12-06.52.08:651][581]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-06.52.08:657][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005956s)
+[2022.10.12-06.52.08:657][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.006046s)
+[2022.10.12-06.52.08:657][581]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-06.52.08:657][581]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-06.52.08:657][581]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-06.52.08:666][581]LogPlayLevel: PIE: World Init took: (0.008937s)
+[2022.10.12-06.52.08:770][581]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2022.10.12-06.52.08:774][581]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.10.12-06.52.08:774][581]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-06.52.08:774][581]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-06.52.08:774][581]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-06.52.08:774][581]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-06.52.08:774][581]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-06.52.08:774][581]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-06.52.08:774][581]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-06.52.08:774][581]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-06.52.08:774][581]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-06.52.08:774][581]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-06.52.08:774][581]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-06.52.08:777][581]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-06.52.08:793][581]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-06.52.08:793][581]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-06.52.08:793][581]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-06.52.08:793][581]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-06.52.08:794][581]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2022.10.12-06.52.08:794][581]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2022.10.12-06.52.08:797][581]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2022.10.12-06.52.08:797][581]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2022.10.12-06.52.08:797][581]LogInit: FAudioDevice initialized.
+[2022.10.12-06.52.08:797][581]LogAudio: Display: Audio Device (ID: 13) registered with world 'SkySunsetMap'.
+[2022.10.12-06.52.08:810][581]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-06.52.08:812][581]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.12-00.52.08
+[2022.10.12-06.52.08:813][581]LogWorld: Bringing up level for play took: 0.002875
+[2022.10.12-06.52.08:815][581]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2022.10.12-06.52.08:818][581]PIE: Server logged in
+[2022.10.12-06.52.08:819][581]PIE: Play in editor total start time 0.169 seconds.
+[2022.10.12-06.52.18:348][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-06.52.18:348][143]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-06.52.18:348][143]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-06.52.18:348][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-06.52.18:360][143]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-06.52.18:366][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-06.52.18:399][143]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.12-06.52.18:399][143]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2022.10.12-06.52.18:401][143]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2022.10.12-06.52.18:405][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-06.52.18:458][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2022.10.12-06.52.18:525][144]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.10.12-06.52.31:094][871]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.52.31:228][879]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.52.31:528][897]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.52.31:962][923]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.52.32:012][926]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.52.32:128][933]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.52.33:830][ 35]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.52.34:822][ 83]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.52.35:077][ 98]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.52.37:378][225]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.52.37:549][235]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.52.40:675][416]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2022.10.12-06.52.40:697][416]LogSavePackage: Moving output files for package: /Game/Polar/Maps/SkySunsetMap
+[2022.10.12-06.52.40:698][416]LogSavePackage: Moving '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Saved/SkySunsetMap8301C08E465410AB9267DD8D1D7E3BA6.tmp' to '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Content/Polar/Maps/SkySunsetMap.umap'
+[2022.10.12-06.52.40:708][416]LogFileHelpers: No new changes to save!
+[2022.10.12-06.52.40:730][416]AssetCheck: New page: Asset Save: SkySunsetMap
+[2022.10.12-06.52.40:730][416]LogContentValidation: Display: Validating World /Game/Polar/Maps/SkySunsetMap.SkySunsetMap
+[2022.10.12-06.52.43:984][607]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.52.47:135][796]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.52.51:404][ 52]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.52.52:479][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.10.12-06.52.52:494][112]LogSavePackage: Moving output files for package: /Game/Polar/Maps/SkySunsetMap
+[2022.10.12-06.52.52:495][112]LogSavePackage: Moving '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Saved/SkySunsetMap12BFF7834A12D6E123B9D2B7E597245E.tmp' to '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Content/Polar/Maps/SkySunsetMap.umap'
+[2022.10.12-06.52.52:504][112]LogFileHelpers: No new changes to save!
+[2022.10.12-06.52.52:520][112]AssetCheck: New page: Asset Save: SkySunsetMap
+[2022.10.12-06.52.52:520][112]LogContentValidation: Display: Validating World /Game/Polar/Maps/SkySunsetMap.SkySunsetMap
+[2022.10.12-06.52.53:798][188]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-06.52.53:804][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-06.52.53:805][188]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 6:52:53 PM)
+[2022.10.12-06.52.53:805][188]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-06.52.53:811][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005731s)
+[2022.10.12-06.52.53:811][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.005823s)
+[2022.10.12-06.52.53:811][188]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-06.52.53:811][188]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-06.52.53:811][188]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-06.52.53:819][188]LogPlayLevel: PIE: World Init took: (0.008367s)
+[2022.10.12-06.52.53:852][188]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2022.10.12-06.52.53:853][188]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.10.12-06.52.53:853][188]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-06.52.53:853][188]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-06.52.53:853][188]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-06.52.53:853][188]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-06.52.53:853][188]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-06.52.53:853][188]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-06.52.53:853][188]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-06.52.53:853][188]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-06.52.53:854][188]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-06.52.53:854][188]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-06.52.53:854][188]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-06.52.53:856][188]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-06.52.53:872][188]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-06.52.53:872][188]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-06.52.53:873][188]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-06.52.53:873][188]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-06.52.53:873][188]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2022.10.12-06.52.53:873][188]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2022.10.12-06.52.53:875][188]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2022.10.12-06.52.53:875][188]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2022.10.12-06.52.53:875][188]LogInit: FAudioDevice initialized.
+[2022.10.12-06.52.53:875][188]LogAudio: Display: Audio Device (ID: 14) registered with world 'SkySunsetMap'.
+[2022.10.12-06.52.53:885][188]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-06.52.53:887][188]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.12-00.52.53
+[2022.10.12-06.52.53:888][188]LogWorld: Bringing up level for play took: 0.002295
+[2022.10.12-06.52.53:890][188]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2022.10.12-06.52.53:892][188]PIE: Server logged in
+[2022.10.12-06.52.53:893][188]PIE: Play in editor total start time 0.088 seconds.
+[2022.10.12-06.53.10:671][191]LogTemp: Warning: Current Health: 80.000000
+[2022.10.12-06.53.10:837][201]LogTemp: Warning: Current Health: 60.000000
+[2022.10.12-06.53.11:004][211]LogTemp: Warning: Current Health: 40.000000
+[2022.10.12-06.53.11:187][222]LogTemp: Warning: Current Health: 20.000000
+[2022.10.12-06.53.11:354][232]LogTemp: Warning: Current Health: 0.000000
+[2022.10.12-06.53.12:370][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-06.53.12:370][291]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-06.53.12:370][291]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-06.53.12:371][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-06.53.12:386][291]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-06.53.12:392][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-06.53.12:425][291]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.12-06.53.12:425][291]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2022.10.12-06.53.12:427][291]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2022.10.12-06.53.12:430][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-06.53.12:433][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2022.10.12-06.53.12:476][292]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2022.10.12-06.53.50:046][509]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.10.12-06.53.53:785][733]LogLiveCoding: Display:    Creating library C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_6.lib and object C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_6.exp
+[2022.10.12-06.53.54:056][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.10.12-06.53.54:384][735]Display: Reload/Re-instancing Complete: 1 package changed, 1 class unchanged
+[2022.10.12-06.53.54:384][735]LogLiveCoding: Display: Live coding succeeded
+[2022.10.12-06.53.56:542][837]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-06.53.56:552][837]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-06.53.56:552][837]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 6:53:56 PM)
+[2022.10.12-06.53.56:552][837]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-06.53.56:558][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005508s)
+[2022.10.12-06.53.56:558][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.005604s)
+[2022.10.12-06.53.56:558][837]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-06.53.56:558][837]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-06.53.56:558][837]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-06.53.56:566][837]LogPlayLevel: PIE: World Init took: (0.008125s)
+[2022.10.12-06.53.56:649][837]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2022.10.12-06.53.56:652][837]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.10.12-06.53.56:652][837]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-06.53.56:652][837]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-06.53.56:652][837]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-06.53.56:652][837]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-06.53.56:652][837]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-06.53.56:652][837]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-06.53.56:652][837]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-06.53.56:652][837]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-06.53.56:652][837]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-06.53.56:652][837]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-06.53.56:652][837]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-06.53.56:654][837]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-06.53.56:670][837]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-06.53.56:671][837]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-06.53.56:671][837]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-06.53.56:671][837]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-06.53.56:672][837]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2022.10.12-06.53.56:672][837]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2022.10.12-06.53.56:674][837]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2022.10.12-06.53.56:674][837]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2022.10.12-06.53.56:674][837]LogInit: FAudioDevice initialized.
+[2022.10.12-06.53.56:674][837]LogAudio: Display: Audio Device (ID: 15) registered with world 'SkySunsetMap'.
+[2022.10.12-06.53.56:686][837]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-06.53.56:688][837]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.12-00.53.56
+[2022.10.12-06.53.56:689][837]LogWorld: Bringing up level for play took: 0.002149
+[2022.10.12-06.53.56:691][837]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2022.10.12-06.53.56:693][837]PIE: Server logged in
+[2022.10.12-06.53.56:694][837]PIE: Play in editor total start time 0.143 seconds.
+[2022.10.12-06.54.05:409][356]LogTemp: Warning: Current Health: 80.000000
+[2022.10.12-06.54.05:593][367]LogTemp: Warning: Current Health: 60.000000
+[2022.10.12-06.54.05:794][379]LogTemp: Warning: Current Health: 40.000000
+[2022.10.12-06.54.06:326][411]LogTemp: Warning: Current Health: 20.000000
+[2022.10.12-06.54.06:492][421]LogTemp: Warning: Current Health: 0.000000
+[2022.10.12-06.54.07:232][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-06.54.07:232][464]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-06.54.07:233][464]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-06.54.07:233][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-06.54.07:247][464]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-06.54.07:254][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-06.54.07:281][464]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.12-06.54.07:285][464]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2022.10.12-06.54.07:286][464]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2022.10.12-06.54.07:289][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-06.54.07:334][464]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2022.10.12-06.54.07:396][465]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.10.12-06.54.08:390][521]LogViewport: Scene viewport resized to 1382x1321, mode Windowed.
+[2022.10.12-06.54.10:830][664]LogViewport: Scene viewport resized to 1389x1321, mode Windowed.
+[2022.10.12-06.54.10:872][666]LogViewport: Scene viewport resized to 1419x1321, mode Windowed.
+[2022.10.12-06.54.10:925][668]LogViewport: Scene viewport resized to 1495x1321, mode Windowed.
+[2022.10.12-06.54.10:974][670]LogViewport: Scene viewport resized to 1607x1321, mode Windowed.
+[2022.10.12-06.54.11:035][672]LogViewport: Scene viewport resized to 1707x1321, mode Windowed.
+[2022.10.12-06.54.11:092][674]LogViewport: Scene viewport resized to 1738x1321, mode Windowed.
+[2022.10.12-06.54.11:147][676]LogViewport: Scene viewport resized to 1766x1321, mode Windowed.
+[2022.10.12-06.54.11:198][678]LogViewport: Scene viewport resized to 1824x1321, mode Windowed.
+[2022.10.12-06.54.11:269][680]LogViewport: Scene viewport resized to 1890x1321, mode Windowed.
+[2022.10.12-06.54.11:654][702]LogViewport: Scene viewport resized to 1896x1321, mode Windowed.
+[2022.10.12-06.54.11:694][704]LogViewport: Scene viewport resized to 1905x1321, mode Windowed.
+[2022.10.12-06.54.11:752][706]LogViewport: Scene viewport resized to 1912x1321, mode Windowed.
+[2022.10.12-06.54.11:836][710]LogViewport: Scene viewport resized to 1913x1321, mode Windowed.
+[2022.10.12-06.54.16:712][996]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-06.54.16:720][996]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-06.54.16:720][996]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 6:54:16 PM)
+[2022.10.12-06.54.16:720][996]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-06.54.16:725][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004780s)
+[2022.10.12-06.54.16:725][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.004858s)
+[2022.10.12-06.54.16:725][996]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-06.54.16:725][996]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-06.54.16:725][996]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-06.54.16:733][996]LogPlayLevel: PIE: World Init took: (0.008081s)
+[2022.10.12-06.54.16:763][996]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2022.10.12-06.54.16:772][996]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.10.12-06.54.16:772][996]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-06.54.16:772][996]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-06.54.16:772][996]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-06.54.16:772][996]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-06.54.16:772][996]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-06.54.16:772][996]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-06.54.16:772][996]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-06.54.16:772][996]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-06.54.16:772][996]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-06.54.16:772][996]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-06.54.16:772][996]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-06.54.16:774][996]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-06.54.16:789][996]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-06.54.16:789][996]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-06.54.16:789][996]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-06.54.16:789][996]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-06.54.16:790][996]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2022.10.12-06.54.16:790][996]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2022.10.12-06.54.16:792][996]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2022.10.12-06.54.16:792][996]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2022.10.12-06.54.16:792][996]LogInit: FAudioDevice initialized.
+[2022.10.12-06.54.16:792][996]LogAudio: Display: Audio Device (ID: 16) registered with world 'SkySunsetMap'.
+[2022.10.12-06.54.16:807][996]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-06.54.16:809][996]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.12-00.54.16
+[2022.10.12-06.54.16:809][996]LogWorld: Bringing up level for play took: 0.002273
+[2022.10.12-06.54.16:812][996]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2022.10.12-06.54.16:814][996]PIE: Server logged in
+[2022.10.12-06.54.16:815][996]PIE: Play in editor total start time 0.096 seconds.
+[2022.10.12-06.54.18:940][120]LogTemp: Warning: Current Health: 80.000000
+[2022.10.12-06.54.19:257][139]LogTemp: Warning: Current Health: 60.000000
+[2022.10.12-06.54.19:473][152]LogTemp: Warning: Current Health: 40.000000
+[2022.10.12-06.54.19:657][163]LogTemp: Warning: Current Health: 20.000000
+[2022.10.12-06.54.19:857][175]LogTemp: Warning: Current Health: 0.000000
+[2022.10.12-06.54.20:023][185]LogTemp: Warning: Current Health: 0.000000
+[2022.10.12-06.54.22:223][315]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-06.54.22:223][315]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-06.54.22:224][315]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-06.54.22:224][315]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-06.54.22:236][315]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-06.54.22:242][315]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-06.54.22:273][315]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-06.54.22:273][315]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.10.12-06.54.22:275][315]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.10.12-06.54.22:281][315]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2022.10.12-06.54.22:325][316]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.10.12-06.54.32:522][397]LogViewport: Scene viewport resized to 942x1312, mode Windowed.
+[2022.10.12-06.54.56:689][613]LogViewport: Scene viewport resized to 1913x1321, mode Windowed.
+[2022.10.12-06.55.03:514][999]Cmd: EDIT COPY
+[2022.10.12-06.55.03:812][ 17]Cmd: EDIT PASTE
+[2022.10.12-06.55.03:859][ 18]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.05:180][ 96]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.05:816][126]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.05:932][133]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.06:061][139]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.07:329][213]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.07:413][218]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.07:563][227]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.07:663][233]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.07:713][236]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.07:763][239]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.07:797][241]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.07:863][245]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.08:213][266]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.08:363][275]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.08:796][301]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.09:597][349]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.09:680][354]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.09:746][358]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.09:780][360]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.09:880][366]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.09:946][370]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.10:180][384]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.10:296][391]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.10:713][416]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.11:169][442]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.12:600][527]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.12:683][532]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.13:050][554]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.13:449][578]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.13:716][594]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.14:249][626]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.14:824][659]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.15:230][683]Cmd: TRANSACTION UNDO
+[2022.10.12-06.55.15:231][683]LogEditorTransaction: Undo Scale Elements
+[2022.10.12-06.55.15:267][684]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.17:458][807]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.18:070][842]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.18:353][859]Cmd: TRANSACTION UNDO
+[2022.10.12-06.55.18:353][859]LogEditorTransaction: Undo Scale Elements
+[2022.10.12-06.55.18:384][860]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.19:716][932]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.20:216][962]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.20:490][977]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.20:741][992]Cmd: TRANSACTION UNDO
+[2022.10.12-06.55.20:741][992]LogEditorTransaction: Undo Scale Elements
+[2022.10.12-06.55.20:779][993]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.24:474][191]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.25:024][224]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.30:936][533]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.31:468][565]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.31:986][596]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.32:453][624]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.32:930][651]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.33:214][668]Cmd: TRANSACTION UNDO
+[2022.10.12-06.55.33:214][668]LogEditorTransaction: Undo Rotate Elements
+[2022.10.12-06.55.33:242][669]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.37:309][885]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.37:842][917]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.38:159][936]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.38:992][986]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.39:485][ 14]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.40:252][ 60]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.40:534][ 77]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.40:751][ 90]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.40:885][ 98]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.40:935][101]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.40:968][103]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.41:052][108]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.41:085][110]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.41:168][115]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.41:202][117]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.41:235][119]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.41:285][122]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.41:335][125]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.41:368][127]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.41:502][135]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.41:602][141]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.41:635][143]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.41:735][149]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.41:768][151]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.41:801][153]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.41:835][155]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.42:068][169]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.42:134][173]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.42:201][177]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.42:251][180]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.42:328][183]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.43:295][241]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.43:379][246]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.43:429][249]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.43:478][252]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.43:512][254]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.43:546][256]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.43:646][262]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.43:862][274]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.43:934][278]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.44:317][294]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.44:350][296]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.44:384][298]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.44:416][300]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.44:450][302]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.44:500][305]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.44:967][333]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.45:000][335]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.45:227][347]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.48:287][507]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.48:387][513]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.48:844][535]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.49:091][545]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.49:375][562]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.49:471][566]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.53:569][796]Cmd: EDIT COPY
+[2022.10.12-06.55.53:785][809]Cmd: EDIT PASTE
+[2022.10.12-06.55.53:833][810]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.55:221][880]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.55:363][884]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.56:832][971]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.57:082][983]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.57:191][987]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.57:271][990]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.57:427][998]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.55.57:588][  6]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.03:610][342]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.04:044][368]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.04:610][402]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.04:660][405]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.04:770][410]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.06:407][505]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.06:490][510]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.06:774][527]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.06:900][533]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.08:949][648]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.09:214][659]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.09:431][672]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.09:608][681]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.15:846][ 46]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.10.12-06.56.17:887][155]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.17:943][157]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.17:977][159]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.18:010][161]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.18:060][164]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.18:113][167]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.20:065][282]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.20:098][284]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.20:215][291]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.20:381][301]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.20:508][307]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.22:755][435]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.23:238][464]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.23:438][476]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.23:922][503]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.24:617][541]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.10.12-06.56.24:637][541]LogSavePackage: Moving output files for package: /Game/Polar/Maps/SkySunsetMap
+[2022.10.12-06.56.24:637][541]LogSavePackage: Moving '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Saved/SkySunsetMap49EC420244046CFA41A6A6940C81410E.tmp' to '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Content/Polar/Maps/SkySunsetMap.umap'
+[2022.10.12-06.56.24:646][541]LogFileHelpers: No new changes to save!
+[2022.10.12-06.56.24:669][541]AssetCheck: New page: Asset Save: SkySunsetMap
+[2022.10.12-06.56.24:669][541]LogContentValidation: Display: Validating World /Game/Polar/Maps/SkySunsetMap.SkySunsetMap
+[2022.10.12-06.56.27:336][679]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.27:386][682]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.27:452][686]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.27:519][690]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.27:806][706]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.27:998][714]LogNavigationDataBuild: Navigation data generation finished in /Game/Polar/Maps/SkySunsetMap.
+[2022.10.12-06.56.28:812][751]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.10.12-06.56.28:830][752]LogViewport: Scene viewport resized to 905x625, mode Windowed.
+[2022.10.12-06.56.37:130][206]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.10.12-06.56.37:426][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.10.12-06.56.37:444][219]LogSavePackage: Moving output files for package: /Game/Polar/Maps/SkySunsetMap
+[2022.10.12-06.56.37:445][219]LogSavePackage: Moving '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Saved/SkySunsetMapC26187B24334AFA0B865B389FBB72108.tmp' to '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Content/Polar/Maps/SkySunsetMap.umap'
+[2022.10.12-06.56.37:454][219]LogFileHelpers: No new changes to save!
+[2022.10.12-06.56.37:468][219]AssetCheck: New page: Asset Save: SkySunsetMap
+[2022.10.12-06.56.37:468][219]LogContentValidation: Display: Validating World /Game/Polar/Maps/SkySunsetMap.SkySunsetMap
+[2022.10.12-06.56.38:790][298]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-06.56.38:796][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-06.56.38:796][298]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 6:56:38 PM)
+[2022.10.12-06.56.38:796][298]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-06.56.38:801][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004744s)
+[2022.10.12-06.56.38:801][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.004822s)
+[2022.10.12-06.56.38:801][298]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-06.56.38:801][298]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-06.56.38:802][298]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-06.56.38:810][298]LogPlayLevel: PIE: World Init took: (0.007860s)
+[2022.10.12-06.56.38:841][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2022.10.12-06.56.38:842][298]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.10.12-06.56.38:842][298]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-06.56.38:842][298]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-06.56.38:842][298]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-06.56.38:842][298]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-06.56.38:842][298]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-06.56.38:842][298]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-06.56.38:842][298]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-06.56.38:842][298]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-06.56.38:842][298]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-06.56.38:842][298]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-06.56.38:842][298]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-06.56.38:844][298]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-06.56.38:860][298]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-06.56.38:860][298]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-06.56.38:860][298]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-06.56.38:860][298]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-06.56.38:861][298]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2022.10.12-06.56.38:861][298]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2022.10.12-06.56.38:863][298]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2022.10.12-06.56.38:863][298]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2022.10.12-06.56.38:863][298]LogInit: FAudioDevice initialized.
+[2022.10.12-06.56.38:863][298]LogAudio: Display: Audio Device (ID: 17) registered with world 'SkySunsetMap'.
+[2022.10.12-06.56.38:877][298]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-06.56.38:879][298]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.12-00.56.38
+[2022.10.12-06.56.38:879][298]LogWorld: Bringing up level for play took: 0.002309
+[2022.10.12-06.56.38:882][298]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2022.10.12-06.56.38:884][298]PIE: Server logged in
+[2022.10.12-06.56.38:885][298]PIE: Play in editor total start time 0.088 seconds.
+[2022.10.12-06.56.44:449][625]LogTemp: Warning: Current Health: 80.000000
+[2022.10.12-06.56.44:666][638]LogTemp: Warning: Current Health: 60.000000
+[2022.10.12-06.56.44:866][650]LogTemp: Warning: Current Health: 40.000000
+[2022.10.12-06.56.45:050][661]LogTemp: Warning: Current Health: 20.000000
+[2022.10.12-06.56.45:233][672]LogTemp: Warning: Current Health: 0.000000
+[2022.10.12-06.56.45:383][681]LogTemp: Warning: Current Health: 0.000000
+[2022.10.12-06.56.45:820][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-06.56.45:820][705]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-06.56.45:820][705]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-06.56.45:821][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-06.56.45:832][705]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-06.56.45:839][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-06.56.45:871][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-06.56.45:871][705]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2022.10.12-06.56.45:872][705]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2022.10.12-06.56.45:878][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2022.10.12-06.56.45:919][706]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.10.12-06.56.51:884][838]LogViewport: Scene viewport resized to 942x1312, mode Windowed.
+[2022.10.12-07.04.16:672][753]LogViewport: Scene viewport resized to 1913x1321, mode Windowed.
+[2022.10.12-07.04.17:848][820]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.10.12-07.04.34:408][918]LogLiveCoding: Display:    Creating library C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_7.lib and object C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_7.exp
+[2022.10.12-07.04.34:906][919]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.10.12-07.04.35:398][920]Display: Reload/Re-instancing Complete: No object changes detected
+[2022.10.12-07.04.35:398][920]LogLiveCoding: Display: Live coding succeeded
+[2022.10.12-07.06.41:645][539]LogViewport: Scene viewport resized to 1444x1116, mode Windowed.
+[2022.10.12-07.06.42:821][594]LogViewport: Scene viewport resized to 1913x1321, mode Windowed.
+[2022.10.12-07.06.44:382][684]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.10.12-07.06.55:088][ 50]LogLiveCoding: Display:    Creating library C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_8.lib and object C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_8.exp
+[2022.10.12-07.06.55:164][ 50]LogClass: /Script/ThirdPersonShooter Reload.
+[2022.10.12-07.06.55:164][ 50]LogClass: TPSAIController Reload.
+[2022.10.12-07.06.55:164][ 50]LogClass: Could not find existing class TPSAIController in package /Script/ThirdPersonShooter for reload, assuming new or modified class
+[2022.10.12-07.06.55:176][ 50]Re-instancing TPSAIController after reload.
+[2022.10.12-07.06.55:360][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.10.12-07.06.55:726][ 51]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2022.10.12-07.06.55:726][ 51]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2022.10.12-07.07.00:115][301]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-07.07.00:123][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-07.07.00:123][301]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 7:07:00 PM)
+[2022.10.12-07.07.00:123][301]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-07.07.00:130][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006170s)
+[2022.10.12-07.07.00:130][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.006244s)
+[2022.10.12-07.07.00:130][301]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-07.07.00:130][301]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-07.07.00:130][301]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-07.07.00:138][301]LogPlayLevel: PIE: World Init took: (0.008682s)
+[2022.10.12-07.07.00:285][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.10.12-07.07.00:292][301]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.10.12-07.07.00:292][301]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-07.07.00:292][301]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-07.07.00:292][301]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-07.07.00:292][301]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-07.07.00:292][301]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-07.07.00:292][301]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-07.07.00:292][301]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-07.07.00:292][301]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-07.07.00:293][301]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-07.07.00:293][301]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-07.07.00:293][301]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-07.07.00:295][301]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-07.07.00:312][301]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-07.07.00:312][301]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-07.07.00:312][301]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-07.07.00:312][301]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-07.07.00:313][301]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2022.10.12-07.07.00:313][301]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2022.10.12-07.07.00:315][301]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2022.10.12-07.07.00:315][301]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2022.10.12-07.07.00:315][301]LogInit: FAudioDevice initialized.
+[2022.10.12-07.07.00:315][301]LogAudio: Display: Audio Device (ID: 18) registered with world 'SkySunsetMap'.
+[2022.10.12-07.07.00:328][301]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-07.07.00:330][301]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.12-01.07.00
+[2022.10.12-07.07.00:330][301]LogWorld: Bringing up level for play took: 0.002220
+[2022.10.12-07.07.00:333][301]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2022.10.12-07.07.00:335][301]PIE: Server logged in
+[2022.10.12-07.07.00:336][301]PIE: Play in editor total start time 0.213 seconds.
+[2022.10.12-07.07.09:449][840]LogTemp: Warning: Current Health: 80.000000
+[2022.10.12-07.07.09:600][849]LogTemp: Warning: Current Health: 60.000000
+[2022.10.12-07.07.09:933][869]LogTemp: Warning: Current Health: 40.000000
+[2022.10.12-07.07.13:000][ 53]LogTemp: Warning: Current Health: 20.000000
+[2022.10.12-07.07.13:167][ 63]LogTemp: Warning: Current Health: 0.000000
+[2022.10.12-07.07.13:334][ 73]LogTemp: Warning: Current Health: 0.000000
+[2022.10.12-07.07.13:517][ 84]LogTemp: Warning: Current Health: 0.000000
+[2022.10.12-07.07.14:069][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-07.07.14:069][115]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-07.07.14:070][115]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-07.07.14:070][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-07.07.14:082][115]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-07.07.14:089][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-07.07.14:131][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-07.07.14:131][115]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2022.10.12-07.07.14:133][115]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2022.10.12-07.07.14:169][115]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2022.10.12-07.07.14:227][116]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2022.10.12-07.07.23:194][231]LogViewport: Scene viewport resized to 942x1312, mode Windowed.
+[2022.10.12-07.07.25:218][330]LogViewport: Scene viewport resized to 943x1312, mode Windowed.
+[2022.10.12-07.07.25:267][330]LogViewport: Scene viewport resized to 951x1312, mode Windowed.
+[2022.10.12-07.07.25:328][330]LogViewport: Scene viewport resized to 953x1312, mode Windowed.
+[2022.10.12-07.07.25:383][330]LogViewport: Scene viewport resized to 955x1312, mode Windowed.
+[2022.10.12-07.07.25:454][330]LogViewport: Scene viewport resized to 956x1312, mode Windowed.
+[2022.10.12-07.07.25:510][330]LogViewport: Scene viewport resized to 959x1312, mode Windowed.
+[2022.10.12-07.07.25:570][330]LogViewport: Scene viewport resized to 965x1312, mode Windowed.
+[2022.10.12-07.07.25:636][330]LogViewport: Scene viewport resized to 971x1312, mode Windowed.
+[2022.10.12-07.07.25:685][330]LogViewport: Scene viewport resized to 972x1312, mode Windowed.

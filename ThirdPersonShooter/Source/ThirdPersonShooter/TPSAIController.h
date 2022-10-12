@@ -16,5 +16,15 @@ class THIRDPERSONSHOOTER_API ATPSAIController : public AAIController
 
 protected:
 	virtual void BeginPlay() override;
-	
+
+public:
+	virtual void Tick(float DeltaSeconds) override;
+
+private:
+
+	UPROPERTY(VisibleAnywhere)
+		APawn* player;
+
+	UPROPERTY(EditAnywhere)
+		float enemyDistance = 300.0f;
 };
