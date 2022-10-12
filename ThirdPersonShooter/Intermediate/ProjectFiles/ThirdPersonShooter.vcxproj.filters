@@ -63,6 +63,12 @@
     <ClInclude Include="..\..\Source\ThirdPersonShooter\ThirdPersonShooterGameModeBase.h">
       <Filter>Source\ThirdPersonShooter</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\TPSAIController.cpp">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\TPSAIController.h">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ThirdPersonShooter\TPSPlayer.cpp">
       <Filter>Source\ThirdPersonShooter</Filter>
     </ClCompile>

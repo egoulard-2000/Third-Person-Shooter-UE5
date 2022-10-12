@@ -1213,3 +1213,221 @@ Recommended: 516.25
 [2022.10.12-04.07.51:077][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
 [2022.10.12-04.07.51:132][748]LogPlayLevel: Display: Destroying online subsystem :Context_14
 [2022.10.12-04.07.58:291][898]LogViewport: Scene viewport resized to 1001x1312, mode Windowed.
+[2022.10.12-04.09.13:528][735]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.10.12-04.09.13:539][735]LogContentBrowser: Creating deferred item: NewFolder
+[2022.10.12-04.09.13:549][736]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.10.12-04.09.15:816][872]LogContentBrowser: Attempting asset rename: NewFolder -> Enemies
+[2022.10.12-04.09.15:817][872]LogContentBrowser: End creating deferred item NewFolder
+[2022.10.12-04.09.37:429][682]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.10.12-04.10.44:739][ 67]Running C:/Program Files/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -projectfiles -project="C:/Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/ThirdPersonShooter.uproject" -game -rocket -progress
+[2022.10.12-04.10.45:044][ 67]Log file: C:\Users\emile\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2022.10.12-04.10.45:145][ 67]
+[2022.10.12-04.10.45:145][ 67]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2022.10.12-04.10.45:145][ 67]See the log file for detailed information
+[2022.10.12-04.10.45:145][ 67]
+[2022.10.12-04.10.45:145][ 67]Discovering modules, targets and source code for project...
+[2022.10.12-04.10.48:670][ 67]Binding IntelliSense data...
+[2022.10.12-04.10.58:928][ 67]Binding IntelliSense data... 100%
+[2022.10.12-04.10.58:928][ 67]Writing project files...
+[2022.10.12-04.11.07:277][ 67]Writing project files... 100%
+[2022.10.12-04.11.07:397][ 67]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.10.12-04.11.07:564][ 67]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.10.12-04.11.23:013][115]LogLiveCoding: Display:    Creating library C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_2.lib and object C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Binaries\Win64\UnrealEditor-ThirdPersonShooter.patch_2.exp
+[2022.10.12-04.11.23:121][115]LogClass: /Script/ThirdPersonShooter Reload.
+[2022.10.12-04.11.23:124][115]LogClass: Could not find existing class TPSAIController in package /Script/ThirdPersonShooter for reload, assuming new or modified class
+[2022.10.12-04.11.23:339][115]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.10.12-04.11.23:791][116]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 1 class unchanged, 1 function remapped
+[2022.10.12-04.11.23:791][116]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2022.10.12-04.11.52:517][277]LogViewport: Scene viewport resized to 2032x1321, mode Windowed.
+[2022.10.12-04.12.14:563][  4]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.10.12-04.12.22:910][  4]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.10.12-04.12.22:926][  4]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.10.12-04.12.22:935][  4]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.10.12-04.12.22:966][  6]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2022.10.12-04.12.30:975][478]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_TPSAIController
+[2022.10.12-04.12.30:989][478]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.10.12-04.12.56:817][955]LogViewport: Scene viewport resized to 1530x1110, mode Windowed.
+[2022.10.12-04.12.57:004][955]LogViewport: Scene viewport resized to 1001x1312, mode Windowed.
+[2022.10.12-04.13.15:694][646]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_TPSPlayer.BP_TPSPlayer
+[2022.10.12-04.13.15:696][646]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-04.13.21:075][859]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_TPSPlayer
+[2022.10.12-04.13.21:075][859]LogSavePackage: Moving '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Saved/BP_TPSPlayer0DA7C2FE4FC5342E7B4EF0BE7FE81F3F.tmp' to '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Content/Blueprints/Player/BP_TPSPlayer.uasset'
+[2022.10.12-04.13.21:093][859]AssetCheck: New page: Asset Save: BP_TPSPlayer
+[2022.10.12-04.13.21:094][859]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Player/BP_TPSPlayer.BP_TPSPlayer
+[2022.10.12-04.13.27:974][264]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.10.12-04.13.33:033][560]BlueprintLog: New page: Compile BP_TPSPlayer
+[2022.10.12-04.13.33:219][560]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.10.12-04.13.33:717][585]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_TPSPlayer
+[2022.10.12-04.13.33:719][585]LogSavePackage: Moving '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Saved/BP_TPSPlayer0C10AE514CC51D10FBC7E4BCEFB62627.tmp' to '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Content/Blueprints/Player/BP_TPSPlayer.uasset'
+[2022.10.12-04.13.33:734][585]AssetCheck: New page: Asset Save: BP_TPSPlayer
+[2022.10.12-04.13.33:734][585]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Player/BP_TPSPlayer.BP_TPSPlayer
+[2022.10.12-04.13.35:701][689]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2022.10.12-04.13.35:738][689]LogSavePackage: Moving output files for package: /Game/Polar/Maps/SkySunsetMap
+[2022.10.12-04.13.35:738][689]LogSavePackage: Moving '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Saved/SkySunsetMap410B157D461EC3978E9078AFADEADB24.tmp' to '../../../../../../Users/emile/Documents/Unreal Projects/ThirdPersonShooter/Third-Person-Shooter-UE5/ThirdPersonShooter/Content/Polar/Maps/SkySunsetMap.umap'
+[2022.10.12-04.13.35:750][689]LogFileHelpers: No new changes to save!
+[2022.10.12-04.13.35:765][689]AssetCheck: New page: Asset Save: SkySunsetMap
+[2022.10.12-04.13.35:765][689]LogContentValidation: Display: Validating World /Game/Polar/Maps/SkySunsetMap.SkySunsetMap
+[2022.10.12-04.13.39:849][932]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.12-04.13.39:857][932]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.12-04.13.39:857][932]PIE: New page: PIE session: SkySunsetMap (Oct 11, 2022, 4:13:39 PM)
+[2022.10.12-04.13.39:858][932]LogPlayLevel: Creating play world package: /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-04.13.39:862][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004728s)
+[2022.10.12-04.13.39:862][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Polar/Maps/SkySunsetMap.SkySunsetMap to /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap (0.004808s)
+[2022.10.12-04.13.39:862][932]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.12-04.13.39:862][932]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.12-04.13.39:862][932]LogAIModule: Creating AISystem for world SkySunsetMap
+[2022.10.12-04.13.39:873][932]LogPlayLevel: PIE: World Init took: (0.010804s)
+[2022.10.12-04.13.39:911][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2022.10.12-04.13.39:916][932]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.10.12-04.13.39:917][932]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.12-04.13.39:917][932]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.12-04.13.39:917][932]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.12-04.13.39:917][932]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.12-04.13.39:917][932]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.10.12-04.13.39:917][932]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.12-04.13.39:917][932]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.10.12-04.13.39:917][932]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.12-04.13.39:917][932]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.10.12-04.13.39:917][932]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.10.12-04.13.39:917][932]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.12-04.13.39:920][932]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.12-04.13.39:936][932]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.10.12-04.13.39:936][932]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.12-04.13.39:936][932]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.12-04.13.39:936][932]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.12-04.13.39:937][932]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2022.10.12-04.13.39:937][932]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2022.10.12-04.13.39:939][932]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2022.10.12-04.13.39:939][932]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2022.10.12-04.13.39:939][932]LogInit: FAudioDevice initialized.
+[2022.10.12-04.13.39:939][932]LogAudio: Display: Audio Device (ID: 7) registered with world 'SkySunsetMap'.
+[2022.10.12-04.13.39:952][932]LogLoad: Game class is 'BP_ThirdPersonGameModeBase_C'
+[2022.10.12-04.13.39:954][932]LogWorld: Bringing World /Game/Polar/Maps/UEDPIE_0_SkySunsetMap.SkySunsetMap up for play (max tick rate 60) at 2022.10.11-22.13.39
+[2022.10.12-04.13.39:955][932]LogWorld: Bringing up level for play took: 0.002906
+[2022.10.12-04.13.39:957][932]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2022.10.12-04.13.39:960][932]PIE: Server logged in
+[2022.10.12-04.13.39:960][932]PIE: Play in editor total start time 0.105 seconds.
+[2022.10.12-04.13.46:210][273]LogViewport: Scene viewport resized to 953x1312, mode Windowed.
+[2022.10.12-04.13.46:265][275]LogViewport: Scene viewport resized to 791x1312, mode Windowed.
+[2022.10.12-04.13.46:385][277]LogViewport: Scene viewport resized to 720x1312, mode Windowed.
+[2022.10.12-04.13.46:581][281]LogViewport: Scene viewport resized to 715x1312, mode Windowed.
+[2022.10.12-04.13.46:626][283]LogViewport: Scene viewport resized to 709x1312, mode Windowed.
+[2022.10.12-04.13.46:993][301]LogViewport: Scene viewport resized to 715x1312, mode Windowed.
+[2022.10.12-04.13.47:180][303]LogViewport: Scene viewport resized to 735x1312, mode Windowed.
+[2022.10.12-04.13.52:288][387]LogViewport: Scene viewport resized to 348x621, mode Windowed.
+[2022.10.12-04.13.52:405][387]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.10.12-04.13.52:636][388]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2022.10.12-04.14.00:792][746]LogViewport: Scene viewport resized to 736x1312, mode Windowed.
+[2022.10.12-04.14.00:867][750]LogViewport: Scene viewport resized to 741x1312, mode Windowed.
+[2022.10.12-04.14.00:889][751]LogViewport: Scene viewport resized to 351x621, mode Windowed.
+[2022.10.12-04.14.00:929][752]LogViewport: Scene viewport resized to 746x1312, mode Windowed.
+[2022.10.12-04.14.00:960][753]LogViewport: Scene viewport resized to 353x621, mode Windowed.
+[2022.10.12-04.14.00:989][754]LogViewport: Scene viewport resized to 751x1312, mode Windowed.
+[2022.10.12-04.14.01:018][755]LogViewport: Scene viewport resized to 355x621, mode Windowed.
+[2022.10.12-04.14.01:051][756]LogViewport: Scene viewport resized to 758x1312, mode Windowed.
+[2022.10.12-04.14.01:080][757]LogViewport: Scene viewport resized to 359x621, mode Windowed.
+[2022.10.12-04.14.01:124][759]LogViewport: Scene viewport resized to 762x1312, mode Windowed.
+[2022.10.12-04.14.01:151][760]LogViewport: Scene viewport resized to 361x621, mode Windowed.
+[2022.10.12-04.14.01:182][761]LogViewport: Scene viewport resized to 765x1312, mode Windowed.
+[2022.10.12-04.14.01:212][762]LogViewport: Scene viewport resized to 362x621, mode Windowed.
+[2022.10.12-04.14.01:306][767]LogViewport: Scene viewport resized to 767x1312, mode Windowed.
+[2022.10.12-04.14.01:332][768]LogViewport: Scene viewport resized to 363x621, mode Windowed.
+[2022.10.12-04.14.01:385][770]LogViewport: Scene viewport resized to 769x1312, mode Windowed.
+[2022.10.12-04.14.01:412][771]LogViewport: Scene viewport resized to 364x621, mode Windowed.
+[2022.10.12-04.14.01:445][772]LogViewport: Scene viewport resized to 773x1312, mode Windowed.
+[2022.10.12-04.14.01:475][773]LogViewport: Scene viewport resized to 366x621, mode Windowed.
+[2022.10.12-04.14.01:751][789]LogViewport: Scene viewport resized to 766x1312, mode Windowed.
+[2022.10.12-04.14.01:774][790]LogViewport: Scene viewport resized to 362x621, mode Windowed.
+[2022.10.12-04.14.01:815][791]LogViewport: Scene viewport resized to 757x1312, mode Windowed.
+[2022.10.12-04.14.01:846][792]LogViewport: Scene viewport resized to 358x621, mode Windowed.
+[2022.10.12-04.14.01:875][793]LogViewport: Scene viewport resized to 750x1312, mode Windowed.
+[2022.10.12-04.14.01:905][794]LogViewport: Scene viewport resized to 355x621, mode Windowed.
+[2022.10.12-04.14.01:931][795]LogViewport: Scene viewport resized to 742x1312, mode Windowed.
+[2022.10.12-04.14.01:958][796]LogViewport: Scene viewport resized to 351x621, mode Windowed.
+[2022.10.12-04.14.01:986][797]LogViewport: Scene viewport resized to 734x1312, mode Windowed.
+[2022.10.12-04.14.02:016][798]LogViewport: Scene viewport resized to 347x621, mode Windowed.
+[2022.10.12-04.14.02:045][799]LogViewport: Scene viewport resized to 728x1312, mode Windowed.
+[2022.10.12-04.14.02:073][800]LogViewport: Scene viewport resized to 344x621, mode Windowed.
+[2022.10.12-04.14.02:103][801]LogViewport: Scene viewport resized to 721x1312, mode Windowed.
+[2022.10.12-04.14.02:130][802]LogViewport: Scene viewport resized to 341x621, mode Windowed.
+[2022.10.12-04.14.02:158][803]LogViewport: Scene viewport resized to 717x1312, mode Windowed.
+[2022.10.12-04.14.02:185][804]LogViewport: Scene viewport resized to 339x621, mode Windowed.
+[2022.10.12-04.14.02:212][805]LogViewport: Scene viewport resized to 716x1312, mode Windowed.
+[2022.10.12-04.14.02:258][807]LogViewport: Scene viewport resized to 711x1312, mode Windowed.
+[2022.10.12-04.14.02:282][808]LogViewport: Scene viewport resized to 336x621, mode Windowed.
+[2022.10.12-04.14.02:312][809]LogViewport: Scene viewport resized to 706x1312, mode Windowed.
+[2022.10.12-04.14.02:340][810]LogViewport: Scene viewport resized to 334x621, mode Windowed.
+[2022.10.12-04.14.02:583][822]LogViewport: Scene viewport resized to 702x1312, mode Windowed.
+[2022.10.12-04.14.02:608][823]LogViewport: Scene viewport resized to 332x621, mode Windowed.
+[2022.10.12-04.14.02:648][824]LogViewport: Scene viewport resized to 699x1312, mode Windowed.
+[2022.10.12-04.14.02:677][825]LogViewport: Scene viewport resized to 331x621, mode Windowed.
+[2022.10.12-04.14.02:705][826]LogViewport: Scene viewport resized to 695x1312, mode Windowed.
+[2022.10.12-04.14.02:735][827]LogViewport: Scene viewport resized to 329x621, mode Windowed.
+[2022.10.12-04.14.02:761][828]LogViewport: Scene viewport resized to 691x1312, mode Windowed.
+[2022.10.12-04.14.02:789][829]LogViewport: Scene viewport resized to 327x621, mode Windowed.
+[2022.10.12-04.14.02:818][830]LogViewport: Scene viewport resized to 686x1312, mode Windowed.
+[2022.10.12-04.14.02:848][831]LogViewport: Scene viewport resized to 685x1312, mode Windowed.
+[2022.10.12-04.14.02:867][831]LogViewport: Scene viewport resized to 325x621, mode Windowed.
+[2022.10.12-04.14.02:894][832]LogViewport: Scene viewport resized to 324x621, mode Windowed.
+[2022.10.12-04.14.02:925][833]LogViewport: Scene viewport resized to 681x1312, mode Windowed.
+[2022.10.12-04.14.02:977][834]LogViewport: Scene viewport resized to 322x621, mode Windowed.
+[2022.10.12-04.14.03:013][835]LogViewport: Scene viewport resized to 670x1312, mode Windowed.
+[2022.10.12-04.14.03:057][836]LogViewport: Scene viewport resized to 317x621, mode Windowed.
+[2022.10.12-04.14.03:118][837]LogViewport: Scene viewport resized to 664x1312, mode Windowed.
+[2022.10.12-04.14.03:178][838]LogViewport: Scene viewport resized to 659x1312, mode Windowed.
+[2022.10.12-04.14.03:202][838]LogViewport: Scene viewport resized to 314x621, mode Windowed.
+[2022.10.12-04.14.03:235][839]LogViewport: Scene viewport resized to 312x621, mode Windowed.
+[2022.10.12-04.14.03:297][840]LogViewport: Scene viewport resized to 648x1312, mode Windowed.
+[2022.10.12-04.14.03:322][841]LogViewport: Scene viewport resized to 307x621, mode Windowed.
+[2022.10.12-04.14.03:351][842]LogViewport: Scene viewport resized to 640x1312, mode Windowed.
+[2022.10.12-04.14.03:380][843]LogViewport: Scene viewport resized to 303x621, mode Windowed.
+[2022.10.12-04.14.03:409][844]LogViewport: Scene viewport resized to 623x1312, mode Windowed.
+[2022.10.12-04.14.03:440][845]LogViewport: Scene viewport resized to 295x621, mode Windowed.
+[2022.10.12-04.14.03:496][848]LogViewport: Scene viewport resized to 618x1312, mode Windowed.
+[2022.10.12-04.14.03:517][849]LogViewport: Scene viewport resized to 292x621, mode Windowed.
+[2022.10.12-04.14.03:558][850]LogViewport: Scene viewport resized to 597x1312, mode Windowed.
+[2022.10.12-04.14.03:589][851]LogViewport: Scene viewport resized to 282x621, mode Windowed.
+[2022.10.12-04.14.03:618][852]LogViewport: Scene viewport resized to 590x1312, mode Windowed.
+[2022.10.12-04.14.03:650][853]LogViewport: Scene viewport resized to 279x621, mode Windowed.
+[2022.10.12-04.14.03:679][854]LogViewport: Scene viewport resized to 586x1312, mode Windowed.
+[2022.10.12-04.14.03:707][855]LogViewport: Scene viewport resized to 277x621, mode Windowed.
+[2022.10.12-04.14.03:733][856]LogViewport: Scene viewport resized to 583x1312, mode Windowed.
+[2022.10.12-04.14.03:762][857]LogViewport: Scene viewport resized to 276x621, mode Windowed.
+[2022.10.12-04.14.05:089][924]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.10.12-04.14.05:102][925]LogViewport: Scene viewport resized to 276x621, mode Windowed.
+[2022.10.12-04.14.09:128][129]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.10.12-04.14.09:141][130]LogViewport: Scene viewport resized to 276x621, mode Windowed.
+[2022.10.12-04.14.20:944][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-04.14.20:944][801]LogWorld: BeginTearingDown for /Game/Polar/Maps/UEDPIE_0_SkySunsetMap
+[2022.10.12-04.14.20:944][801]LogWorld: UWorld::CleanupWorld for SkySunsetMap, bSessionEnded=true, bCleanupResources=true
+[2022.10.12-04.14.20:945][801]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-04.14.20:956][801]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.12-04.14.20:962][801]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.12-04.14.20:997][801]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.12-04.14.20:997][801]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.10.12-04.14.20:999][801]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.10.12-04.14.21:002][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.12-04.14.21:005][801]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2022.10.12-04.14.21:039][802]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2022.10.12-04.14.22:060][847]LogViewport: Scene viewport resized to 584x1312, mode Windowed.
+[2022.10.12-04.14.22:104][849]LogViewport: Scene viewport resized to 619x1312, mode Windowed.
+[2022.10.12-04.14.22:146][851]LogViewport: Scene viewport resized to 709x1312, mode Windowed.
+[2022.10.12-04.14.22:188][853]LogViewport: Scene viewport resized to 825x1312, mode Windowed.
+[2022.10.12-04.14.22:229][855]LogViewport: Scene viewport resized to 887x1312, mode Windowed.
+[2022.10.12-04.14.22:271][857]LogViewport: Scene viewport resized to 933x1312, mode Windowed.
+[2022.10.12-04.14.22:314][859]LogViewport: Scene viewport resized to 964x1312, mode Windowed.
+[2022.10.12-04.14.22:358][861]LogViewport: Scene viewport resized to 991x1312, mode Windowed.
+[2022.10.12-04.14.22:402][863]LogViewport: Scene viewport resized to 1024x1312, mode Windowed.
+[2022.10.12-04.14.22:445][865]LogViewport: Scene viewport resized to 1031x1312, mode Windowed.
+[2022.10.12-04.14.22:725][881]LogViewport: Scene viewport resized to 1027x1312, mode Windowed.
+[2022.10.12-04.14.22:763][883]LogViewport: Scene viewport resized to 1011x1312, mode Windowed.
+[2022.10.12-04.14.22:812][885]LogViewport: Scene viewport resized to 985x1312, mode Windowed.
+[2022.10.12-04.14.22:869][887]LogViewport: Scene viewport resized to 970x1312, mode Windowed.
+[2022.10.12-04.14.22:914][889]LogViewport: Scene viewport resized to 964x1312, mode Windowed.
+[2022.10.12-04.14.22:958][891]LogViewport: Scene viewport resized to 962x1312, mode Windowed.
+[2022.10.12-04.14.27:229][137]LogViewport: Scene viewport resized to 964x1312, mode Windowed.
+[2022.10.12-04.14.27:290][137]LogViewport: Scene viewport resized to 991x1312, mode Windowed.
+[2022.10.12-04.14.27:343][137]LogViewport: Scene viewport resized to 1002x1312, mode Windowed.
+[2022.10.12-04.14.27:398][137]LogViewport: Scene viewport resized to 1003x1312, mode Windowed.
+[2022.10.12-04.14.27:459][137]LogViewport: Scene viewport resized to 1014x1312, mode Windowed.
+[2022.10.12-04.14.27:513][137]LogViewport: Scene viewport resized to 1022x1312, mode Windowed.
