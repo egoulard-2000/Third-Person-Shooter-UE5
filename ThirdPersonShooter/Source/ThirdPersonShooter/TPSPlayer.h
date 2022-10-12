@@ -29,14 +29,26 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-private:
-	void HorizontalMove(float value);
-	void VerticalMove(float value);
-	void HorizontalLook(float value);
-	void VerticalLook(float value);
-	void CheckJump();
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser);
 
+private:
+	#pragma region Character/Camera Movement
+
+		void HorizontalMove(float value);
+		void VerticalMove(float value);
+		void HorizontalLook(float value);
+		void VerticalLook(float value);
+
+	#pragma endregion
+
+	void CheckJump();
 	void Shoot();
+
+	UPROPERTY()
+		float totalHealth = 100.0f;
+
+	UPROPERTY(VisibleAnywhere)
+		float currentHealth;
 
 	UPROPERTY()
 		bool jumping;

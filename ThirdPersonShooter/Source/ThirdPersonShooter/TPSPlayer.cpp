@@ -9,6 +9,8 @@ ATPSPlayer::ATPSPlayer()
 	PrimaryActorTick.bCanEverTick = true;
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
 
+	currentHealth = totalHealth;
+
 	jumping = false;
 	xSensitivity = 80;
 	ySensitivity = 80;
@@ -18,7 +20,6 @@ ATPSPlayer::ATPSPlayer()
 void ATPSPlayer::BeginPlay()
 {
 	Super::BeginPlay();
-	
 
 	GunWeapon = GetWorld()->SpawnActor<AGunWeapon>(GunClass);
 
@@ -107,6 +108,21 @@ void ATPSPlayer::CheckJump()
 void ATPSPlayer::Shoot()
 {
 	GunWeapon->Shoot();
+}
+
+float ATPSPlayer::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
+{
+	// Calculate base damage from Actor
+	float damageTaken = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
+	
+	// Ensure that health doesn't go negative on successive hits
+	damageTaken = FMath::Min(currentHealth, damageTaken);
+	
+	// Reduce Health
+	currentHealth -= damageTaken;
+	UE_LOG(LogTemp, Warning, TEXT("Current Health: %f"), currentHealth);
+
+	return damageTaken;
 }
 
 #pragma endregion

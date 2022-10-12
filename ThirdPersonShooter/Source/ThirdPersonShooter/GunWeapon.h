@@ -30,6 +30,9 @@ private:
 	UPROPERTY(EditAnywhere)
 		float shootingDistance = 10000.0f;
 
+	UPROPERTY(EditAnywhere)
+		float damage = 20.0f;
+
 	// Setup Blueprint Components pertaining to our guns
 	UPROPERTY(VisibleAnywhere)
 		USceneComponent* Root;
@@ -38,6 +41,9 @@ private:
 		USkeletalMeshComponent* Mesh;
 
 	UPROPERTY(EditAnywhere)
-		UParticleSystem* ParticleEffect;
+		UParticleSystem* MuzzleParticleEffect;
+
+	UPROPERTY(EditAnywhere)
+		UParticleSystem* BulletImpactParticleEffect;
 
 };

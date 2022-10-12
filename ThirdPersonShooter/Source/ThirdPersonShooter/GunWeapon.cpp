@@ -38,7 +38,7 @@ void AGunWeapon::Tick(float DeltaTime)
 void AGunWeapon::Shoot()
 {
 	// Spawn Particle Effect (Muzzle Flash of Gun)
-	UGameplayStatics::SpawnEmitterAttached(ParticleEffect, Mesh, TEXT("MuzzleFlash"));
+	UGameplayStatics::SpawnEmitterAttached(MuzzleParticleEffect, Mesh, TEXT("MuzzleFlash"));
 
 	ATPSPlayer* playerOwner = Cast<ATPSPlayer>(GetOwner());
 	AController* controllerOwner = playerOwner->GetController();
@@ -58,7 +58,20 @@ void AGunWeapon::Shoot()
 		bool isHit = GetWorld()->LineTraceSingleByChannel(hit, location, endPoint, ECC_GameTraceChannel1);
 		
 		if (isHit)
-			DrawDebugPoint(GetWorld(), hit.Location, 15, FColor::Red, true);
+		{
+			FVector shotDir = -rotation.Vector();
+			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), BulletImpactParticleEffect, hit.Location, shotDir.Rotation());
+		
+			// Dish out damage to enemy if we hit an enemy
+			AActor* enemyHit = hit.GetActor();
+			if (enemyHit != nullptr)
+			{
+				// Enemy will take damage based on damage amount
+				FPointDamageEvent DamageEvent(damage, hit, shotDir, nullptr);
+				enemyHit->TakeDamage(damage, DamageEvent, controllerOwner, this);
+			}
+		}
+		// DrawDebugPoint(GetWorld(), hit.Location, 15, FColor::Red, true);
 
 		// Debug
 		// DrawDebugCamera(GetWorld(), location, rotation, 90.0f, 2.0f, FColor::Red, true);
