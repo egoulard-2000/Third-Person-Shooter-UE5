@@ -100,5 +100,11 @@
     <ClInclude Include="..\..\Source\ThirdPersonShooter\TPSPlayer.h">
       <Filter>Source\ThirdPersonShooter</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\TPSPlayerController.cpp">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\TPSPlayerController.h">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

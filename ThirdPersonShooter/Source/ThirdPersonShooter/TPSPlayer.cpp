@@ -2,6 +2,7 @@
 
 #include "GunWeapon.h"
 #include "Components/CapsuleComponent.h"
+#include "ThirdPersonShooterGameModeBase.h"
 #include "TPSPlayer.h"
 
 // Sets default values
@@ -111,20 +112,26 @@ void ATPSPlayer::Shoot()
 	GunWeapon->Shoot();
 }
 
+#pragma endregion
+
+#pragma region States
+
 float ATPSPlayer::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
 {
 	// Calculate base damage from Actor
 	float damageTaken = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
-	
+
 	// Ensure that health doesn't go negative on successive hits
 	damageTaken = FMath::Min(currentHealth, damageTaken);
-	
-	// Reduce Health
 	currentHealth -= damageTaken;
-	//UE_LOG(LogTemp, Warning, TEXT("Current Health: %f"), currentHealth);
 
 	if (IsKilled())
 	{
+		// Ensure the Game Ends when player dies via the GameMode chosen
+		AThirdPersonShooterGameModeBase* GameMode = GetWorld()->GetAuthGameMode<AThirdPersonShooterGameModeBase>();
+		if (GameMode != nullptr)
+			GameMode->PawnKilled(this);
+
 		// Can no longer move character and remove the capsule component from scene
 		DetachFromControllerPendingDestroy();
 		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
@@ -133,13 +140,10 @@ float ATPSPlayer::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent
 	return damageTaken;
 }
 
-#pragma endregion
-
-#pragma region States
-
 bool ATPSPlayer::IsKilled() const
 {
 	return currentHealth <= 0;
 }
+
 
 #pragma endregion

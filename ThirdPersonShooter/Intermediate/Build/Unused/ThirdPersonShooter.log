@@ -1,36 +1,5 @@
-﻿  Cleaning ThirdPersonShooterEditor and UnrealHeaderTool binaries...
-  Using bundled DotNet SDK
+﻿  Using bundled DotNet SDK
   Log file: C:\Users\emile\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5).
-  Creating makefile for ThirdPersonShooterEditor (no existing makefile)
-  Parsing headers for ThirdPersonShooterEditor
-    Running UnrealHeaderTool "C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\ThirdPersonShooter.uproject" "C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\ThirdPersonShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\emile\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for ThirdPersonShooterEditor in 1.5922385 seconds
-C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Source\ThirdPersonShooter\TPSPlayer.cpp(1): error : Expected TPSPlayer.h to be first header included.
-  Building ThirdPersonShooterEditor...
-  Using Visual Studio 2022 14.31.31107 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  [Adaptive Build] Excluded from ThirdPersonShooter unity file: TPSPlayer.cpp
-  Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
-    Executing up to 8 processes, one per physical core
-    Requested 1.5 GB free memory per action, 4.6 GB available: limiting max parallel actions to 3
-  Building 15 actions with 3 processes...
-  [1/15] Resource Default.rc2
-  [2/15] Compile SharedPCH.Engine.ShadowErrors.cpp
-  [3/15] Compile ThirdPersonShooter.init.gen.cpp
-  [4/15] Compile TPSPlayer.gen.cpp
-  [5/15] Compile ThirdPersonCharacter.cpp
-  [6/15] Compile GunWeapon.gen.cpp
-  [7/15] Compile ThirdPersonShooterGameModeBase.gen.cpp
-  [8/15] Compile ThirdPersonShooterGameModeBase.cpp
-  [9/15] Compile ThirdPersonShooter.cpp
-  [10/15] Compile ThirdPersonCharacter.gen.cpp
-  [11/15] Compile GunWeapon.cpp
-  [12/15] Compile TPSPlayer.cpp
-  [13/15] Link UnrealEditor-ThirdPersonShooter.lib
-     Creating library C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Intermediate\Build\Win64\UnrealEditor\Development\ThirdPersonShooter\UnrealEditor-ThirdPersonShooter.lib and object C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Intermediate\Build\Win64\UnrealEditor\Development\ThirdPersonShooter\UnrealEditor-ThirdPersonShooter.exp
-  [14/15] Link UnrealEditor-ThirdPersonShooter.dll
-     Creating library C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Intermediate\Build\Win64\UnrealEditor\Development\ThirdPersonShooter\UnrealEditor-ThirdPersonShooter.suppressed.lib and object C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Intermediate\Build\Win64\UnrealEditor\Development\ThirdPersonShooter\UnrealEditor-ThirdPersonShooter.suppressed.exp
-  [15/15] WriteMetadata ThirdPersonShooterEditor.target
-  Total time in Parallel executor: 49.86 seconds
-  Total execution time: 58.68 seconds
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(50,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_5.0\Engine\Build\BatchFiles\Rebuild.bat" ThirdPersonShooterEditor Win64 Development -Project="C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\ThirdPersonShooter.uproject" -WaitMutex -FromMsBuild" exited with code -1.
+  Target is up to date
+  Total execution time: 0.71 seconds
