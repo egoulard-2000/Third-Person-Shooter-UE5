@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define THIRDPERSONSHOOTER_TPSPlayer_generated_h
 
 #define FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSPlayer_h_15_SPARSE_DATA
-#define FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSPlayer_h_15_RPC_WRAPPERS
-#define FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSPlayer_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSPlayer_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execIsKilled);
+
+
+#define FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSPlayer_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execIsKilled);
+
+
 #define FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSPlayer_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATPSPlayer(); \

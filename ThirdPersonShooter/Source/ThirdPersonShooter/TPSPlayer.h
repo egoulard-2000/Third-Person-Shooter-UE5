@@ -18,6 +18,9 @@ public:
 	// Sets default values for this character's properties
 	ATPSPlayer();
 
+	UFUNCTION(BlueprintPure)
+		bool IsKilled() const;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

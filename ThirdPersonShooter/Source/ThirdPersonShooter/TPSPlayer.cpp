@@ -127,3 +127,11 @@ float ATPSPlayer::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent
 
 #pragma endregion
 
+#pragma region States
+
+bool ATPSPlayer::IsKilled() const
+{
+	return currentHealth <= 0;
+}
+
+#pragma endregion
