@@ -27,6 +27,9 @@ public:
 
 private:
 
+	UPROPERTY(EditAnywhere)
+		float shootingDistance = 10000.0f;
+
 	// Setup Blueprint Components pertaining to our guns
 	UPROPERTY(VisibleAnywhere)
 		USceneComponent* Root;

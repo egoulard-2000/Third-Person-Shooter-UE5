@@ -51,8 +51,17 @@ void AGunWeapon::Shoot()
 		FRotator rotation;
 		controllerOwner->GetPlayerViewPoint(location, rotation);
 
+		// End Point of Line
+		FVector endPoint = location + rotation.Vector() * shootingDistance;
+
+		FHitResult hit;
+		bool isHit = GetWorld()->LineTraceSingleByChannel(hit, location, endPoint, ECC_GameTraceChannel1);
+		
+		if (isHit)
+			DrawDebugPoint(GetWorld(), hit.Location, 15, FColor::Red, true);
+
 		// Debug
-		DrawDebugCamera(GetWorld(), location, rotation, 90.0f, 2.0f, FColor::Red, true);
+		// DrawDebugCamera(GetWorld(), location, rotation, 90.0f, 2.0f, FColor::Red, true);
 	}
 }
 

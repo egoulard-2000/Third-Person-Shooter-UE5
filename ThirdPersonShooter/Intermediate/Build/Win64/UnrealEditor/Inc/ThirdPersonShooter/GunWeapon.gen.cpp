@@ -32,6 +32,10 @@ void EmptyLinkFunctionForGeneratedCodeGunWeapon() {}
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_shootingDistance_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_shootingDistance;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Root_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_Root;
@@ -58,6 +62,13 @@ void EmptyLinkFunctionForGeneratedCodeGunWeapon() {}
 	};
 #endif
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGunWeapon_Statics::NewProp_shootingDistance_MetaData[] = {
+		{ "Category", "GunWeapon" },
+		{ "ModuleRelativePath", "GunWeapon.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGunWeapon_Statics::NewProp_shootingDistance = { "shootingDistance", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGunWeapon, shootingDistance), METADATA_PARAMS(Z_Construct_UClass_AGunWeapon_Statics::NewProp_shootingDistance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGunWeapon_Statics::NewProp_shootingDistance_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGunWeapon_Statics::NewProp_Root_MetaData[] = {
 		{ "Category", "GunWeapon" },
 		{ "Comment", "// Setup Blueprint Components pertaining to our guns\n" },
@@ -83,6 +94,7 @@ void EmptyLinkFunctionForGeneratedCodeGunWeapon() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGunWeapon_Statics::NewProp_ParticleEffect = { "ParticleEffect", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGunWeapon, ParticleEffect), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGunWeapon_Statics::NewProp_ParticleEffect_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGunWeapon_Statics::NewProp_ParticleEffect_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGunWeapon_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunWeapon_Statics::NewProp_shootingDistance,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunWeapon_Statics::NewProp_Root,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunWeapon_Statics::NewProp_Mesh,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunWeapon_Statics::NewProp_ParticleEffect,
@@ -123,9 +135,9 @@ void EmptyLinkFunctionForGeneratedCodeGunWeapon() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_GunWeapon_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AGunWeapon, AGunWeapon::StaticClass, TEXT("AGunWeapon"), &Z_Registration_Info_UClass_AGunWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGunWeapon), 1052282275U) },
+		{ Z_Construct_UClass_AGunWeapon, AGunWeapon::StaticClass, TEXT("AGunWeapon"), &Z_Registration_Info_UClass_AGunWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGunWeapon), 863401676U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_GunWeapon_h_2390149902(TEXT("/Script/ThirdPersonShooter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_GunWeapon_h_2682265611(TEXT("/Script/ThirdPersonShooter"),
 		Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_GunWeapon_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_GunWeapon_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
