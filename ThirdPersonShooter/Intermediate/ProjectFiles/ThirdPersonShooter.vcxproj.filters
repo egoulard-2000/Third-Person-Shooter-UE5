@@ -37,6 +37,18 @@
     <Filter Include="Source\ThirdPersonShooter">
       <UniqueIdentifier>{8DCF27F5-7A3D-368B-9C12-22003AAFFFA7}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\BTService_PlayerLocation.cpp">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\BTService_PlayerLocation.h">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\BTService_PlayerLocationWhenSeen.cpp">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\BTService_PlayerLocationWhenSeen.h">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ThirdPersonShooter\BTTask_ClearBlackBoardValue.cpp">
       <Filter>Source\ThirdPersonShooter</Filter>
     </ClCompile>

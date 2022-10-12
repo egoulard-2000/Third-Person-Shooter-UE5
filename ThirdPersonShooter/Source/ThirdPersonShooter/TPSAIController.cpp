@@ -24,16 +24,4 @@ void ATPSAIController::BeginPlay()
 void ATPSAIController::Tick(float DeltaSeconds)
 {
 	Super::Tick(DeltaSeconds);
-
-	if (LineOfSightTo(player))
-	{
-		//Set location and last known location of player for blackboard
-		GetBlackboardComponent()->SetValueAsVector(TEXT("PlayerLocation"), player->GetActorLocation());
-		GetBlackboardComponent()->SetValueAsVector(TEXT("LastKnownPlayerLocation"), player->GetActorLocation());
-	}
-	else
-	{
-		// Player's location is unknown and must be reset
-		GetBlackboardComponent()->ClearValue(TEXT("PlayerLocation"));
-	}
 }

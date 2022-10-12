@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "GunWeapon.h"
+#include "Components/CapsuleComponent.h"
 #include "TPSPlayer.h"
 
 // Sets default values
@@ -120,7 +121,14 @@ float ATPSPlayer::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent
 	
 	// Reduce Health
 	currentHealth -= damageTaken;
-	UE_LOG(LogTemp, Warning, TEXT("Current Health: %f"), currentHealth);
+	//UE_LOG(LogTemp, Warning, TEXT("Current Health: %f"), currentHealth);
+
+	if (IsKilled())
+	{
+		// Can no longer move character and remove the capsule component from scene
+		DetachFromControllerPendingDestroy();
+		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	}
 
 	return damageTaken;
 }

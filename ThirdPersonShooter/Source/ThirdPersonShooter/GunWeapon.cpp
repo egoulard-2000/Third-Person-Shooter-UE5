@@ -54,9 +54,15 @@ void AGunWeapon::Shoot()
 		// End Point of Line
 		FVector endPoint = location + rotation.Vector() * shootingDistance;
 
+		// Ensure enemies/player doesn't get hit by own weapon
+		FCollisionQueryParams params;
+		params.AddIgnoredActor(this);
+		params.AddIgnoredActor(GetOwner());
+
+		// The Hit Result 
 		FHitResult hit;
-		bool isHit = GetWorld()->LineTraceSingleByChannel(hit, location, endPoint, ECC_GameTraceChannel1);
-		
+		bool isHit = GetWorld()->LineTraceSingleByChannel(hit, location, endPoint, ECC_GameTraceChannel1, params);
+
 		if (isHit)
 		{
 			FVector shotDir = -rotation.Vector();
