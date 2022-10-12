@@ -13,5 +13,8 @@ UCLASS()
 class THIRDPERSONSHOOTER_API ATPSAIController : public AAIController
 {
 	GENERATED_BODY()
+
+protected:
+	virtual void BeginPlay() override;
 	
 };
