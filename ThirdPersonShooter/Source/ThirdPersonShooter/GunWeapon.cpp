@@ -85,6 +85,10 @@ void AGunWeapon::Shoot()
 			}
 		}
 	}
+	else 
+	{
+		ReloadWeapon();
+	}
 }
 
 void AGunWeapon::ReloadWeapon()

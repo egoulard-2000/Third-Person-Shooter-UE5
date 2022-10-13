@@ -14,8 +14,17 @@ void EmptyLinkFunctionForGeneratedCodeTPSPlayer() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_ThirdPersonShooter();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	GAMEPLAYCAMERAS_API UClass* Z_Construct_UClass_UMatineeCameraShake_NoRegister();
 	THIRDPERSONSHOOTER_API UClass* Z_Construct_UClass_AGunWeapon_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(ATPSPlayer::execSetMouseSensitivity)
+	{
+		P_GET_PROPERTY(FFloatProperty,Z_Param_sensitivity);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetMouseSensitivity(Z_Param_sensitivity);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ATPSPlayer::execGetCurrentAmmo)
 	{
 		P_FINISH;
@@ -44,6 +53,7 @@ void EmptyLinkFunctionForGeneratedCodeTPSPlayer() {}
 			{ "GetCurrentAmmo", &ATPSPlayer::execGetCurrentAmmo },
 			{ "GetHealth", &ATPSPlayer::execGetHealth },
 			{ "IsKilled", &ATPSPlayer::execIsKilled },
+			{ "SetMouseSensitivity", &ATPSPlayer::execSetMouseSensitivity },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -148,6 +158,38 @@ void EmptyLinkFunctionForGeneratedCodeTPSPlayer() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ATPSPlayer_SetMouseSensitivity_Statics
+	{
+		struct TPSPlayer_eventSetMouseSensitivity_Parms
+		{
+			float sensitivity;
+		};
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_sensitivity;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ATPSPlayer_SetMouseSensitivity_Statics::NewProp_sensitivity = { "sensitivity", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TPSPlayer_eventSetMouseSensitivity_Parms, sensitivity), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATPSPlayer_SetMouseSensitivity_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATPSPlayer_SetMouseSensitivity_Statics::NewProp_sensitivity,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATPSPlayer_SetMouseSensitivity_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "TPSPlayer.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ATPSPlayer_SetMouseSensitivity_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATPSPlayer, nullptr, "SetMouseSensitivity", nullptr, nullptr, sizeof(Z_Construct_UFunction_ATPSPlayer_SetMouseSensitivity_Statics::TPSPlayer_eventSetMouseSensitivity_Parms), Z_Construct_UFunction_ATPSPlayer_SetMouseSensitivity_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATPSPlayer_SetMouseSensitivity_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATPSPlayer_SetMouseSensitivity_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATPSPlayer_SetMouseSensitivity_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATPSPlayer_SetMouseSensitivity()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ATPSPlayer_SetMouseSensitivity_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(ATPSPlayer);
 	UClass* Z_Construct_UClass_ATPSPlayer_NoRegister()
 	{
@@ -195,6 +237,14 @@ void EmptyLinkFunctionForGeneratedCodeTPSPlayer() {}
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_ySensitivity;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_DamageShakeClass_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_DamageShakeClass;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_ShootShakeClass_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_ShootShakeClass;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_GunClass_MetaData[];
 #endif
 		static const UECodeGen_Private::FClassPropertyParams NewProp_GunClass;
@@ -214,6 +264,7 @@ void EmptyLinkFunctionForGeneratedCodeTPSPlayer() {}
 		{ &Z_Construct_UFunction_ATPSPlayer_GetCurrentAmmo, "GetCurrentAmmo" }, // 2907899018
 		{ &Z_Construct_UFunction_ATPSPlayer_GetHealth, "GetHealth" }, // 1322984922
 		{ &Z_Construct_UFunction_ATPSPlayer_IsKilled, "IsKilled" }, // 3555354992
+		{ &Z_Construct_UFunction_ATPSPlayer_SetMouseSensitivity, "SetMouseSensitivity" }, // 3907747999
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATPSPlayer_Statics::Class_MetaDataParams[] = {
@@ -283,6 +334,20 @@ void EmptyLinkFunctionForGeneratedCodeTPSPlayer() {}
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATPSPlayer_Statics::NewProp_ySensitivity = { "ySensitivity", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSPlayer, ySensitivity), METADATA_PARAMS(Z_Construct_UClass_ATPSPlayer_Statics::NewProp_ySensitivity_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATPSPlayer_Statics::NewProp_ySensitivity_MetaData)) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATPSPlayer_Statics::NewProp_DamageShakeClass_MetaData[] = {
+		{ "Category", "TPSPlayer" },
+		{ "ModuleRelativePath", "TPSPlayer.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_ATPSPlayer_Statics::NewProp_DamageShakeClass = { "DamageShakeClass", nullptr, (EPropertyFlags)0x0044000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSPlayer, DamageShakeClass), Z_Construct_UClass_UMatineeCameraShake_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ATPSPlayer_Statics::NewProp_DamageShakeClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATPSPlayer_Statics::NewProp_DamageShakeClass_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATPSPlayer_Statics::NewProp_ShootShakeClass_MetaData[] = {
+		{ "Category", "TPSPlayer" },
+		{ "ModuleRelativePath", "TPSPlayer.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_ATPSPlayer_Statics::NewProp_ShootShakeClass = { "ShootShakeClass", nullptr, (EPropertyFlags)0x0044000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSPlayer, ShootShakeClass), Z_Construct_UClass_UMatineeCameraShake_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ATPSPlayer_Statics::NewProp_ShootShakeClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATPSPlayer_Statics::NewProp_ShootShakeClass_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATPSPlayer_Statics::NewProp_GunClass_MetaData[] = {
 		{ "Category", "TPSPlayer" },
 		{ "Comment", "// Don't Edit at Runtime\n" },
@@ -306,6 +371,8 @@ void EmptyLinkFunctionForGeneratedCodeTPSPlayer() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSPlayer_Statics::NewProp_sprintSpeed,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSPlayer_Statics::NewProp_xSensitivity,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSPlayer_Statics::NewProp_ySensitivity,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSPlayer_Statics::NewProp_DamageShakeClass,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSPlayer_Statics::NewProp_ShootShakeClass,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSPlayer_Statics::NewProp_GunClass,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSPlayer_Statics::NewProp_GunWeapon,
 	};
@@ -345,9 +412,9 @@ void EmptyLinkFunctionForGeneratedCodeTPSPlayer() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSPlayer_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ATPSPlayer, ATPSPlayer::StaticClass, TEXT("ATPSPlayer"), &Z_Registration_Info_UClass_ATPSPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATPSPlayer), 2428544680U) },
+		{ Z_Construct_UClass_ATPSPlayer, ATPSPlayer::StaticClass, TEXT("ATPSPlayer"), &Z_Registration_Info_UClass_ATPSPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATPSPlayer), 3958629733U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSPlayer_h_3669549094(TEXT("/Script/ThirdPersonShooter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSPlayer_h_311169011(TEXT("/Script/ThirdPersonShooter"),
 		Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSPlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSPlayer_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

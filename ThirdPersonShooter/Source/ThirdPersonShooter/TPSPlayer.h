@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "TakeDamageShake.h"
+#include "ShootShake.h"
 #include "TPSPlayer.generated.h"
 
 // Have the Gun Weapon class available for all instances
@@ -27,6 +29,9 @@ public:
 
 	UFUNCTION(BlueprintPure)
 		int GetCurrentAmmo() const;
+
+	UFUNCTION(BlueprintCallable)
+		void SetMouseSensitivity(float sensitivity);
 
 protected:
 	// Called when the game starts or when spawned
@@ -63,34 +68,52 @@ private:
 
 	#pragma endregion
 
-	UPROPERTY(EditAnywhere)
-		float totalHealth = 100.0f;
+	#pragma region Variables
 
-	UPROPERTY(VisibleAnywhere)
-		float currentHealth;
+		UPROPERTY(EditAnywhere)
+			float totalHealth = 100.0f;
 
-	UPROPERTY()
-		bool jumping;
+		UPROPERTY(VisibleAnywhere)
+			float currentHealth;
 
-	UPROPERTY()
-		bool sprinting;
+		UPROPERTY()
+			bool jumping;
 
-	UPROPERTY()
-		float runSpeed = 600.0f;
+		UPROPERTY()
+			bool sprinting;
 
-	UPROPERTY()
-		float sprintSpeed = 900.0f;
+		UPROPERTY()
+			float runSpeed = 600.0f;
 
-	UPROPERTY(EditAnywhere)
-		float xSensitivity;
+		UPROPERTY()
+			float sprintSpeed = 900.0f;
 
-	UPROPERTY(EditAnywhere)
-		float ySensitivity;
+		UPROPERTY(EditAnywhere)
+			float xSensitivity;
 
-	// Don't Edit at Runtime
-	UPROPERTY(EditDefaultsOnly)
-		TSubclassOf<AGunWeapon> GunClass;
+		UPROPERTY(EditAnywhere)
+			float ySensitivity;
 
-	UPROPERTY()
-		AGunWeapon* GunWeapon;
+	#pragma endregion
+
+	#pragma region CameraShake
+
+		UPROPERTY(EditAnywhere)
+			TSubclassOf<UMatineeCameraShake> DamageShakeClass;
+
+		UPROPERTY(EditAnywhere)
+			TSubclassOf<UMatineeCameraShake> ShootShakeClass;
+
+	#pragma endregion
+
+	#pragma region GunClass
+
+		// Don't Edit at Runtime
+		UPROPERTY(EditDefaultsOnly)
+			TSubclassOf<AGunWeapon> GunClass;
+
+		UPROPERTY()
+			AGunWeapon* GunWeapon;
+
+	#pragma endregion
 };

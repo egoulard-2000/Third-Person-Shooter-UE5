@@ -30,7 +30,6 @@ private:
 
 	UPROPERTY(EditAnywhere)
 		class UBehaviorTree* AIBehavior;
-		//float enemyDistance = 300.0f;
 
 
 };

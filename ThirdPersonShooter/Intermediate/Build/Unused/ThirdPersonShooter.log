@@ -1,5 +1,18 @@
 ﻿  Using bundled DotNet SDK
   Log file: C:\Users\emile\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5).
-  Target is up to date
-  Total execution time: 0.58 seconds
+  Building ThirdPersonShooterEditor...
+  Using Visual Studio 2022 14.31.31107 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from ThirdPersonShooter unity file: BTTask_Shoot.cpp, GunWeapon.cpp, TPSPlayer.cpp
+  Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+    Executing up to 8 processes, one per physical core
+    Requested 1.5 GB free memory per action, 5.23 GB available: limiting max parallel actions to 3
+  Building 4 actions with 3 processes...
+  [1/4] Compile TPSPlayer.cpp
+  [2/4] Link UnrealEditor-ThirdPersonShooter.lib
+     Creating library C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Intermediate\Build\Win64\UnrealEditor\Development\ThirdPersonShooter\UnrealEditor-ThirdPersonShooter.lib and object C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Intermediate\Build\Win64\UnrealEditor\Development\ThirdPersonShooter\UnrealEditor-ThirdPersonShooter.exp
+  [3/4] Link UnrealEditor-ThirdPersonShooter.dll
+     Creating library C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Intermediate\Build\Win64\UnrealEditor\Development\ThirdPersonShooter\UnrealEditor-ThirdPersonShooter.suppressed.lib and object C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Intermediate\Build\Win64\UnrealEditor\Development\ThirdPersonShooter\UnrealEditor-ThirdPersonShooter.suppressed.exp
+  [4/4] WriteMetadata ThirdPersonShooterEditor.target
+  Total time in Parallel executor: 11.79 seconds
+  Total execution time: 12.83 seconds

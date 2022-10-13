@@ -251,6 +251,20 @@
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
+/I ..\Plugins\Cameras\GameplayCameras\Intermediate\Build\Win64\UnrealEditor\Inc\GameplayCameras
+/I ..\Plugins\Cameras\GameplayCameras\Source
+/I ..\Plugins\Cameras\GameplayCameras\Source\GameplayCameras\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AugmentedReality
+/I Runtime\AugmentedReality\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MRMesh
+/I Runtime\MRMesh\Public
+/I ..\Plugins\MovieScene\TemplateSequence\Intermediate\Build\Win64\UnrealEditor\Inc\TemplateSequence
+/I ..\Plugins\MovieScene\TemplateSequence\Source
+/I ..\Plugins\MovieScene\TemplateSequence\Source\TemplateSequence\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CinematicCamera
+/I Runtime\CinematicCamera\Public
+/I ..\Intermediate\Build\Win64\UnrealEditor\Inc\LevelSequence
+/I Runtime\LevelSequence\Public
 /I "C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Intermediate\Build\Win64\UnrealEditor\Inc\ThirdPersonShooter"
 /I "C:\Users\emile\Documents\Unreal Projects\ThirdPersonShooter\Third-Person-Shooter-UE5\ThirdPersonShooter\Source"
 /I ThirdParty\mimalloc\include

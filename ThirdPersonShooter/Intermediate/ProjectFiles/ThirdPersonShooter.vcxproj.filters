@@ -67,6 +67,18 @@
     <ClInclude Include="..\..\Source\ThirdPersonShooter\GunWeapon.h">
       <Filter>Source\ThirdPersonShooter</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\ShootShake.cpp">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\ShootShake.h">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ThirdPersonShooter\TakeDamageShake.cpp">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ThirdPersonShooter\TakeDamageShake.h">
+      <Filter>Source\ThirdPersonShooter</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ThirdPersonShooter\ThirdPersonCharacter.cpp">
       <Filter>Source\ThirdPersonShooter</Filter>
     </ClCompile>

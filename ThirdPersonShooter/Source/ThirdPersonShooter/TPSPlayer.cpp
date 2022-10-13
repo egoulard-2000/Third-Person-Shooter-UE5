@@ -3,6 +3,11 @@
 #include "GunWeapon.h"
 #include "Components/CapsuleComponent.h"
 #include "ThirdPersonShooterGameModeBase.h"
+#include "Curves/CurveVector.h"
+#include "Kismet/KismetMathLibrary.h"
+#include "Components/InputComponent.h"
+#include "GameFramework/Controller.h"
+
 #include "TPSPlayer.h"
 
 // Sets default values
@@ -24,7 +29,7 @@ ATPSPlayer::ATPSPlayer()
 void ATPSPlayer::BeginPlay()
 {
 	Super::BeginPlay();
-
+	
 	GunWeapon = GetWorld()->SpawnActor<AGunWeapon>(GunClass);
 
 	// Hide the current weapon attached to player by default
@@ -49,22 +54,25 @@ void ATPSPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	PlayerInputComponent->BindAxis("HorizontalMove", this, &ATPSPlayer::HorizontalMove);
-	PlayerInputComponent->BindAxis("VerticalMove", this, &ATPSPlayer::VerticalMove);
+	#pragma region PlayerInputs
+
+		PlayerInputComponent->BindAxis("HorizontalMove", this, &ATPSPlayer::HorizontalMove);
+		PlayerInputComponent->BindAxis("VerticalMove", this, &ATPSPlayer::VerticalMove);
 	
-	PlayerInputComponent->BindAxis("HorizontalLook", this, &ATPSPlayer::HorizontalLook);
-	PlayerInputComponent->BindAxis("VerticalLook", this, &ATPSPlayer::VerticalLook);
+		PlayerInputComponent->BindAxis("HorizontalLook", this, &ATPSPlayer::HorizontalLook);
+		PlayerInputComponent->BindAxis("VerticalLook", this, &ATPSPlayer::VerticalLook);
 
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ATPSPlayer::CheckJump);
-	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ATPSPlayer::CheckJump);
+		PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ATPSPlayer::CheckJump);
+		PlayerInputComponent->BindAction("Jump", IE_Released, this, &ATPSPlayer::CheckJump);
 
-	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &ATPSPlayer::SprintStart);
-	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &ATPSPlayer::SprintEnd);
+		PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &ATPSPlayer::SprintStart);
+		PlayerInputComponent->BindAction("Sprint", IE_Released, this, &ATPSPlayer::SprintEnd);
 
-	PlayerInputComponent->BindAction("Shoot", IE_Pressed, this, &ATPSPlayer::Shoot);
+		PlayerInputComponent->BindAction("Shoot", IE_Pressed, this, &ATPSPlayer::Shoot);
 
-	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &ATPSPlayer::Reload);
-	//PlayerInputComponent->BindAction("Shoot", IE_Released, this, &ATPSPlayer::CheckJump);
+		PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &ATPSPlayer::Reload);
+
+	#pragma endregion
 }
 
 #pragma region Movement Input
@@ -92,6 +100,12 @@ void ATPSPlayer::HorizontalLook(float value)
 void ATPSPlayer::VerticalLook(float value)
 {
 	AddControllerPitchInput(value * ySensitivity * GetWorld()->GetDeltaSeconds());
+}
+
+void ATPSPlayer::SetMouseSensitivity(float sensitivity)
+{
+	xSensitivity = sensitivity;
+	ySensitivity = sensitivity;
 }
 
 #pragma endregion
@@ -129,7 +143,12 @@ void ATPSPlayer::Shoot()
 {
 	// I don't want the player to sprint and fire simultaneously
 	if (!sprinting)
+	{
 		GunWeapon->Shoot();
+
+		// Shake the Camera on Fire
+		GetWorld()->GetFirstPlayerController()->PlayerCameraManager->StartCameraShake(ShootShakeClass, 0.1f);
+	}
 }
 
 void ATPSPlayer::Reload()
@@ -154,6 +173,9 @@ float ATPSPlayer::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent
 	// Ensure that health doesn't go negative on successive hits
 	damageTaken = FMath::Min(currentHealth, damageTaken);
 	currentHealth -= damageTaken;
+
+	// Shake 'TakeDamage' for Camera
+	GetWorld()->GetFirstPlayerController()->PlayerCameraManager->StartCameraShake(DamageShakeClass, 0.1f);
 
 	if (IsKilled())
 	{
