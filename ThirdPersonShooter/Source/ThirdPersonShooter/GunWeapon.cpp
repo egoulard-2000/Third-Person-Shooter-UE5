@@ -29,58 +29,75 @@ void AGunWeapon::BeginPlay()
 void AGunWeapon::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 void AGunWeapon::Shoot()
 {
-	// Spawn Particle Effect (Muzzle Flash of Gun)
-	UGameplayStatics::SpawnEmitterAttached(MuzzleParticleEffect, Mesh, TEXT("MuzzleFlash"));
-	// Play Sound of current gun
-	UGameplayStatics::SpawnSoundAttached(MuzzleSound, Mesh, TEXT("MuzzleFlash"));
-
-	ATPSPlayer* playerOwner = Cast<ATPSPlayer>(GetOwner());
-	AController* controllerOwner = playerOwner->GetController();
-
-	// Make sure these exist before calculating raycasts (linetrace)
-	if (playerOwner != nullptr || controllerOwner != nullptr)
+	if (currentAmmo > 0)
 	{
-		// Find current camera controller rotation
-		FVector location;
-		FRotator rotation;
-		controllerOwner->GetPlayerViewPoint(location, rotation);
+		currentAmmo--;
+		// Spawn Particle Effect (Muzzle Flash of Gun)
+		UGameplayStatics::SpawnEmitterAttached(MuzzleParticleEffect, Mesh, TEXT("MuzzleFlash"));
+		// Play Sound of current gun
+		UGameplayStatics::SpawnSoundAttached(MuzzleSound, Mesh, TEXT("MuzzleFlash"));
 
-		// End Point of Line
-		FVector endPoint = location + rotation.Vector() * shootingDistance;
+		ATPSPlayer* playerOwner = Cast<ATPSPlayer>(GetOwner());
+		AController* controllerOwner = playerOwner->GetController();
 
-		// Ensure enemies/player doesn't get hit by own weapon
-		FCollisionQueryParams params;
-		params.AddIgnoredActor(this);
-		params.AddIgnoredActor(GetOwner());
-
-		// The Hit Result 
-		FHitResult hit;
-		bool isHit = GetWorld()->LineTraceSingleByChannel(hit, location, endPoint, ECC_GameTraceChannel1, params);
-
-		if (isHit)
+		// Make sure these exist before calculating raycasts (linetrace)
+		if (playerOwner != nullptr || controllerOwner != nullptr)
 		{
-			FVector shotDir = -rotation.Vector();
+			// Find current camera controller rotation
+			FVector location;
+			FRotator rotation;
+			controllerOwner->GetPlayerViewPoint(location, rotation);
 
-			// Spawn Impact on hit
-			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), BulletImpactParticleEffect, hit.Location, shotDir.Rotation());
-			
-			// Spawn Sound on hit
-			UGameplayStatics::SpawnSoundAtLocation(GetWorld(), ImpactSound, hit.Location);
+			// End Point of Line
+			FVector endPoint = location + rotation.Vector() * shootingDistance;
 
-			// Dish out damage to enemy if we hit an enemy
-			AActor* enemyHit = hit.GetActor();
-			if (enemyHit != nullptr)
+			// Ensure enemies/player doesn't get hit by own weapon
+			FCollisionQueryParams params;
+			params.AddIgnoredActor(this);
+			params.AddIgnoredActor(GetOwner());
+
+			// The Hit Result 
+			FHitResult hit;
+			bool isHit = GetWorld()->LineTraceSingleByChannel(hit, location, endPoint, ECC_GameTraceChannel1, params);
+
+			if (isHit)
 			{
-				// Enemy will take damage based on damage amount
-				FPointDamageEvent DamageEvent(damage, hit, shotDir, nullptr);
-				enemyHit->TakeDamage(damage, DamageEvent, controllerOwner, this);
+				FVector shotDir = -rotation.Vector();
+
+				// Spawn Impact on hit
+				UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), BulletImpactParticleEffect, hit.Location, shotDir.Rotation());
+
+				// Spawn Sound on hit
+				UGameplayStatics::SpawnSoundAtLocation(GetWorld(), ImpactSound, hit.Location);
+
+				// Dish out damage to enemy if we hit an enemy
+				AActor* enemyHit = hit.GetActor();
+				if (enemyHit != nullptr)
+				{
+					// Enemy will take damage based on damage amount
+					FPointDamageEvent DamageEvent(damage, hit, shotDir, nullptr);
+					enemyHit->TakeDamage(damage, DamageEvent, controllerOwner, this);
+				}
 			}
 		}
 	}
+}
+
+void AGunWeapon::ReloadWeapon()
+{
+	if (currentAmmo != totalAmmo)
+	{
+		UGameplayStatics::SpawnSoundAttached(ReloadSound, Mesh, TEXT("MuzzleFlash"));
+		currentAmmo = totalAmmo;
+	}
+}
+
+int AGunWeapon::GetCurrentAmmo()
+{
+	return currentAmmo;
 }
 

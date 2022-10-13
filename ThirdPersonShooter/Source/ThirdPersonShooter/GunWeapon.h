@@ -16,6 +16,8 @@ public:
 	AGunWeapon();
 
 	void Shoot();
+	void ReloadWeapon();
+	int GetCurrentAmmo();
 
 protected:
 	// Called when the game starts or when spawned
@@ -26,6 +28,12 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 private:
+
+	UPROPERTY(EditAnywhere)
+		int totalAmmo = 30;
+
+	UPROPERTY()
+		int currentAmmo = totalAmmo;
 
 	UPROPERTY(EditAnywhere)
 		float shootingDistance = 10000.0f;
@@ -40,24 +48,31 @@ private:
 	UPROPERTY(VisibleAnywhere)
 		USkeletalMeshComponent* Mesh;
 
-#pragma region Muzzle Effects
+	#pragma region Muzzle Effects
 
-	UPROPERTY(EditAnywhere)
-		UParticleSystem* MuzzleParticleEffect;
+		UPROPERTY(EditAnywhere)
+			UParticleSystem* MuzzleParticleEffect;
 
-	UPROPERTY(EditAnywhere)
-		USoundBase* MuzzleSound;
+		UPROPERTY(EditAnywhere)
+			USoundBase* MuzzleSound;
 
-#pragma endregion
+	#pragma endregion
 
-#pragma region Impact Effects
+	#pragma region Impact Effects
 
-	UPROPERTY(EditAnywhere)
-		UParticleSystem* BulletImpactParticleEffect;
+		UPROPERTY(EditAnywhere)
+			UParticleSystem* BulletImpactParticleEffect;
 
-	UPROPERTY(EditAnywhere)
-		USoundBase* ImpactSound;
+		UPROPERTY(EditAnywhere)
+			USoundBase* ImpactSound;
 
-#pragma endregion
+	#pragma endregion
+
+	#pragma region Reload
+
+		UPROPERTY(EditAnywhere)
+			USoundBase* ReloadSound;
+
+	#pragma endregion
 
 };

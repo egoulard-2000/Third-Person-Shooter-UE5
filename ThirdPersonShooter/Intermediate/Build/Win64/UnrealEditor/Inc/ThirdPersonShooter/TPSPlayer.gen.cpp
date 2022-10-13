@@ -16,6 +16,20 @@ void EmptyLinkFunctionForGeneratedCodeTPSPlayer() {}
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	THIRDPERSONSHOOTER_API UClass* Z_Construct_UClass_AGunWeapon_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(ATPSPlayer::execGetCurrentAmmo)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(int32*)Z_Param__Result=P_THIS->GetCurrentAmmo();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ATPSPlayer::execGetHealth)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(float*)Z_Param__Result=P_THIS->GetHealth();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ATPSPlayer::execIsKilled)
 	{
 		P_FINISH;
@@ -27,9 +41,75 @@ void EmptyLinkFunctionForGeneratedCodeTPSPlayer() {}
 	{
 		UClass* Class = ATPSPlayer::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "GetCurrentAmmo", &ATPSPlayer::execGetCurrentAmmo },
+			{ "GetHealth", &ATPSPlayer::execGetHealth },
 			{ "IsKilled", &ATPSPlayer::execIsKilled },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ATPSPlayer_GetCurrentAmmo_Statics
+	{
+		struct TPSPlayer_eventGetCurrentAmmo_Parms
+		{
+			int32 ReturnValue;
+		};
+		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_ReturnValue;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_ATPSPlayer_GetCurrentAmmo_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TPSPlayer_eventGetCurrentAmmo_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATPSPlayer_GetCurrentAmmo_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATPSPlayer_GetCurrentAmmo_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATPSPlayer_GetCurrentAmmo_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "TPSPlayer.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ATPSPlayer_GetCurrentAmmo_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATPSPlayer, nullptr, "GetCurrentAmmo", nullptr, nullptr, sizeof(Z_Construct_UFunction_ATPSPlayer_GetCurrentAmmo_Statics::TPSPlayer_eventGetCurrentAmmo_Parms), Z_Construct_UFunction_ATPSPlayer_GetCurrentAmmo_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATPSPlayer_GetCurrentAmmo_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATPSPlayer_GetCurrentAmmo_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATPSPlayer_GetCurrentAmmo_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATPSPlayer_GetCurrentAmmo()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ATPSPlayer_GetCurrentAmmo_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ATPSPlayer_GetHealth_Statics
+	{
+		struct TPSPlayer_eventGetHealth_Parms
+		{
+			float ReturnValue;
+		};
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ATPSPlayer_GetHealth_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(TPSPlayer_eventGetHealth_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATPSPlayer_GetHealth_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATPSPlayer_GetHealth_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATPSPlayer_GetHealth_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "TPSPlayer.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ATPSPlayer_GetHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATPSPlayer, nullptr, "GetHealth", nullptr, nullptr, sizeof(Z_Construct_UFunction_ATPSPlayer_GetHealth_Statics::TPSPlayer_eventGetHealth_Parms), Z_Construct_UFunction_ATPSPlayer_GetHealth_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATPSPlayer_GetHealth_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATPSPlayer_GetHealth_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATPSPlayer_GetHealth_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATPSPlayer_GetHealth()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ATPSPlayer_GetHealth_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_ATPSPlayer_IsKilled_Statics
 	{
@@ -131,6 +211,8 @@ void EmptyLinkFunctionForGeneratedCodeTPSPlayer() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ThirdPersonShooter,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ATPSPlayer_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ATPSPlayer_GetCurrentAmmo, "GetCurrentAmmo" }, // 2907899018
+		{ &Z_Construct_UFunction_ATPSPlayer_GetHealth, "GetHealth" }, // 1322984922
 		{ &Z_Construct_UFunction_ATPSPlayer_IsKilled, "IsKilled" }, // 3555354992
 	};
 #if WITH_METADATA
@@ -142,10 +224,11 @@ void EmptyLinkFunctionForGeneratedCodeTPSPlayer() {}
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATPSPlayer_Statics::NewProp_totalHealth_MetaData[] = {
+		{ "Category", "TPSPlayer" },
 		{ "ModuleRelativePath", "TPSPlayer.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATPSPlayer_Statics::NewProp_totalHealth = { "totalHealth", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSPlayer, totalHealth), METADATA_PARAMS(Z_Construct_UClass_ATPSPlayer_Statics::NewProp_totalHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATPSPlayer_Statics::NewProp_totalHealth_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATPSPlayer_Statics::NewProp_totalHealth = { "totalHealth", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSPlayer, totalHealth), METADATA_PARAMS(Z_Construct_UClass_ATPSPlayer_Statics::NewProp_totalHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATPSPlayer_Statics::NewProp_totalHealth_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATPSPlayer_Statics::NewProp_currentHealth_MetaData[] = {
 		{ "Category", "TPSPlayer" },
@@ -262,9 +345,9 @@ void EmptyLinkFunctionForGeneratedCodeTPSPlayer() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSPlayer_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ATPSPlayer, ATPSPlayer::StaticClass, TEXT("ATPSPlayer"), &Z_Registration_Info_UClass_ATPSPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATPSPlayer), 3908754631U) },
+		{ Z_Construct_UClass_ATPSPlayer, ATPSPlayer::StaticClass, TEXT("ATPSPlayer"), &Z_Registration_Info_UClass_ATPSPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATPSPlayer), 2428544680U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSPlayer_h_2227952590(TEXT("/Script/ThirdPersonShooter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSPlayer_h_3669549094(TEXT("/Script/ThirdPersonShooter"),
 		Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSPlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSPlayer_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

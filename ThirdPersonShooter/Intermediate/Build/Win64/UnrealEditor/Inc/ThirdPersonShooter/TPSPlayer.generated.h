@@ -16,11 +16,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSPlayer_h_16_SPARSE_DATA
 #define FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSPlayer_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetCurrentAmmo); \
+	DECLARE_FUNCTION(execGetHealth); \
 	DECLARE_FUNCTION(execIsKilled);
 
 
 #define FID_ThirdPersonShooter_Source_ThirdPersonShooter_TPSPlayer_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetCurrentAmmo); \
+	DECLARE_FUNCTION(execGetHealth); \
 	DECLARE_FUNCTION(execIsKilled);
 
 

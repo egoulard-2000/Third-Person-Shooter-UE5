@@ -62,6 +62,8 @@ void ATPSPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &ATPSPlayer::SprintEnd);
 
 	PlayerInputComponent->BindAction("Shoot", IE_Pressed, this, &ATPSPlayer::Shoot);
+
+	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &ATPSPlayer::Reload);
 	//PlayerInputComponent->BindAction("Shoot", IE_Released, this, &ATPSPlayer::CheckJump);
 }
 
@@ -130,6 +132,16 @@ void ATPSPlayer::Shoot()
 		GunWeapon->Shoot();
 }
 
+void ATPSPlayer::Reload()
+{
+	GunWeapon->ReloadWeapon();
+}
+
+int ATPSPlayer::GetCurrentAmmo() const
+{
+	return GunWeapon->GetCurrentAmmo();
+}
+
 #pragma endregion
 
 #pragma region States
@@ -161,6 +173,11 @@ float ATPSPlayer::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent
 bool ATPSPlayer::IsKilled() const
 {
 	return currentHealth <= 0;
+}
+
+float ATPSPlayer::GetHealth() const
+{
+	return currentHealth / totalHealth;
 }
 
 

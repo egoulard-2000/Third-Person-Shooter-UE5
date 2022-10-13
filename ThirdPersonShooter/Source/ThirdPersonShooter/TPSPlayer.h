@@ -22,6 +22,12 @@ public:
 	UFUNCTION(BlueprintPure)
 		bool IsKilled() const;
 
+	UFUNCTION(BlueprintPure)
+		float GetHealth() const;
+
+	UFUNCTION(BlueprintPure)
+		int GetCurrentAmmo() const;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -53,9 +59,11 @@ private:
 			void SprintStart();
 			void SprintEnd();
 
+			void Reload();
+
 	#pragma endregion
 
-	UPROPERTY()
+	UPROPERTY(EditAnywhere)
 		float totalHealth = 100.0f;
 
 	UPROPERTY(VisibleAnywhere)

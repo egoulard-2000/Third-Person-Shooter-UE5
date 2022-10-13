@@ -17,7 +17,12 @@ class THIRDPERSONSHOOTER_API ATPSPlayerController : public APlayerController
 public:
 	virtual void GameHasEnded(class AActor* EndGameFocus = nullptr, bool bIsWinner = false) override;
 
+	virtual void BeginPlay() override;
+
 private:
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class UUserWidget> HUDClass;
 
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<class UUserWidget> RestartScreenClass;
@@ -26,4 +31,7 @@ private:
 
 	UPROPERTY(EditAnywhere)
 		float restartTimer = 3.0f;
+
+	UPROPERTY()
+		UUserWidget* HUD;
 };
