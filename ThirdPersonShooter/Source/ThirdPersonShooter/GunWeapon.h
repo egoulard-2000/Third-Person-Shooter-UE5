@@ -40,10 +40,24 @@ private:
 	UPROPERTY(VisibleAnywhere)
 		USkeletalMeshComponent* Mesh;
 
+#pragma region Muzzle Effects
+
 	UPROPERTY(EditAnywhere)
 		UParticleSystem* MuzzleParticleEffect;
 
 	UPROPERTY(EditAnywhere)
+		USoundBase* MuzzleSound;
+
+#pragma endregion
+
+#pragma region Impact Effects
+
+	UPROPERTY(EditAnywhere)
 		UParticleSystem* BulletImpactParticleEffect;
+
+	UPROPERTY(EditAnywhere)
+		USoundBase* ImpactSound;
+
+#pragma endregion
 
 };

@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "TPSPlayer.generated.h"
 
 // Have the Gun Weapon class available for all instances
@@ -46,7 +47,13 @@ private:
 
 	#pragma endregion
 
-	void CheckJump();
+	#pragma region PlayerActions
+
+			void CheckJump();
+			void SprintStart();
+			void SprintEnd();
+
+	#pragma endregion
 
 	UPROPERTY()
 		float totalHealth = 100.0f;
@@ -56,6 +63,15 @@ private:
 
 	UPROPERTY()
 		bool jumping;
+
+	UPROPERTY()
+		bool sprinting;
+
+	UPROPERTY()
+		float runSpeed = 600.0f;
+
+	UPROPERTY()
+		float sprintSpeed = 900.0f;
 
 	UPROPERTY(EditAnywhere)
 		float xSensitivity;

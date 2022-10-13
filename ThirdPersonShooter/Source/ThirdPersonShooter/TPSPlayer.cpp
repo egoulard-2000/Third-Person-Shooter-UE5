@@ -14,6 +14,8 @@ ATPSPlayer::ATPSPlayer()
 	currentHealth = totalHealth;
 
 	jumping = false;
+	sprinting = false;
+
 	xSensitivity = 80;
 	ySensitivity = 80;
 }
@@ -40,7 +42,6 @@ void ATPSPlayer::Tick(float DeltaTime)
 
 	if (jumping)
 		Jump();
-
 }
 
 // Called to bind functionality to input
@@ -57,6 +58,9 @@ void ATPSPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ATPSPlayer::CheckJump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ATPSPlayer::CheckJump);
 
+	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &ATPSPlayer::SprintStart);
+	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &ATPSPlayer::SprintEnd);
+
 	PlayerInputComponent->BindAction("Shoot", IE_Pressed, this, &ATPSPlayer::Shoot);
 	//PlayerInputComponent->BindAction("Shoot", IE_Released, this, &ATPSPlayer::CheckJump);
 }
@@ -65,13 +69,13 @@ void ATPSPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 
 void ATPSPlayer::HorizontalMove(float value)
 {
-	AddMovementInput(GetActorRightVector() * value);
+	AddMovementInput(GetActorRightVector(), value);
 }
 
 
 void ATPSPlayer::VerticalMove(float value)
 {
-	AddMovementInput(GetActorForwardVector() * value);
+	AddMovementInput(GetActorForwardVector(), value);
 }
 
 #pragma endregion
@@ -90,7 +94,7 @@ void ATPSPlayer::VerticalLook(float value)
 
 #pragma endregion
 
-#pragma region Jump Function
+#pragma region Action Functions
 
 /// <summary>
 /// Allows the player to determine when to jump and when not to jump
@@ -103,13 +107,27 @@ void ATPSPlayer::CheckJump()
 		jumping = true;
 }
 
+void ATPSPlayer::SprintStart()
+{
+	sprinting = true;
+	GetCharacterMovement()->MaxWalkSpeed = sprintSpeed;
+}
+
+void ATPSPlayer::SprintEnd()
+{
+	sprinting = false;
+	GetCharacterMovement()->MaxWalkSpeed = runSpeed;
+}
+
 #pragma endregion
 
 #pragma region Weapon Fire Function
 
 void ATPSPlayer::Shoot()
 {
-	GunWeapon->Shoot();
+	// I don't want the player to sprint and fire simultaneously
+	if (!sprinting)
+		GunWeapon->Shoot();
 }
 
 #pragma endregion

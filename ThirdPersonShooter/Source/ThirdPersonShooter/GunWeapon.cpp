@@ -16,9 +16,6 @@ AGunWeapon::AGunWeapon()
 	
 	Mesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Mesh"));
 	Mesh->SetupAttachment(Root);
-
-	//ParticleEffect = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("ParticleEffect"));
-	//ParticleEffect->SetupAttachment
 }
 
 // Called when the game starts or when spawned
@@ -39,11 +36,13 @@ void AGunWeapon::Shoot()
 {
 	// Spawn Particle Effect (Muzzle Flash of Gun)
 	UGameplayStatics::SpawnEmitterAttached(MuzzleParticleEffect, Mesh, TEXT("MuzzleFlash"));
+	// Play Sound of current gun
+	UGameplayStatics::SpawnSoundAttached(MuzzleSound, Mesh, TEXT("MuzzleFlash"));
 
 	ATPSPlayer* playerOwner = Cast<ATPSPlayer>(GetOwner());
 	AController* controllerOwner = playerOwner->GetController();
 
-	// Make sure these exist (I ain't risking anything here lol)
+	// Make sure these exist before calculating raycasts (linetrace)
 	if (playerOwner != nullptr || controllerOwner != nullptr)
 	{
 		// Find current camera controller rotation
@@ -66,8 +65,13 @@ void AGunWeapon::Shoot()
 		if (isHit)
 		{
 			FVector shotDir = -rotation.Vector();
+
+			// Spawn Impact on hit
 			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), BulletImpactParticleEffect, hit.Location, shotDir.Rotation());
-		
+			
+			// Spawn Sound on hit
+			UGameplayStatics::SpawnSoundAtLocation(GetWorld(), ImpactSound, hit.Location);
+
 			// Dish out damage to enemy if we hit an enemy
 			AActor* enemyHit = hit.GetActor();
 			if (enemyHit != nullptr)
@@ -77,10 +81,6 @@ void AGunWeapon::Shoot()
 				enemyHit->TakeDamage(damage, DamageEvent, controllerOwner, this);
 			}
 		}
-		// DrawDebugPoint(GetWorld(), hit.Location, 15, FColor::Red, true);
-
-		// Debug
-		// DrawDebugCamera(GetWorld(), location, rotation, 90.0f, 2.0f, FColor::Red, true);
 	}
 }
 

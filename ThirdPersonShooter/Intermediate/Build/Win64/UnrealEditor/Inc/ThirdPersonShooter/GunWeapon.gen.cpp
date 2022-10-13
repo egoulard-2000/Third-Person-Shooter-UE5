@@ -16,6 +16,7 @@ void EmptyLinkFunctionForGeneratedCodeGunWeapon() {}
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 // End Cross Module References
 	void AGunWeapon::StaticRegisterNativesAGunWeapon()
 	{
@@ -52,9 +53,17 @@ void EmptyLinkFunctionForGeneratedCodeGunWeapon() {}
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_MuzzleParticleEffect;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_MuzzleSound_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_MuzzleSound;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_BulletImpactParticleEffect_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_BulletImpactParticleEffect;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_ImpactSound_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_ImpactSound;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -109,19 +118,35 @@ void EmptyLinkFunctionForGeneratedCodeGunWeapon() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGunWeapon_Statics::NewProp_MuzzleParticleEffect = { "MuzzleParticleEffect", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGunWeapon, MuzzleParticleEffect), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGunWeapon_Statics::NewProp_MuzzleParticleEffect_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGunWeapon_Statics::NewProp_MuzzleParticleEffect_MetaData)) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGunWeapon_Statics::NewProp_MuzzleSound_MetaData[] = {
+		{ "Category", "GunWeapon" },
+		{ "ModuleRelativePath", "GunWeapon.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGunWeapon_Statics::NewProp_MuzzleSound = { "MuzzleSound", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGunWeapon, MuzzleSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGunWeapon_Statics::NewProp_MuzzleSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGunWeapon_Statics::NewProp_MuzzleSound_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGunWeapon_Statics::NewProp_BulletImpactParticleEffect_MetaData[] = {
 		{ "Category", "GunWeapon" },
 		{ "ModuleRelativePath", "GunWeapon.h" },
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGunWeapon_Statics::NewProp_BulletImpactParticleEffect = { "BulletImpactParticleEffect", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGunWeapon, BulletImpactParticleEffect), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGunWeapon_Statics::NewProp_BulletImpactParticleEffect_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGunWeapon_Statics::NewProp_BulletImpactParticleEffect_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGunWeapon_Statics::NewProp_ImpactSound_MetaData[] = {
+		{ "Category", "GunWeapon" },
+		{ "ModuleRelativePath", "GunWeapon.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGunWeapon_Statics::NewProp_ImpactSound = { "ImpactSound", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGunWeapon, ImpactSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGunWeapon_Statics::NewProp_ImpactSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGunWeapon_Statics::NewProp_ImpactSound_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGunWeapon_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunWeapon_Statics::NewProp_shootingDistance,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunWeapon_Statics::NewProp_damage,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunWeapon_Statics::NewProp_Root,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunWeapon_Statics::NewProp_Mesh,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunWeapon_Statics::NewProp_MuzzleParticleEffect,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunWeapon_Statics::NewProp_MuzzleSound,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunWeapon_Statics::NewProp_BulletImpactParticleEffect,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGunWeapon_Statics::NewProp_ImpactSound,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGunWeapon_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGunWeapon>::IsAbstract,
@@ -159,9 +184,9 @@ void EmptyLinkFunctionForGeneratedCodeGunWeapon() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_GunWeapon_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AGunWeapon, AGunWeapon::StaticClass, TEXT("AGunWeapon"), &Z_Registration_Info_UClass_AGunWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGunWeapon), 1718428425U) },
+		{ Z_Construct_UClass_AGunWeapon, AGunWeapon::StaticClass, TEXT("AGunWeapon"), &Z_Registration_Info_UClass_AGunWeapon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AGunWeapon), 1248773945U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_GunWeapon_h_3445032521(TEXT("/Script/ThirdPersonShooter"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_GunWeapon_h_662186137(TEXT("/Script/ThirdPersonShooter"),
 		Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_GunWeapon_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_ThirdPersonShooter_Source_ThirdPersonShooter_GunWeapon_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
