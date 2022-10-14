@@ -28,9 +28,12 @@ private:
 		TSubclassOf<class UUserWidget> RestartScreenClass;
 
 	FTimerHandle RestartTimerHandle;
-
 	UPROPERTY(EditAnywhere)
 		float restartTimer = 3.0f;
+
+	FTimerHandle CountdownTimerHandle;
+	UPROPERTY()
+		float countdownTimer = restartTimer;
 
 	UPROPERTY()
 		UUserWidget* HUD;

@@ -14,6 +14,11 @@ void ATPSPlayerController::BeginPlay()
 		HUD->AddToViewport(); // Add that restart widget to screen
 }
 
+/// <summary>
+/// This is called when the player dies. It attaches a new Widget: "RestartScreen Widget"
+/// </summary>
+/// <param name="EndGameFocus"></param>
+/// <param name="bIsWinner"></param>
 void ATPSPlayerController::GameHasEnded(AActor* EndGameFocus, bool bIsWinner)
 {
 	Super::GameHasEnded(EndGameFocus, bIsWinner);
